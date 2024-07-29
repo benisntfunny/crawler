@@ -1,0 +1,11 @@
+{
+  "domain": "help.salesforce.com",
+  "contentSelectors": ["content", "[data-region-name='content']"],
+  "linkPattern": "help.salesforce.com",
+  "excludePatterns": [
+    "https://help\\.salesforce\\.com/s/\\?nocache=https",
+    "/s/search\\-result",
+    "/s/login"
+  ],
+  "refreshSeconds": 1
+}
