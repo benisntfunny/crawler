@@ -56,13 +56,3 @@ node index.js
 
 - pages: Stores information about the pages that have been crawled.
 - scan_history: Stores information about the pages that have been scanned in the current session.
-
-Contributing
-
-Contributions are welcome! Please create an issue or submit a pull request for any changes.
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-This project provides a robust framework for web scraping with Puppeteer and SQLite. Customize the configuration and processing logic to fit your specific use case. Happy crawling!
