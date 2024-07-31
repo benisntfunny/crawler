@@ -15,8 +15,8 @@ This project is a custom web crawler built using Node.js, Puppeteer, and SQLite.
 
 1. Clone the repository
 ``` sh
-git clone https://github.com/your-username/custom-web-crawler.git
-cd custom-web-crawler
+git clone https://github.com/benisntfunny/crawler.git
+cd crawler
 ```
 
 2. Install dependencies
