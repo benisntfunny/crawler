@@ -6,4 +6,4 @@ app.log
 data-analyzed/
 data-embedded/
 optimized-embeddings/
-venv/
+optimized_embeddings/
