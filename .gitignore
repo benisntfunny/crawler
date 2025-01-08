@@ -3,3 +3,7 @@ data/
 crawler.db
 test.js
 app.log
+data-analyzed/
+data-embedded/
+optimized-embeddings/
+venv/

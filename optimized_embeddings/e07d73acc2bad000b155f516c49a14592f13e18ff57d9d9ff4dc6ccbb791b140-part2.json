@@ -1,0 +1,43 @@
+{
+    "id": "e07d73acc2bad000b155f516c49a14592f13e18ff57d9d9ff4dc6ccbb791b140-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.lex_gaps_limitations_process_automation.htm&language=en_US&type=5",
+    "content": "nullHow to Transition to Lightning Experience\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n How to Transition to Lightning Experience\n It’s Time for Lightning Experience\n Discover Phase: Start Your Lightning Experience Transition\n Roll Out Phase: Get Ready to Launch Lightning Experience\n Optimize Phase: Make Lightning Experience Stick\n Find Your Way Around Lightning Experience\n Lightning Experience Considerations\n Considerations for Switching Between Lightning Experience and...\n What are the Gaps Between Lightning Experience and Salesforce Classic\n Data Access and Views: What’s Different or Not Available in...\n Sales Features: What’s Different or Not Available in Lightning...\n Productivity Features: What’s Different or Not Available in...\n Customer Service Features: What’s Different or Not Available in...\n Reports and Dashboards: What’s Different or Not Available in...\n Files and Content: What’s Different or Not Available in Lightning...\n Chatter: What’s Different or Not Available in Lightning Experience\n Experience Cloud Sites: What’s Different or Not Available in...\n Console Features: What’s Different or Not Available in Lightning...\n Navigation and Actions: What’s Different or Not Available in...\n Search: What’s Different or Not Available in Lightning Experience\n Duplicate Management: Differences in Lightning Experience\n Process Automation: What’s Different or Not Available in Lightning...\n Security and Identity: What’s Different or Not Available in...\n Point-and-Click Customization: What’s Different or Not Available in...\n Programmatic Customization: What’s Different or Not Available in...\n Apps and Packaging: What’s Different or Not Available in Lightning...\n What to Expect in Lightning Experience If Chatter Is Turned Off\n Lightning Experience Transition Info Center\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nHOW TO TRANSITION TO LIGHTNING EXPERIENCE\nProcess Automation: What’s Different or Not Available in Lightning Experience\n\nProcess Builder, Flow Builder, and Workflow are fully supported. Approvals is supported but has some limitations for end users.\n\nApprovals\nFEATURE OR SETTING\tAVAILABLE WITH DIFFERENCES\tNOT AVAILABLE\tNOTES\nResponding to Approval Requests\t\t\tYou can’t unlock a record that’s locked for approval. To unlock a record, withdraw, approve, or reject the approval request. To show that a record is locked because it's pending approval, create a custom checkbox and set it to true for the initial submission action of the approval process. Display the checkbox on the record page.\nFinding Approval Requests\t\t\tLightning Experience users can’t respond to approval requests from Chatter or the activity timeline on records. To respond to approval requests, users go to the Approval Requests tab.\nApproval History Related List\t\t\tThe Approval History related list doesn’t include the Submit for Approval button. From the record page, click Submit for Approval.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Transitioning to Lightning Experience in Salesforce",
+    "keywords": [
+        "salesforce",
+        "lightning experience",
+        "process automation",
+        "approval requests"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_welcome_to_lex.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_do_it_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_phases_discover.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_evaluate.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_readiness_check.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_plan_rollout.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_plan_change_mgmt_strategy.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_phases_roll_out.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_enable_existing_features.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lcc_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lcc_javascript_buttons_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lcc_visualforce_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_pro_tips.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_enable_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_phases_optimize.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_measure_success.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_enable_users_encourage.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_iterate.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_find_your_way_around.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_considerations_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_switching_considerations_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_gaps_limitations.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US"
+    ],
+    "embedding": [
+        0.34963610768318176
+    ]
+}

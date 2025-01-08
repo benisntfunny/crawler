@@ -1,0 +1,48 @@
+{
+    "id": "30beeed59ec2d07efe64c985707ef7172be3bd26ddf9649bc51af68be366591e-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.s1_branded_apps_distribution.htm&language=en_US&type=5",
+    "content": "nullMobile Publisher for Salesforce App\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Mobile Publisher for Salesforce App\n Get Started\n App Distribution\n App Distribution Methods\n App Distribution Type Considerations\n Set Up Distribution\n Change Distribution Types\n Change Distribution Account\n Build Your Branded App\n Test and Submit the App\n Maintain and Update the App\n Best Practices and Troubleshooting\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nMOBILE PUBLISHER FOR SALESFORCE APP\nApp Distribution\n\nChoose how you want to get your app into the hands of your users.\n\nDeciding on how you want to manage the release and distribution of your app is an important step. Mobile Publisher offers App Distribution Methods and App Distribution Types to help your org manage the release and distribution of your app, your way.\n\nYour apps can be distributed to end users either publicly or privately via different channels per platform according to Apple and Google guidelines.\n\nAs an app developer, Salesforce complies with Apple and Google distribution guidelines.\n\nApp Distribution Methods:\nBinary Upload: Salesforce builds and uploads the app to your store account. You submit the store listing information (screenshots, description, and so on) and manage the release of the app.\nFully Managed: Salesforce builds, releases, and manages the lifecycle of the app.\nApp Distribution Types:\nPublic Distribution: Your branded app is published via your developer account to the public Apple App Store or Google Play.\nPrivate Distribution: You manage distribution of your branded app via your developer account privately. Your branded app is only accessible to your end users privately, and isn’t publicly available on the Apple App Store or Google Play.\nApp Distribution Methods\nChoose whether you want Salesforce to manage the release of your branded app, or if you want to manage the release of the app on your own.\nApp Distribution Type Considerations\nChoose the right distribution type based on your use case and Apple and Google guidelines. As an app developer, Salesforce complies with Apple and Google distribution guidelines, and violating the guidelines can cause Apple or Google to reject your branded app.\nSet Up Distribution\nYour branded app is published via your developer account either publicly or privately.\nChange Distribution Types\nConsider the impact of changing the distribution type for your branded app.\nChange Distribution Account\nYou may have to change your distribution account if you need to change the developer account associated with your distribution type.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "App Distribution Methods for Salesforce Mobile Publisher",
+    "keywords": [
+        "Mobile App Distribution",
+        "Salesforce App Builder",
+        "Apple and Google Guidelines",
+        "Private App Sharing",
+        "Public App Store Listing"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.s1_branded_apps.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.s1_branded_apps_get_started.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.s1_branded_apps_prepare_assets.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.s1_branded_apps_distribution.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.s1_branded_apps_distribution_scope.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.branded_apps_distribution_delegated.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.branded_apps_distribution_delegated_public.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.branded_apps_distribution_delegated_public_android.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.branded_apps_distribution_delegated_public_ios.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.branded_apps_distribution_delegated_private.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.branded_apps_distribution_delegated_private_android.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.branded_apps_distribution_delegated_private_ios.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.branded_apps_distribution_change_type.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.branded_apps_distribution_change_account.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.s1_branded_apps_build.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.s1_branded_apps_create_project.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.branded_apps_code_signing_ios.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.branded_apps_biometric_id_ios_android.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.branded_apps_push_notifications.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.s1_branded_apps_test.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.s1_branded_apps_maintain.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.branded_apps_best_practices.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.branded_apps_delist_apps.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.branded_apps_distribution_considerations.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.3516368865966797,
+        0.09370163083076477,
+        -0.3435641825199127,
+        0.49601441621780396
+    ]
+}

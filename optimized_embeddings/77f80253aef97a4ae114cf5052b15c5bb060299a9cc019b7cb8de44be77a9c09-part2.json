@@ -1,0 +1,50 @@
+{
+    "id": "77f80253aef97a4ae114cf5052b15c5bb060299a9cc019b7cb8de44be77a9c09-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_page_layouts_ref.htm&language=en_US&type=5",
+    "content": "nullMarketing Cloud Growth\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Marketing Cloud Growth\n Manage Your Marketing App\n Who's Involved in Setup\n Getting Started with Marketing Cloud Growth Setup\n User Permissions\n Allocations and Limits\n Required Setup for Marketing Cloud Growth\n Recommended Setup for Marketing Cloud Growth\n Types of Domain Settings\n Page Customization\n Score People Based on Engagement and Fit in Marketing Cloud Growth\n Configure a Data Graph for Personalization\n Activate Einstein Features in Marketing Cloud Growth\n Customize the Analytics Page\n Marketing Cloud Growth Glossary\n Increase Productivity with AI\n Comply with Privacy Regulations\n Target Audiences with Marketing Cloud Growth\n Manage Marketing Efforts with Campaigns\n Manage Marketing Content\n Measure Success in Marketing Cloud Growth\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nMARKETING CLOUD GROWTH\nPage Customization in Marketing Cloud Growth\n\nTo help marketers find related information on frequently used pages, add components to Lightning record pages. A Salesforce or marketing admin can access the Lightning App Builder from the Setup menu on any record page or from the Object Manager.\n\nREQUIRED EDITIONS\nSalesforce Enterprise and Unlimited Editions with Marketing Cloud Growth Edition\n\nFor more information, see Create and Configure Lightning Experience Record Pages.\n\nLIGHTNING COMPONENT\tDESCRIPTION\tAVAILABLE ON…\nMarketing Consent Status\tA list of subscriptions and consent values\tLead, Contact, and Person Account records\nData Cloud Profile Engagement\tA numerical score that indicates someone’s level of engagement\tLead and Contact records\nData Cloud Profile Insights\tA table of engagement metrics from automations and messaging channels\tLead and Contact records\nData Cloud Profile Engagement Settings\n\nTo configure the engagement component, select these values for each field.\n\nMatch On: Lead ID or Contact ID (or a custom field that stores the Unified Individual ID)\nData Space: default\nUnified Individual DMO: Unified Individual\nUnified Individual Link: Unified Link Individual\n\nLastly, select one or more Engagement DMOs. Flow Runs are related to campaigns, and Messaging Engagement refers to SMS messaging.\n\nData Cloud Profile Insights Settings\n\nConfigure this component for each score that you want to show: Marketing Engagement Score, Marketing Fit Score, and Overall Marketing Score. Select these values for each component.\n\nMatch On: Lead ID or Contact ID (or a custom field that stores the Unified Individual ID)\nData Space: default\nUnified Individual DMO: Unified Individual\nUnified Individual Link: Unified Link Individual\nCalculated Insight: Marketing Engagement Score OR Marketing Fit Score OR Overall Marketing Score\n\nFor the Measure field, use the value for the calculated insight you selected.\n\nMarketing Engagement Score: Engagement__Score__c\nMarketing Fit Score: Fit_Score__c\nOverall Marketing Score: People_Score__c\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Customizing Record Pages in Marketing Cloud Growth",
+    "keywords": [
+        "record pages",
+        "marketing cloud growth",
+        "lightning app builder",
+        "engagement metrics",
+        "unified individual id",
+        "calculated insights"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_main.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_main.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_setup_required.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_data_kits_ref.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_user_access.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_reports.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_consent_tracking_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_tracking_landing_pages_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_setup_optional.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_data_scoring_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_einstein_main.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_compliance.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_audiences.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_campaigns_main.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_campaigns_working.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_flow_elements_add_move.htm&language=en_US&type=5#mktg_flow_elements_add_move",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_content.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_content_email_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_content_sms_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_content_form_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_content_lp_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_reporting.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.lightning_app_builder_customize_lex_pages.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.1727719008922577,
+        -0.20862963795661926,
+        0.13805055618286133,
+        -0.21258974075317383,
+        -0.45846760272979736,
+        0.3582463264465332
+    ]
+}

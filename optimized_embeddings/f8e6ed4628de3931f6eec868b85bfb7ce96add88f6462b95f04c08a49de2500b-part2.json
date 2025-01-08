@@ -1,0 +1,51 @@
+{
+    "id": "f8e6ed4628de3931f6eec868b85bfb7ce96add88f6462b95f04c08a49de2500b-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.mktg_consent_cookie_banner.htm&language=en_US&type=5",
+    "content": "nullMarketing Cloud Growth\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Marketing Cloud Growth\n Manage Your Marketing App\n Who's Involved in Setup\n Getting Started with Marketing Cloud Growth Setup\n User Permissions\n Allocations and Limits\n Required Setup for Marketing Cloud Growth\n Configure Your Marketing Data\n Create an Identity Resolution Ruleset\n Manage User Access\n Set Up Reports and Dashboards\n Ensure Compliance with Consent Settings\n Activity Tracking in Marketing Cloud Growth\n Considerations for Activity Tracking\n Tracking Cookies in Marketing Cloud Growth\n Track Activity on Landing Pages\n Track Landing Page Activity with a Consent Banner\n Track Activity Without a Consent Banner\n Track Activity on External Sites\n Configure Required Email Settings\n Set Up SMS Messaging\n Recommended Setup for Marketing Cloud Growth\n Marketing Cloud Growth Glossary\n Increase Productivity with AI\n Comply with Privacy Regulations\n Target Audiences with Marketing Cloud Growth\n Manage Marketing Efforts with Campaigns\n Manage Marketing Content\n Measure Success in Marketing Cloud Growth\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nMARKETING CLOUD GROWTH\nTrack Landing Page Activity with a Consent Banner\n\nTo protect the privacy of your landing page visitors, use the default web banner to collect consent for tracking. You can customize the web banner style in Setup, or use the default styles. Then, publish the banner to your Marketing Landing Pages site in Digital Experiences.\n\nREQUIRED EDITIONS AND USER PERMISSIONS\nAvailable in: Salesforce Enterprise and Unlimited Editions with Marketing Cloud Growth Edition\n\n\nUSER PERMISSIONS\nNEEDED\nTo customize the tracking consent banner:\tModify All Data OR Marketing Cloud Admin permission set\n\nTo track activity on a landing page that uses a custom domain, add a custom URL for that domain in Setup and define the path as /lp.\n\nFrom Setup, in the Quick Find box, enter Web Tracking, and then select Web Tracking Setup.\nTo customize the banner, edit the default text and enter a link to your company privacy policy. Use the style fields to customize the banner’s position, fonts, and colors.\nAdd the banner integration to your landing pages.\nFrom Setup, in the Quick Find box, enter All Sites, and select All Sites under Digital Experiences.\nNext to Marketing Landing Pages, select Builder.\nLanding pages in Marketing Cloud Growth use the Digital Experiences Sites framework. This site operates behind the scenes. Don’t add content to it.\nClick Settings and select Integrations.\nOn the Data Cloud integration, click Add to Site, and enable it.\nOn the Data Cloud Web Tracking Consent Banner integration, click Add to Site, and enable it.\nTo apply the banner and styles to your landing pages, click Publish.\n\nAfter publishing, if you change the banner text or style settings, publish the banner again in Digital Experiences. To test the banner on a real page, create and view a landing page in a web browser.\n\nSEE ALSO\nTracking Cookies in Marketing Cloud Growth\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Setting Up Landing Page Tracking with Consent",
+    "keywords": [
+        "landing page tracking",
+        "consent banner",
+        "data privacy",
+        "marketing cloud growth",
+        "user permissions",
+        "tracking cookies"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_main.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_main.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_setup_required.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_data_kits_ref.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_user_access.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_reports.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_consent_tracking_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_tracking_landing_pages_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_setup_optional.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_data_scoring_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_einstein_main.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_compliance.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_audiences.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_campaigns_main.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_campaigns_working.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_flow_elements_add_move.htm&language=en_US&type=5#mktg_flow_elements_add_move",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_content.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_content_email_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_content_sms_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_content_form_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_content_lp_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_reporting.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_consent_tracking_cookies.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.1994040310382843,
+        0.2553297281265259,
+        -0.20437029004096985,
+        0.06529931724071503,
+        -0.5385046005249023,
+        -0.034842535853385925,
+        0.7849531173706055
+    ]
+}

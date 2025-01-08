@@ -1,0 +1,44 @@
+{
+    "id": "8aa40a36c3bc18043e6dd760fac14f88f9fca0e7fb77ed5c54d3c1b1107a0ee2-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.devops_center_setup_source_control_repos.htm&language=en_US&type=5",
+    "content": "nullInstall and Configure DevOps Center\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Install and Configure DevOps Center\n DevOps Center Releases\n Evaluate DevOps Center in a Non-Production Org\n Enable and Install DevOps Center in the Org\n Upgrade to the Latest DevOps Center Version\n Configure DevOps Center\n Set Up Your GitHub Project Repositories\n (Optional) Seed a Source Control Repository with Org Metadata\n Add Team Members to Repo As Collaborators\n If an Organization Owns the GitHub Repo\n If the Organization Has an IP Allow List\n (Optional) Install Salesforce CLI DevOps Center Plugin (Beta)\n Connect to a Different GitHub Account\n Determine What Metadata Types to Ignore During Development\n Manage DevOps Center Projects\n Manage Environments\n Plan Your Pipeline\n Create and Assign Project Work Items\n Build an Extension Package for DevOps Center\n Uninstall DevOps Center\n Troubleshoot DevOps Center Configuration\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nDEVOPS CENTER SETUP\nSet Up Your GitHub Project Repositories\n\nA GitHub repository (sometimes called a repo for short) stores project work files — code, text, images, and so on. Each DevOps Center project needs its own repository for storing project changes. While you’re working on the project, the repository is the team’s centralized source of truth to manage changes.\n\nFor now, we support only GitHub as the source control system for DevOps Center projects. All users must have their own GitHub-hosted cloud-based GitHub.com account to work in this version of DevOps Center. Enterprise or locally hosted versions of GitHub aren’t currently supported. We’ve designed DevOps Center to eventually integrate with multiple third-party source control systems, such as Bitbucket, GitLab, and other GitHub versions.\n\nCommunication Protocols\n\nDevOps Center uses the GitHub REST API for all communications to and from GitHub.\n\nDevOps Center uses the OAuth 2.0 open protocol to establish access to both your GitHub repository (hosted by GitHub) and your work environments (hosted by Salesforce). OAuth allows you to delegate a client application (DevOps Center) to access data from a protected resource (your project repository, for example) through the exchange of tokens, instead of exchanging security credentials. For details, see Authorize Apps with OAuth in Salesforce Help.\n\nCreate a GitHub Account\n\nIf you already have a GitHub account, great! If you don’t have a GitHub account yet, it’s easy (and free) to sign up for one.\n\nNew to GitHub or to Source Control?\n\nWe’ve designed DevOps Center to make it easy to take advantage of a source control system like GitHub even if you aren’t yet familiar with it. If you want to learn more about Git and GitHub concepts and terminology as you dive in to using DevOps Center, look at the Git and GitHub Basics Trailhead module (estimated time: less than two hours), which covers why source control is so key to successful team collaboration and what to expect in a typical GitHub workflow.\n\nMethods to Create GitHub Project Repositories\n\nA DevOps Center project repository must contain a Salesforce DX project. You can create a DevOps Center project repository using any of these methods:\n\nWhen you create your project within DevOps Center, let it create a Github repository that uses the Salesforce DX project structure. Skip to Manage Environments.\nUse an existing Github repository.\nCreate a different GitHub repository.\nNOTE If you plan to use an existing GitHub repository, it must contain an sfdx-project.json file in the root directory, a file that identifies the repo as a Salesforce DX project.\nCreate a New Repository\n\nCreating a repository from our template ensures that the repository has the right structure and configuration to work with DevOps Center, that is, the structure and configuration of a Salesforce DX project.\n\nIf you don’t already have a source control repo, a corresponding project repository with the proper DX structure is created when you define a DevOps Center project. Alternately, you can log in to GitHub and use the repository template at https://github.com/forcedotcom/dx-empty to create your project repository. Your project repository can be either public or private. You don’t need to include all branches. For details about how to create a repository from a template, see the GitHub help.\n\nAfter the repository is created, you can seed it by adding metadata files from your production org or another source org.\n\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Setting Up Your GitHub Project Repositories for DevOps Center",
+    "keywords": [
+        "GitHub repository",
+        "DevOps Center project",
+        "source control system",
+        "OAuth 2.0 protocol",
+        "salesforce CLI devops center plugin",
+        "github template",
+        "sfdx-project.json file"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_setup_install_nonprod.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_setup_install.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_configure.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_setup_seed_repo.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_project_manage.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_manage_environments.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_pipeline_plan.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_uninstall.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.remoteaccess_authenticate.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.7910892963409424,
+        0.824381947517395,
+        -0.09692880511283875,
+        -0.6199274659156799,
+        -0.2279687374830246,
+        0.24302873015403748,
+        0.24934165179729462,
+        0.3901340067386627,
+        0.4591149091720581,
+        -0.35086697340011597,
+        0.6233515739440918,
+        0.3223792612552643
+    ]
+}

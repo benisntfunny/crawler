@@ -1,0 +1,43 @@
+{
+    "id": "e46c0bffe02e8fe7bead8cd2cd48992a15f0dc6fb2ed7d63a1ea399ccfdbc628-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.salesforce_app_messaging.htm&language=en_US&type=5",
+    "content": "nullSalesforce Mobile App\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Salesforce Mobile App\n Considerations for the Salesforce Mobile App\n Set Up the Salesforce Mobile App\n Requirements for the Salesforce Mobile App\n Control Access and Security for the Salesforce Mobile App\n Salesforce Mobile App Notification Types\n Message Customers in the Salesforce Mobile App (Beta)\n Considerations and Limitations for Messaging in the Salesforce...\n Set Up Messaging in the Salesforce Mobile App (Beta)\n Message Customers in the Salesforce Mobile App (Beta)\n Customize the Salesforce Mobile App\n Work Offline with the Salesforce Mobile App\n Help Your Users Succeed with the Salesforce Mobile App\n Simplify Daily Tasks with Einstein Generative AI in the Salesforce...\n View Optimized Lightning Reports with Enhanced Reports\n Unify All Your Analytics on Unified Analytics\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nSALESFORCE MOBILE APP\nMessage Customers in the Salesforce Mobile App (Beta)\n\nModernize your communication by letting agents message customers from the Salesforce mobile app. Agents who use enhanced messaging channels or Messaging for In-App and Web can chat with customers on the go.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience. View required editions\n This article applies to:\tMessaging for In-App, Messaging for Web, enhanced WhatsApp, enhanced Facebook Messenger, enhanced SMS, enhanced Apple Messages for Business, and Bring Your Own Channel\n This article doesn’t apply to:\tStandard WhatsApp, standard Facebook Messenger, and standard SMS channels\nNOTE This feature is a Beta Service. Customer may opt to try such Beta Service in its sole discretion. Any use of the Beta Service is subject to the applicable Beta Services Terms provided at Agreements and Terms.\n\nGone are the days of requiring agents to sign in to the desktop site to message customers. Some of our customers work in face-to-face environments such as real estate or the sharing economy where a computer isn’t available. Some of our customers want to be available all the time, even when they’re away from a computer. Some of our customers work in highly regulated industries where they need to use an approved device to have 1:1 engagements with their clients in a compliant way. We offer messaging in the Salesforce mobile app as a solution to the evolving landscape of human connectedness.\n\nConsiderations and Limitations for Messaging in the Salesforce Mobile App (Beta)\nBefore starting your setup process, review the considerations and limitations for using the Salesforce mobile app when messaging customers.\nSet Up Messaging in the Salesforce Mobile App (Beta)\nCreate your messaging channel, customize a mobile-friendly agent interface, and then let your agents do the talking.\nMessage Customers in the Salesforce Mobile App (Beta)\nThe messaging experience in the Salesforce mobile app is similar to the messaging experience on the desktop site. Review the relevant messaging documentation for agents to learn more.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Configuring Messaging in Salesforce Mobile App",
+    "keywords": [
+        "Salesforce Mobile App",
+        "Messaging in Salesforce",
+        "Mobile Messaging Channels",
+        "Real-time Communication",
+        "Customer Engagement",
+        "Mobile First Experience",
+        "Agent Productivity"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_app.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_app_considerations.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.limits_mobile_sf1_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_app_set_up.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_app_enable_push_notifications.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_app_messaging.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_app_customize.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_app_customize_nav_menu.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_app_offline.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_app_help_users.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.sapp_url_schemes.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_app_einstein.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_app_reports.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_app_unified_analytics.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_app_unified_analytics_ios.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_app_unified_analytics_android.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.messaging_editions.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_app_messaging_limitations.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_app_setup_messaging.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_app_agent_messaging.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.41720789670944214
+    ]
+}

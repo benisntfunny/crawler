@@ -1,0 +1,50 @@
+{
+    "id": "db3ad757423611246074a34d6504997a96b8c7efe11a3c9134b31f3af06ad39c-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.lex_gaps_limitations_apps_packaging.htm&language=en_US&type=5",
+    "content": "nullHow to Transition to Lightning Experience\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n How to Transition to Lightning Experience\n It’s Time for Lightning Experience\n Discover Phase: Start Your Lightning Experience Transition\n Roll Out Phase: Get Ready to Launch Lightning Experience\n Optimize Phase: Make Lightning Experience Stick\n Find Your Way Around Lightning Experience\n Lightning Experience Considerations\n Considerations for Switching Between Lightning Experience and...\n What are the Gaps Between Lightning Experience and Salesforce Classic\n Data Access and Views: What’s Different or Not Available in...\n Sales Features: What’s Different or Not Available in Lightning...\n Productivity Features: What’s Different or Not Available in...\n Customer Service Features: What’s Different or Not Available in...\n Reports and Dashboards: What’s Different or Not Available in...\n Files and Content: What’s Different or Not Available in Lightning...\n Chatter: What’s Different or Not Available in Lightning Experience\n Experience Cloud Sites: What’s Different or Not Available in...\n Console Features: What’s Different or Not Available in Lightning...\n Navigation and Actions: What’s Different or Not Available in...\n Search: What’s Different or Not Available in Lightning Experience\n Duplicate Management: Differences in Lightning Experience\n Process Automation: What’s Different or Not Available in Lightning...\n Security and Identity: What’s Different or Not Available in...\n Point-and-Click Customization: What’s Different or Not Available in...\n Programmatic Customization: What’s Different or Not Available in...\n Apps and Packaging: What’s Different or Not Available in Lightning...\n What to Expect in Lightning Experience If Chatter Is Turned Off\n Lightning Experience Transition Info Center\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nHOW TO TRANSITION TO LIGHTNING EXPERIENCE\nApps and Packaging: What’s Different or Not Available in Lightning Experience\n\nFind Lightning Experience availability information for AppExchange and Partner (ISVforce) Apps.\n\nAppExchange\n\nMany solutions on AppExchange support Lightning Experience. To check, look for the Lightning Ready certification in the listing highlights. Solutions without the Lightning Ready certification can be used in Lightning Experience, but some features may not be available or work as expected. These solutions may also appear visually inconsistent with Lightning Experience because they use Salesforce Classic styling.\n\nPartner (ISVforce) Apps\nFEATURE OR SETTING\tAVAILABLE WITH DIFFERENCES\tNOT AVAILABLE\tNOTES\nUsage Metrics Visualization App\t\t\t\n\nIn Lightning Experience, you can use:\n\nLicense Management App to manage licenses and support subscribers.\nEnvironment Hub to create and manage your development, testing, and trial orgs.\nChannel Order App to submit and manage customer orders.\nTrialforce to provision a free trial of your offering quickly and easily.\nAppExchange App Analytics to view the performance of your Lightning and Visualforce pages.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Transitioning to Salesforce Lightning Experience",
+    "keywords": [
+        "Salesforce Migration",
+        "Lightning Experience Transition",
+        "CRM Update",
+        "Force.com Upgrade",
+        "Salesforce Migration Tools"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_welcome_to_lex.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_do_it_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_phases_discover.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_evaluate.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_readiness_check.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_plan_rollout.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_plan_change_mgmt_strategy.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_phases_roll_out.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_enable_existing_features.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lcc_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lcc_javascript_buttons_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lcc_visualforce_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_pro_tips.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_enable_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_phases_optimize.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_measure_success.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_enable_users_encourage.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_iterate.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_find_your_way_around.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_considerations_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_switching_considerations_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_gaps_limitations.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US"
+    ],
+    "embedding": [
+        0.13567860424518585,
+        0.05338165909051895,
+        0.12091472744941711,
+        0.8609160780906677,
+        0.5286142230033875,
+        0.5642335414886475,
+        0.5751893520355225
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "id": "279b647801d0d745512170f9a1f10420665f4dc4303ba99b34902a85a359f09b-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_forecasting_considerations.htm&language=en_US&type=5",
+    "content": "nullSales Cloud Einstein\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Sales Cloud Einstein\n Increase Productivity with Sales Cloud Einstein\n Bring Intelligence to Your Daily Workflow with Sales Cloud Einstein\n Build a Smarter Pipeline with Einstein Forecasting\n Understand How Sales Cloud Einstein Works\n Prepare for Sales Cloud Einstein\n Data Requirements for Sales Cloud Einstein\n Considerations for Setting Up Sales Cloud Einstein\n Considerations for Setting Up Einstein Automated Contacts\n Considerations for Einstein Generative AI Sales Emails\n Considerations for Setting Up Einstein Lead Scoring\n Considerations for Setting Up Einstein Opportunity Scoring\n Considerations for Setting Up Einstein Forecasting\n Sales Cloud Einstein and Sandbox\n Run the Sales Cloud Einstein Readiness Assessor\n Set Up Sales Cloud Einstein\n Analyze Sales Cloud Einstein Data with Reporting\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nSALES CLOUD EINSTEIN\nConsiderations for Setting Up Einstein Forecasting\n\nBefore setting up Einstein Forecasting, review the requirements and considerations.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience and Salesforce Classic\nAvailable with Sales Cloud Einstein, which is available in Performance and Unlimited Editions, and for an extra cost in Enterprise Edition\nCollaborative Forecasts must be enabled.\nYou must work with opportunities in Salesforce for at least 12 months. Specifically, the opportunity history must show at least one update in each of the past 12 months.\nYou must use a standard fiscal year. Standard fiscal years follow the Gregorian calendar, but can start on the first day of any month of the year.\nForecasts must be measured by opportunity revenue. Predictions are generated for only the oldest activated opportunity revenue forecast type.\nYour forecast hierarchy must include at least one forecasting enabled user who reports to a forecast manager.\nThe Amount field should be populated in at least 80 percent of open opportunities.\nOpportunity splits aren’t supported. The forecast predictions are based on total revenue, not shared revenue.\nYou must use the standard Opportunity object and the standard Close Date and Amount fields. Custom date fields aren’t supported.\nTo view the prediction graph on the home page when Einstein Forecasting is enabled, you must enable historical trending for Forecasting Item.\nYou can use Einstein Forecasting only in production orgs, not sandboxes.\nAvoid setting field-level security on the Sales Insights Integration User Profile for opportunity fields that you want to use to optimize your predictions. It can impact your forecasting accuracy.\nIf you plan to use field filters to segment your opportunities, be aware of what happens when you delete or deactivate picklist field values.\nIf you delete a picklist value from a standard field, you can’t use the value to set up a field filter.\nIf you deactivate a picklist value from a standard field, you can’t use it to set up a field filter. However, existing field filters based on that value still work with opportunity records that contain the deactivated value.\nIf you create a field filter using a standard field value and then delete the filtered value from the field, the filter still functions, but appears in Setup with a blank value.\nIf you delete a picklist value from a custom field, it still appears in Setup, but any filter created with that value doesn’t function.\nIf you deactivate a picklist value from a custom field, it can still be used to set up a field filter.\nSEE ALSO\nEinstein Forecasting\nEnable Einstein Forecasting\nUnderstand How Einstein Creates Your Forecasting Prediction\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Setting Up Einstein Forecasting",
+    "keywords": [
+        "sales forecasting",
+        "einstein ai",
+        "forecasting accuracy",
+        "opportunity management",
+        "field filters",
+        "predictive analytics"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_productivity_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_daily_intelligence_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_scoring_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_how_it_works_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup_prep.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_considerations.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup_enable_lead_insights.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.sales_einstein_reporting.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.wave_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.sales_einstein_standard_reports_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_forecasting.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_forecasting_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_forecasting_adjustments.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.16273269057273865
+    ]
+}

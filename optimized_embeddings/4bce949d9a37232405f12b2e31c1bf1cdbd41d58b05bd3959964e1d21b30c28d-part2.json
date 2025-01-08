@@ -1,0 +1,41 @@
+{
+    "id": "4bce949d9a37232405f12b2e31c1bf1cdbd41d58b05bd3959964e1d21b30c28d-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.actionable_list_engagement.htm&language=en_US&type=5",
+    "content": "nullSales Innovations for Prospect Engagement\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Sales Innovations for Prospect Engagement\n Create Actionable Lists (Actionable Segmentation)\n Create Actionable Lists (List Builder for Data Cloud)\n Configure and Assign Actionable Lists\n Engage with Prospects\n Guided Agent Engagements\n Add Actionable List Engagement to a Page\n Provide Access to OmniScripts\n Engaging with Prospects and Following Scripts\n Monitor Actionable List KPIs\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nSALES INNOVATIONS FOR INDUSTRIES CLOUDS\nGuiding Agents to Engage with Prospects by Using Actionable List Engagement\n\nHelp your sales agents and service agents engage with the prospects, including existing customers, interested in a product or service, such as an insurance or vacation package. Allow agents to complete an engagement seamlessly without having to leave the sales console. They can document a prospect's responses, complete transactions, and wrap up the engagement by taking notes and scheduling a follow-up meeting.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience\nAvailable in: Enterprise, Professional, Starter, and Unlimited Editions\n\nAgents can access the Actionable List Engagement component on the sales console. The component contains an OmniScript to guide agents through the various stages of a prospect engagement. As an example, the stages can include:\n\nSTAGE\tTASKS\nPrecall\tBefore interacting with a prospect, the agent is taken through a compliance check to ensure that they’re compliant with their company’s prospect engagement policies. This stage can also provide reference material about products or services to prepare for the call.\nCall\t\n\nDuring the call, the agent performs these tasks.\n\nMark the prospect’s response as accept, reject, or reschedule.\nIf the prospect agrees to the call, read the call script.\nSelect Yes or No based on the prospect's interest in the product or service offered.\nIf the prospect is interested in the offer, perform the configured actions, such as fetch prospect details, log a case for follow up by other teams, and send details by email to the prospect.\nNote down the reason if the prospect rejects the offer.\nReschedule the call if the prospect is busy.\n\nWrap up\t\n\nAfter the call, the agent performs these tasks.\n\nNote the outcome of the call with the prospect.\nSend the prospect a survey to get their feedback on the call.\n\nIn addition to sales engagements, agents can use the component for service engagements as well, such as following up with customers and booking appointments with customers.\n\nAdd Actionable List Engagement to a Page\nMake the Actionable List Engagement component available to your agents by adding it to the desired Account or Contact record page. Agents can use the Actionable List Engagement component to engage with prospects.\nProvide Access to OmniScripts\nGive standard users or agents access to OmniScripts so that they can see an OmniScript in the Actionable List Engagement component.\nEngaging with Prospects and Following Scripts\nProactively engage with prospects by using the Actionable List Engagement component on the Account or Contact record page. Promote new products and services to the prospects and transact with them.\nSEE ALSO\nOmniScripts\nActionable Segmentation\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Sales Innovations for Prospect Engagement",
+    "keywords": [
+        "sales engagement",
+        "prospect management",
+        "omniscripts",
+        "actionable lists",
+        "guided agent engagements"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.industries_sales_innovations_prospects.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_segmentation.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_segmentation_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_segmentation_create_list_definition.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_segmentation_setup_lists.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_segmentation_create_lists.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_segmentation_refresh_lists.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.list_builder_for_data_cloud_segment.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_list_members.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_list_members_create_bulk_actions.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.view_actionable_list_members.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.filter_actionable_list_members.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.the_outreach_list_component.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_list_engagement.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.add_actionable_list_engagement_to_a_page.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.provide_access_to_omniscripts_ale.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.engage_with_prospects.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.os_omniscripts_8355.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.18391458690166473,
+        -0.29509779810905457,
+        0.0952582061290741
+    ]
+}

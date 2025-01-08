@@ -1,0 +1,48 @@
+{
+    "id": "1cf5523be99f2995d860a646851ee00040e34944db22b043d0a2e799b90dd360-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.mfa_preview_champions.htm&language=en_US&type=5",
+    "content": "nullHow to Roll Out Multi-Factor Authentication\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n How to Roll Out Multi-Factor Authentication\n It’s Time for Multi-Factor Authentication\n Get Ready Phase: Evaluate and Plan Your Multi-Factor Authentication...\n Learn About Multi-Factor Authentication\n Evaluate Options and Requirements for Multi-Factor Authentication\n Review the Authentication Solutions Currently in Place for Salesforce\n Preview Multi-Factor Authentication\n Determine Business and User Requirements for MFA\n Conduct a User Inventory for Your MFA Implementation\n Assess Org and User Readiness for MFA\n Make the Case for MFA\n Plan Your Multi-Factor Authentication Rollout\n Roll Out Phase: Prepare to Launch Multi-Factor Authentication\n Manage Phase: Maintain and Enhance Multi-Factor Authentication\n Multi-Factor Authentication Glossary\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nHOW TO ROLL OUT MULTI-FACTOR AUTHENTICATION\nPreview Multi-Factor Authentication\n\nAs part of your evaluation process, it’s useful to see how multi-factor authentication (MFA) works and what the user experience is. Get a preview by turning on MFA for a few of your Salesforce champions and then collect their feedback. This input helps you anticipate how the rest of your users feel about using MFA, and whether to head off resistance with marketing and education. Your champions can also provide feedback on the types of training and onboarding support to help users be successful when you roll out MFA more broadly. And another benefit is you learn exactly what it takes to implement MFA, which helps inform your rollout and implementation plans.\n\nPick Your Salesforce Champions\n\nSelect one or more of your Salesforce users to participate in an early preview or pilot of MFA. Champions are your super-users—people who are enthusiastic about Salesforce and regularly offer recommendations for making it better. If no one comes to mind, choose someone who is vocal about improving your business processes or is the first to adopt new technologies.\n\nPrepare Your Champions\n\nExplain how the login process works when MFA is enabled, and provide guidance on how to register an MFA verification method. We recommend using the Salesforce Authenticator mobile app because it’s free and easy to set up. But if you’re planning to support security keys or other methods in your implementation, ask your champions to register them too.\n\nEnable MFA for Your Champions\n\nFollow the steps to enable MFA for specific users, for each of your Salesforce products.\n\nProducts built on the Salesforce Platform (including Sales Cloud and Service Cloud)\nB2C Commerce Cloud\nHeroku\nMarketing Cloud Engagement (powered by Email, Messaging, and Journeys)\nMarketing Cloud Intelligence (powered by Datorama)\nMarketing Cloud Social\nMuleSoft Anypoint Platform\nQuip products\nTableau Cloud\nGet Feedback\n\nTalk to your champions about their experience. Did they understand how to register a verification method for MFA? Are they comfortable using their registered method when they log in? How do they feel about the change to the login process?\n\nUse Insights in the Planning Stage\n\nIncorporate lessons learned into your rollout and change management plans, including the types of training and onboarding resources plan to create. See Plan Your Multi-Factor Authentication Rollout for more information.\n\nSEE ALSO\nGet Customizable Templates With the MFA Rollout Pack\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Implementing Multi-Factor Authentication in Salesforce",
+    "keywords": [
+        "MFA implementation",
+        "Salesforce authentication",
+        "login security",
+        "security best practices",
+        "implementation planning",
+        "user experience"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_welcome_to_mfa.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_time_for_mfa.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_get_ready.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_learn_about.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_evaluate_options.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_inventory_users_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_plan_rollout.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_rollout_phase.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_implement.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_launch.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_manage.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_measure_success.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_optimize.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_enable_core.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_enable_b2c-cc.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_overview_mfa_transition&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.dato_getstarted_security_mfa_enable.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_ss_enable_mfa_as_admin.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=How-to-Enable-MFA-for-your-Quip-Site&language=en_US&type=1",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_rollout_pack.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.23218809068202972,
+        0.37188562750816345,
+        0.4782303273677826,
+        0.22979600727558136,
+        -0.28129634261131287,
+        -0.07512910664081573,
+        0.8415820598602295
+    ]
+}

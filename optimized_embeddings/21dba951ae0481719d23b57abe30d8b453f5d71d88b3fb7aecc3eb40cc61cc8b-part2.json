@@ -1,0 +1,36 @@
+{
+    "id": "21dba951ae0481719d23b57abe30d8b453f5d71d88b3fb7aecc3eb40cc61cc8b-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.customhelp_lex_wt_license.htm&language=en_US&type=5",
+    "content": "nullIn-App Guidance\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n In-App Guidance\n Getting Started with In-App Guidance\n Types of In-App Guidance\n Considerations for Creating In-App Guidance\n Tips for Writing Effective In-App Guidance\n Permissions for Creating and Accessing In-App Guidance\n Create Prompts\n Create Walkthroughs\n Preview and Test In-App Guidance\n Resolve Errors and Warnings in In-App Guidance\n Limitations for In-App Guidance in Experience Cloud Sites\n Maintaining and Expanding In-App Guidance\n Managing Settings That Apply to All In-App Guidance\n Limits for In-App Guidance\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nIN-APP GUIDANCE\nPermissions for Creating and Accessing In-App Guidance\n\nA Salesforce admin assigns permissions to users who create in-app guidance in any environment, who access walkthroughs in Lightning Experience, and who access in-app guidance in Experience Cloud sites. No permissions are necessary for accessing prompts in Lightning Experience.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience\nAvailable in: Essentials, Group, Professional, Enterprise, Performance, Unlimited, and Developer Editions\nAvailable with Enablement, which is available with Sales Cloud, Service Cloud, or Salesforce Platform for an additional cost in: Enterprise, Performance, Unlimited, and Developer Editions\nIn-app guidance in Experience Cloud sites with Partner Enablement requires an Enablement add-on license and supported PRM add-on license.\nPermissions, Permission Sets, and Permission Set Licenses\n\nThese permissions are available and included in default permission sets.\n\nTASK\tUSER TYPE\tPERMISSION NEEDED\tDEFAULT PERMISSION SET\tPERMISSION SET LICENSE\nCreate prompts or walkthroughs in Lightning Experience\tSalesforce admin\tModify All Data or Customize Application\tNone\tNone\nNon-admin user\tDesign and Deliver In-App Guidance\tManage In-App Guidance\tEnablement Resources\nTake walkthroughs in Lightning Experience\tAny user\tTake Custom Walkthroughs\tUse Custom Walkthroughs\tWalkthroughs\nTake prompts in Lightning Experience\tAny user\tNone\tNone\tNone\nCreate prompts or walkthroughs in Experience Cloud sites\tSalesforce admin\tModify All Data or Customize Application\tNone\tNone\nNon-admin user\tDesign and Deliver In-App Guidance for Partners\tManage In-App Guidance for Partners\tEnablement Resources\nTake prompts and walkthroughs in Experience Cloud sites\tPartner user\tTake In-App Guidance for Partners\tUse In-App Guidance for Partners\tWalkthroughs\n\nMost of these permission sets are also included in Enablement permission set groups.\n\nOther Required Permissions for Creating In-App Guidance\n\nThe Manage In-App Guidance and Manage In-App Guidance for Partners permission sets also include these related system permissions.\n\nView All Profiles\nView Roles and Role Hierarchy\nView Setup and Configuration\n\nIn Lightning Experience, if in-app guidance is related to a specific object or app, you also need access to that item. Otherwise, some actions aren’t available in In-App Guidance Builder.\n\nOther Requirements for Experience Cloud Sites\n\nExtra permissions are required for selecting a site from the Environment dropdown in In-App Guidance Builder.\n\nYOUR PERMISSION OR ACCESS\tSITES YOU CAN SELECT\nCreate and Set Up Experiences\tInactive or active sites\nCustomize Application\tInactive or active sites\nMember of the site\tActive sites only\n\nIf you don’t have one of these permissions, you can’t see the site in In-App Guidance Builder. If another user with these permissions created in-app guidance in a site and you try to edit the in-app guidance they created, you can’t see the site.\n\nFree Walkthroughs in Lightning Experience\n\nIn Lightning Experience, you can create and activate up to three free custom walkthroughs. To activate more than three custom walkthroughs at a time, purchase the Enablement add-on license and assign permissions.\n\nTo activate more than three custom walkthroughs at a time, purchase the Enablement add-on license and assign the Use Custom Walkthroughs permission set to selected users. However, after you purchase the license, only users with this permission set can view any custom walkthroughs. The three free custom walkthroughs are no longer available to all users. The In-App Guidance page in Setup shows the number of free custom walkthroughs that remain available.\n\nIn supported Experience Cloud sites, all walkthroughs require Enablement and PRM licenses.\n\nSEE ALSO\nLimitations for In-App Guidance in Experience Cloud Sites\nEnablement Permission Set Groups, Permission Sets, and Permissions\nPermission Set Licenses\nPermission Sets\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Permissions for Creating and Accessing In-App Guidance",
+    "keywords": [
+        "Salesforce admin",
+        "In-app guidance",
+        "permissions",
+        "permission sets",
+        "enablement add-on license"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.customhelp_lexguid.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.iag_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.iag_adopt.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.iag_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.prm_support_license_template.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.iag_site_limitations.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.enablement_permissions.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.users_permissionset_licenses_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.perm_sets_overview.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.16952645778656006,
+        0.06324377655982971,
+        -0.4998118281364441,
+        0.5940275192260742,
+        -0.2929777204990387,
+        -0.06778930127620697,
+        1.0938363075256348
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "id": "1d7ab3745cc44b24068b8b73e83717bff8cb1880fb0f9196190f80fd9ed196b1-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.um_channel_sms_engagement.htm&language=en_US&type=5",
+    "content": "nullUnified Messaging\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Unified Messaging\n What’s Unified Messaging?\n Unified Messaging Setup\n Connect to Data Cloud\n Set Up Unified WhatsApp\n Set Up Unified Email\n Set Up Unified SMS\n Request a Brand for a United States 10-Digit Code\n Request a Campaign for a United States 10-Digit Long Code\n Request a United States 10-Digit Long Code\n Short Codes for SMS Unified Messaging\n Activate Your SMS Code\n Sample SMS Message and Related Information for Unified Messaging\n SMS Engagement Data in Unified Messaging\n Create a Branded Domain for Unified Messaging\n Unified Messaging Consent\n Inactive Unified Messaging Channels and Deprovisioning\n Unified Messaging Credit Usage\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nUNIFIED MESSAGING\nSMS Engagement Data in Unified Messaging\n\nUnified Messaging captures SMS engagement data in a data model object (DMO) in Data Cloud. Every send or interaction with your SMS messaging activities generates this data. You can use these fields to segment audiences or populate reports on your messaging activities.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience\nUnified Messaging for WhatsApp is available in Enterprise and Unlimited Editions for Marketing Cloud Engagement and Service Cloud Digital Engagement\nUnified Messaging for Email and SMS is available in Enterprise and Unlimited Editions for Marketing Cloud Growth\nNot supported in Government Cloud Plus\nMessageEngagement DMO\n\nThis DMO contains information on eight different SMS engagement event types.\n\nSent - SMS message delivered to aggregator\nNot_Sent - SMS message failed to arrive at aggregator\nSubscribe - recipient opted in to receiving SMS messages\nUnsubscribe - recipient opted out of receiving SMS messages\nConfirmation - confirmation message sent to recipient regarding an opt-in or opt-out request\nHelp - recipient sent a message including a request for assistance using a specific help keyword\nClick - recipient clicked a link sent in an SMS message\nUndelivered - aggregator reports an error delivering the SMS message to a mobile number\n\nAll send types include this information.\n\nFIELDS\tDESCRIPTION\nEventID\tA unique identifier for the specific event\nCreatedTime\tA timestamp indicating when the record was created\nEventDateTime\tA timestamp indicating when the event occurred\nBulkMessage\tA unique identifier for the send entity associated with the event\n\nSome fields in the MessageEngagement DMO are specific only to certain event types.\n\nEVENTTYPE\tFIELD NAME\tDESCRIPTION\tVALUES\nAll Inbound Events\tRecpientPhoneNumber\tPhone number where message was sent or received\t\nSenderID\tShort or long code where message was received\t\nMessage\tMessage text that was received\t\nSubscribe\tEventType\tType of event that occurred\tSUBSCRIBE\nKeyword\tOpt-in keyword used to interpret SUBSCRIBE event\t\nUnsubscribe\tEventType\tType of event that occurred\tUNSUBSCRIBE\nKeyword\tKeyword used to interpret UNSUBSCRIBE event\t\nUnsubscribeSource\tSource of unsubscribe request\t\nUnsubscribeReason\tReason included in unsubscribe request\t\nHelp\tEventType\tType of event that occurred\tHELP\nKeyword\tKeyword used to interpret HELP event\t\nConfirmation\tContactPointPhoneNumber OR MOPhoneNumber\tPhone number where the confirmation message was received OR phone number where the confirmation message was sent\t\nSenderID\tShort or long code that received message and sent confirmation\t\nMessage\tMessage text received\t\nEventType\tType of event that occurred\tCONFIRMATION\nKeyword\tKeyword used to interpret CONFIRMATION event\t\nIndividualID\tUnique identifier of recipient\t\nClick\tEventType\tType of event that occurred\tCLICK\nLinkName\tName or alias for clicked link\t\nLinkURL\tFull target URL of clicked link\t\nResolvedURL\tPersonalized URL for clicked link\t\nRecipientPhone\tPhone number associated with the clicked link\t\nUserAgent\tBrowser-provided information about the device, OS, browser, and client used when the message was clicked. Salesforce doesn’t guarantee the accuracy or completeness of this data. Use as reference only.\t\nIndividualID\tUnique identifier of recipient\t\nUndelivered\tEventType\tType of event that occurred\tUNDELIVERED\nMessageID\tUnique identifier for the originating send\t\nMessage\tMessage text received\t\nDeliveryErrorText\tAvailable standard error text\t\nDeliveryErrorCode\tStandard error code mapped to supplier error code\t\nSample Use Case\n\nAfter the events take place, you can use the data captured to create segments for use in sending targeted messages. For example, you can create a segment of unified individuals based on who clicked links from your messages at least three times in the past month. Segment on the EventDateTime value associated with the Open event types, then collect the IndividualID values to determine who receives further messages.\n\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Unified Messaging and SMS Engagement Data",
+    "keywords": [
+        "text message engagement",
+        "SMS analytics",
+        "message tracking software",
+        "customer engagement metrics",
+        "data modeling object"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.um_unified_messaging.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.um_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.um_channel_whatsapp.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.um_prepare.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.um_channel_email.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.um_channel_sms.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.um_consent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US"
+    ],
+    "embedding": [
+        -0.1857188194990158,
+        -0.23995839059352875,
+        0.38431698083877563,
+        0.1630333662033081,
+        -0.1682852953672409,
+        0.24554064869880676,
+        0.30658358335494995,
+        0.3414923846721649
+    ]
+}

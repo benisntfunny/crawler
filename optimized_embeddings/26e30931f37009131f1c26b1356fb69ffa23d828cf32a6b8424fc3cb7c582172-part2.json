@@ -1,0 +1,47 @@
+{
+    "id": "26e30931f37009131f1c26b1356fb69ffa23d828cf32a6b8424fc3cb7c582172-part2",
+    "url": "https://help.salesforce.com/articleView?id=sf.mktg_admin_main.htm&type=5",
+    "content": "nullMarketing Cloud Growth\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Marketing Cloud Growth\n Manage Your Marketing App\n Who's Involved in Setup\n Getting Started with Marketing Cloud Growth Setup\n User Permissions\n Allocations and Limits\n Required Setup for Marketing Cloud Growth\n Recommended Setup for Marketing Cloud Growth\n Marketing Cloud Growth Glossary\n Increase Productivity with AI\n Comply with Privacy Regulations\n Target Audiences with Marketing Cloud Growth\n Manage Marketing Efforts with Campaigns\n Manage Marketing Content\n Measure Success in Marketing Cloud Growth\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nMARKETING CLOUD GROWTH\nManage Your Marketing App\n\nSalesforce admins, Data Cloud admins, and marketing admins have a role to play in configuring and managing Marketing Cloud Growth. Before you get started, determine whether these admin roles roll up to a single user or if many people are involved.\n\nREQUIRED EDITIONS\nSalesforce Enterprise and Unlimited Editions with Marketing Cloud Growth Edition\nWho’s Involved in Marketing Cloud Growth Setup\nBecause Marketing Cloud Growth uses different parts of the Salesforce ecosystem, it’s important to gather the right people before you get started. At minimum, you need a Salesforce admin and a Data Cloud admin. You can also choose to assign a marketing admin.\nGetting Started with Marketing Cloud Growth Setup\nSetting up Marketing Cloud Growth includes a few phases: Basic Settings, Channels, and Reporting and Optimization. The time it takes to complete depends on the features that you want to use.\nUser Permissions in Marketing Cloud Growth\nMarketing Cloud Growth comes with two permission sets: Marketing Cloud Admin and Marketing Cloud Manager. Many individual permissions are available for managing access more granularly throughout the app. The permissions list can help you build a custom permission set or troubleshoot access issues.\nAllocations and Limits in Marketing Cloud Growth\nSome Marketing Cloud Growth features have limits that impact how much of something you can store or how frequently you can do certain tasks.\nRequired Setup for Marketing Cloud Growth\nBefore you begin customizing the Salesforce experience, you must complete several important tasks, such as installing data kits and verifying settings that support compliance with consent regulations.\nRecommended Setup for Marketing Cloud Growth\nIn addition to the required settings, setup includes recommended tasks to customize Marketing Cloud Growth to meet the needs of your business.\nMarketing Cloud Growth Glossary\nHere are the most common terms you encounter while using Marketing Cloud Growth.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Configuring and Managing Marketing Cloud Growth",
+    "keywords": [
+        "Salesforce Admin",
+        "Data Cloud",
+        "Marketing Apps",
+        "Marketing Cloud Manager",
+        "User Permissions",
+        "Allocations and Limits"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_main.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_main.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_setup_required.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_data_kits_ref.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_consent_tracking_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_tracking_landing_pages_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_setup_optional.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_data_scoring_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_einstein_main.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_compliance.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_audiences.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_campaigns_main.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_campaigns_working.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_flow_elements_add_move.htm&language=en_US&type=5#mktg_flow_elements_add_move",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_content.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_content_email_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_content_sms_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_content_form_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_content_lp_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_reporting.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_setup_personas.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_setup_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_permissions_ref.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_limits_ref.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_glossary.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.5591479539871216
+    ]
+}

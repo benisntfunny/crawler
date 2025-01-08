@@ -1,0 +1,51 @@
+{
+    "id": "77feab3df4bd366f5df2559aa699f1cb7995d717ad25ea22f92b72d7d13c4313-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_data_requirements.htm&language=en_US&type=5",
+    "content": "nullSales Cloud Einstein\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Sales Cloud Einstein\n Increase Productivity with Sales Cloud Einstein\n Bring Intelligence to Your Daily Workflow with Sales Cloud Einstein\n Build a Smarter Pipeline with Einstein Forecasting\n Understand How Sales Cloud Einstein Works\n Prepare for Sales Cloud Einstein\n Data Requirements for Sales Cloud Einstein\n Considerations for Setting Up Sales Cloud Einstein\n Sales Cloud Einstein and Sandbox\n Run the Sales Cloud Einstein Readiness Assessor\n Set Up Sales Cloud Einstein\n Analyze Sales Cloud Einstein Data with Reporting\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nSALES CLOUD EINSTEIN\nData Requirements for Sales Cloud Einstein\n\nTo generate the most reliable intelligence, you must meet data requirements for each Sales Cloud Einstein feature.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience and Salesforce Classic\nAvailable with Sales Cloud Einstein, which is available in Performance and Unlimited Editions, and for an extra cost in Enterprise Edition\nTIP To check whether you meet the data requirements, run the Sales Cloud Einstein Assessor.\nEinstein Automated Contacts\nYou must have at least 30 business accounts.\nIf you use person accounts, at least 50 percent of accounts must be business accounts.\nEinstein Activity Capture\nYou must have at least 30 accounts, contacts, leads, or opportunities.\nEinstein Lead Scoring\n\nThese requirements apply to each segment of leads you create during setup, including the All Leads (Default) segment.\n\nAt least 1,000 leads must be created in the last 200 days.\nOf the leads created in the last 200 days, at least 120 must be converted to an account and contact.\n(Optional) Of the leads created in the last 6 months (180 days), at least 120 must be converted to an account and contact with an opportunity created at conversion time.\n\nWhen you score all leads together without creating segments, and you don’t have enough lead conversion data to build your own predictive model, Einstein uses a global model. The global model uses anonymous data from many Salesforce customers. When you accumulate enough lead data, Einstein builds a scoring model with your data and uses the model with the better results.\n\nEinstein Opportunity Scoring\nYou must have at least 200 closed won opportunities in last 24 months, each with a lifespan of at least 2 days.\nYou must have at least 200 closed lost opportunities in last 24 months, each with a lifespan of at least 2 days.\nOpportunity history shows an average of one update to each closed opportunity.\nUse the standard opportunity Stage field because it’s used to calculate win rates, and win rates are used to generate scores. If you change the names of the opportunity stage picklist values, make sure that the values are mapped to the correct stage type: Open, Closed/Won. or Closed/Lost.\nIf your win rate is extremely high or low, your scores could be skewed. For example, if your win rate is above 90 percent, you could get a large number of opportunities with scores above 90. To avoid skewed scores, make sure that opportunities are set to the correct closed stage. (A win rate is calculated by dividing the last two years of closed-won opportunities by all closed opportunities from that same period.)\n\nIf you don’t have enough opportunity data to build your own predictive model, Einstein uses a global model. The global model uses anonymous data from many Salesforce customers. When you accumulate enough opportunity data, Einstein builds a scoring model with your data and uses the model with the better results.\n\nEinstein Forecasting\nCollaborative Forecasts must be enabled.\nYou must work with opportunities in Salesforce for at least 12 months. Specifically, the opportunity history must show at least one update in each of the past 12 months.\nYou must use a standard fiscal year. Standard fiscal years follow the Gregorian calendar, but can start on the first day of any month of the year.\nForecasts must be measured by opportunity revenue. Predictions are generated for only the oldest activated opportunity revenue forecast type.\nYour forecast hierarchy must include at least one forecasting enabled user who reports to a forecast manager.\nThe Amount field should be populated in at least 80 percent of open opportunities.\nSEE ALSO\nConsiderations for Setting Up Sales Cloud Einstein\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Data Requirements for Sales Cloud Einstein",
+    "keywords": [
+        "Salesforce",
+        "Einstein",
+        "data requirements",
+        "sales cloud",
+        "forecasting",
+        "opportunity scoring",
+        "lead scoring"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_productivity_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_daily_intelligence_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_scoring_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_how_it_works_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup_prep.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_considerations.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup_enable_lead_insights.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.sales_einstein_reporting.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.wave_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.sales_einstein_standard_reports_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.sales_readiness_assessor.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.4599519670009613,
+        -0.2936365008354187,
+        0.4078103303909302,
+        -0.039578720927238464,
+        -0.39306870102882385,
+        0.15737320482730865,
+        0.2839052081108093,
+        -0.4816473722457886,
+        0.2569105625152588,
+        -0.3510468900203705,
+        0.20884978771209717,
+        0.04954148083925247,
+        0.018127158284187317,
+        -0.1954331398010254,
+        -0.44029369950294495,
+        0.14472493529319763
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "id": "9be2231ff89896252e61c3fef94732d6ecc162eecf85387f838622b38d37ee40-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_lead_insights.htm&language=en_US&type=5",
+    "content": "nullSales Cloud Einstein\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Sales Cloud Einstein\n Increase Productivity with Sales Cloud Einstein\n Bring Intelligence to Your Daily Workflow with Sales Cloud Einstein\n Sales Cloud Einstein Scoring\n Einstein Lead Scoring\n Einstein Opportunity Scoring\n Build a Smarter Pipeline with Einstein Forecasting\n Understand How Sales Cloud Einstein Works\n Prepare for Sales Cloud Einstein\n Set Up Sales Cloud Einstein\n Analyze Sales Cloud Einstein Data with Reporting\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nSALES CLOUD EINSTEIN\nEinstein Lead Scoring\n\nUse AI to score your leads by how well they fit your company’s successful conversion patterns. Let your sales team prioritize their leads by lead score. See which fields influence each lead score most.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience and Salesforce Classic.\nAvailable with Sales Cloud Einstein, which is available for an extra cost in: Enterprise, Performance, and Unlimited Editions\n\nEinstein Lead Scoring uses data science and machine learning to discover your business’s patterns of lead conversion. Based on your patterns, Einstein predicts which of your current leads to prioritize. By using machine learning, Einstein Lead Scoring provides a simpler, faster, and more accurate solution than traditional rules-based lead scoring approaches.\n\nEinstein analyzes your past leads to determine which current leads have the most in common with leads that have previously converted. By default, Einstein scores your leads using most lead fields. If your admin is certain a field doesn’t affect lead quality, they can tell Einstein not to include the field.\n\nEinstein also creates internal categories for certain lead text fields that can contain different values with similar meaning. For example, different businesses sometimes use different job titles for the same job. Using the lead title, Einstein associates each lead with a Job Rank and a Department. If a lead’s title is CEO, Einstein assigns it the C-level job rank. By associating leads with a smaller list of job ranks and departments, Einstein can find patterns in your data more easily.\n\nBased on its data analysis, Einstein creates a predictive model for your organization. Einstein reanalyzes your lead data every 10 days and refreshes your scores. So if new trends emerge, Einstein won’t miss them.\n\nWhen you score all leads together without creating segments, and you don’t have enough lead conversion data to build your own predictive model, Einstein uses a global model. The global model uses anonymous data from many Salesforce customers. When you accumulate enough lead data, Einstein builds a scoring model with your data and uses the model with the better results.\n\nEinstein Lead Scoring adds a Lead Score field to leads. The Lead Score lets sales reps prioritize their work by ranking leads according to their similarities to prior converted leads. Leads with higher scores have more in common with leads that have converted in the past.\n\nThe lead score appears in the Einstein Score component on lead detail pages. The component also shows sales reps which of the lead’s fields had the greatest influence on its score (1). Depending on the lead, fields with positive or negative influences can appear. Fields that aren’t listed in the Einstein Score component still influence the score, but less than the fields listed.\n\nWhen you or your users add the Einstein Score field to list views, hovering over a score (1) displays the top factors (2) behind the score. When sales reps focus on leads with higher scores, they’re likely to convert more of them to opportunities. The lock (3) indicates that the score is read-only.\n\nEinstein Lead Scoring includes a dashboard with reports that show key lead score metrics for your org.\n\nAverage Lead Score by Lead Source\nConversion Rate by Lead Score\nLead Score Distribution: Converted and Lost Opportunities\nSEE ALSO\nEnable Einstein Lead Scoring\nConsiderations for Setting Up Einstein Lead Scoring\nUnderstand How Einstein Scores Your Leads\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Einstein Lead Scoring Explained",
+    "keywords": [
+        "Lead scoring",
+        "Sales Cloud Einstein",
+        "Data science",
+        "Machine learning",
+        "Predictive analytics",
+        "Salesforce help"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_productivity_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_daily_intelligence_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_scoring_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_how_it_works_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup_prep.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_considerations.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup_enable_lead_insights.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.sales_einstein_reporting.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.wave_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.sales_einstein_standard_reports_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_els_setup_considerations.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_els_how_it_works.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.283938467502594,
+        0.493309885263443,
+        0.6563385128974915,
+        -0.7734187245368958,
+        0.15841779112815857,
+        -0.6247899532318115,
+        0.8303113579750061,
+        -0.2438182234764099,
+        -0.3307679295539856,
+        0.4592663645744324,
+        -0.2249005287885666,
+        -0.6191428899765015
+    ]
+}

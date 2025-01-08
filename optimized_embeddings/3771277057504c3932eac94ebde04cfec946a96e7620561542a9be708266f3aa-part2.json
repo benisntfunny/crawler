@@ -1,0 +1,50 @@
+{
+    "id": "3771277057504c3932eac94ebde04cfec946a96e7620561542a9be708266f3aa-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.se_concept_sync_config.htm&language=en_US&type=5",
+    "content": "nullSync Management\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Sync Management\n Sync Concepts\n Sync Process\n Sync Management App\n Device Health Summary\n Device Health Details\n Device Status Overview\n Sync History\n Device Events Log\n Sync Configuration\n Assignments\n Tracked Objects\n Sync Config Page\n Named Fetch Trees\n Named Query\n Mobile Settings Page\n Sync Settings\n Sync Messages\n Deployment Packages\n Mobile App Themes\n Remote Request\n Sync Error and Troubleshooting\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nSYNC MANAGEMENT\nSync Configuration\n\nUse the Sync Configuration tab to configure and monitor the Consumer Goods Cloud offline mobile app. You can configure tracked objects, named fetch trees, named queries, mobile settings and sync settings.\n\nAssignments\nAssignments determine the sync configuration and tracked object distribution configuration for a user. Based on the determination rule for the object-mapping algorithm, the correct assignment is fetched from the various levels of configuration capabilities. Each level consists of a sync configuration and a tracked object configuration. You can create assignments between users, profiles, and roles for all levels in the configuration tree. One combination of an assignment in a configuration can’t be mapped to another configuration.\nTracked Objects\nYou can configure tracked objects for a configuration. Child configurations inherit the tracked object properties of the immediate parent configuration. Every tracked object corresponds to one object in Salesforce.\nSync Config Page\nUse this page to configure sync settings and mobile options, and to set limits for configurations.\nNamed Fetch Trees\nYou can create a link between an object—configured as a tracked object in an named fetch tree —and a record that you want to sync with the object by configuring NFTs. NFTs are directly called by a business logic. You can define a business logic by using the Consumer Goods Cloud Modeler.\nNamed Query\nNamed queries are used to limit the data that is sent to a mobile device.\nMobile Settings Page\nThe Mobile Settings page shows the general mobile settings that are applicable to all mobile devices.\nSync Settings\nGet a consolidated view of the most relevant sync features and manage their settings on the Sync Settings page. Optimize your sync experience by downloading only relevant incremental data and setting a threshold on the maximum users who can sync simultaneously. Trace sync logs using unique IDs and resolve sync configuration issues by sending sync-related KPIs to Salesforce.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Sync Management in Salesforce",
+    "keywords": [
+        "sync settings",
+        "mobile app themes",
+        "deployment packages",
+        "sync configuration",
+        "troubleshooting sync errors"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_sync_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_sync_concepts.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_high_level_sync_process.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_user_interface_sync_process.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_sync_management_app.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_devicehealth_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_devicehealthdetails_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_devicestatusoverview_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_synchistory_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_deviceeventslogs_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_sync_config.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_sync_assignments_page.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_tracked_object_page.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_sync_config_page.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_nft_page.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_named_query_page.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_mobile_settings_page.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_syncconfig_sync_settings_page.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_msgconfig_sync_messages_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_dep_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_download_metadata.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_mobile_app_themes.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_task_create_mobile_app_theme.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_task_import_mob_app_theme.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_sync_remote_request.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_sync_logging_troubleshooting.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US"
+    ],
+    "embedding": [
+        0.8701087236404419,
+        -0.7535739541053772,
+        0.344527930021286,
+        0.9388782978057861
+    ]
+}

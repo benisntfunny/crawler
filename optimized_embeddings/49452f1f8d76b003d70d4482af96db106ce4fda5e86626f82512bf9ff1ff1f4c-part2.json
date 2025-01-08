@@ -1,0 +1,41 @@
+{
+    "id": "49452f1f8d76b003d70d4482af96db106ce4fda5e86626f82512bf9ff1ff1f4c-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.essentials_data_import_fix_errors.htm&language=en_US&type=5",
+    "content": "nullEssentials\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Essentials\n Understand the Basics\n Glossary\n Importing Data\n Pre-Import Checklist\n Match Your Information to Salesforce Fields in Data Import\n Fix Data Import Errors\n Migrate Accounts, Contacts, and Leads\n Migrate Opportunities, Tasks, and Events\n Keep Track of All the Details\n Know Exactly Who You're Talking To\n Close More Deals\n Track Your Open Deals\n Track and Solve Customer Issues\n Get the Details You Need\n Keep Tabs on Every Detail\n Track Your Progress with Dashboards\n Getting Around\n Set Up the Most-Used Features\n Going Beyond the Basics\n Get Help\n Resources\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nESSENTIALS\nFix Data Import Errors in Salesforce Essentials\n\nIf there are errors during your data import, we tell you in the attachment in the summary email. See some of the most common errors and our best tips for fixing them.\n\nIn the error file you receive from us, there’s an extra field that describes errors for each item in detail.\n\nNOTE\n\nThe .csv file contains only the data that didn’t import into Salesforce. For example, if you have an invalid email address for a contact, the account information gets imported, but the contact information doesn’t.\n\nTips for Fixing Import Errors\n\nFollow these tips to get your import finished quickly and correctly.\n\nTIP\tDETAILS\nUse the error file as your import file\tFix the errors in the error file, then use the error file (not your original file) when you run your import again. Your import processes faster when there are fewer items in the .csv file.\nUse the update option to avoid duplicates\tWhen you run your next import, select the option to update the existing information in your org. The setting tells us to look for a matching record to update before we create a new one, so you don’t end up with duplicates. For example, to fix errors in your accounts using the Data Import Wizard, select Update Existing Account Information.\nUse the added fields during your next import\tThe .csv you receive from us often contains new fields. When you run your import again, map the added field to the related field in Salesforce. For example, if you have an invalid email address for a contact, the error file contains an added field called AccountId. Map the AccountID field to Contact: Account ID during the next import.\nKnow how to delete and start over\tSometimes, the best course of action is to delete the items you imported and try again. To delete lots of data at once, go to Setup | Data | Mass Delete Records.\nCommon Import Errors\n\nLet’s look at the most common import errors and how to fix them.\n\nERROR\tDETAILS\nRequired fields are missing\tItems in your spreadsheet don’t have values for at least one required field. Include a value, or if possible, make the field not required. Required fields are set on an object’s page layout from Setup | Object Manager.\nThe new owner must have read permission\tItems in your spreadsheet are getting reassigned to someone who doesn’t have permission to view them. If you haven’t set owner IDs on your spreadsheet, items could be reassigned to you because you’re performing the import. Ensure that record owners have read permissions activated on their profile in Setup | Users.\nEnter an email address that matches the format myemail@company.com\tFix the email addresses listed in the error message, including any typos.\nAlways Check Your Work\n\nAfter you run any import, look for your new data in Salesforce. Verify that your information is mapped correctly.\n\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Fixing Import Errors in Salesforce",
+    "keywords": [
+        "salesforce",
+        "import errors",
+        "data import",
+        "csv file",
+        "required fields",
+        "record owners",
+        "email address format"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_basics.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_data_import.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_cases.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_getting_around.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_set_up_features.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_sales_stages.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_self_service.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_help_center.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_email_social_cases.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_phone.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_tasks_activities_contacts.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_manager_tasks.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_more_features.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_reengage_lead.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_automate.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.Essentials_unsubscribe.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US"
+    ],
+    "embedding": [
+        0.08466483652591705,
+        0.43327727913856506
+    ]
+}

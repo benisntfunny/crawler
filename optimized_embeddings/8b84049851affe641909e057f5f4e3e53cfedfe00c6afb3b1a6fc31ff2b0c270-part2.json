@@ -1,0 +1,53 @@
+{
+    "id": "8b84049851affe641909e057f5f4e3e53cfedfe00c6afb3b1a6fc31ff2b0c270-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_els_how_it_works.htm&language=en_US&type=5",
+    "content": "nullSales Cloud Einstein\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Sales Cloud Einstein\n Increase Productivity with Sales Cloud Einstein\n Bring Intelligence to Your Daily Workflow with Sales Cloud Einstein\n Build a Smarter Pipeline with Einstein Forecasting\n Understand How Sales Cloud Einstein Works\n Understand How Einstein Scores Your Leads\n Einstein Lead Scoring FAQ\n Understand How Einstein Scores Your Opportunities\n Understand How Einstein Generative AI Creates Sales Emails\n Understand How Einstein Creates Your Forecasting Prediction\n Prepare for Sales Cloud Einstein\n Set Up Sales Cloud Einstein\n Analyze Sales Cloud Einstein Data with Reporting\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nSALES CLOUD EINSTEIN\nUnderstand How Einstein Scores Your Leads\n\nLearn about the process Einstein uses to determine which of your leads to prioritize.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience and Salesforce Classic. Lead Scores available in list views and record detail pages in the Salesforce app.\nAvailable with Sales Cloud Einstein, which is available for an extra cost in: Enterprise, Performance, and Unlimited Editions\n\nEinstein Lead Scoring uses data science and machine learning to discover the patterns in your business’ lead conversion history, and to predict which current leads to prioritize. By using machine learning, Einstein Lead Scoring provides a simpler, faster, and more accurate solution than traditional rules-based lead scoring approaches.\n\nThe Scoring Model\n\nEinstein analyzes your past converted leads, including custom fields and activity data, to determine your conversion patterns. It then identifies which of your current leads have the most in common with your prior converted leads. Based on this analysis, Einstein builds one or more scoring models for your organization.\n\nDuring setup, Salesforce admins can choose to score all of your leads together, or group leads into segments based on field criteria. Einstein builds a separate scoring model for each lead segment. For each lead segment, admins can also choose to omit certain lead fields. When Einstein builds your scoring model, the omitted fields are ignored.\n\nWhen you score all leads together without creating segments, and you don’t have enough lead conversion data to build your own predictive model, Einstein uses a global model. The global model uses anonymous data from many Salesforce customers. When you accumulate enough lead data, Einstein builds a scoring model with your data and uses the model with the better results.\n\nEinstein models are refreshed every 10 days, or whenever the admin updates how Lead Scoring is configured. Lead scores are updated at least every six hours as needed.\n\nFactors That Contribute to Scores\n\nWith each lead score, Einstein displays the lead’s field values that have the most significant positive and negative effects on its score. These fields are the lead’s top positives and top negatives. Sometimes, a lead’s score is due to a combination of several fields with only slight positive or negative effects, rather than a few very positive or very negative fields. In this case, Einstein doesn’t display top positives or top negatives for the lead.\n\nWhen Scores Don’t Appear\n\nSometimes, a score doesn’t appear on a particular lead for any of these reasons.\n\nThe scores haven’t been calculated yet because Einstein Lead Scoring was recently enabled. It can take around 24 hours before scores are available.\nThe lead was added a few hours ago.\nThe lead wasn’t modified in the 6 months before Einstein Lead Scoring was turned on.\nThe lead has had no activities or updates in the last 90 days.\nThe lead doesn’t meet the criteria for any lead segments.\nThe lead’s Status value is unqualified or similar.\nThe lead is in a lead segment that doesn't contain enough data to train a scoring model.\nWhen Scores Don’t Change\n\nSometimes, a score doesn’t change on some leads any of the following reasons.\n\nA previously scored lead hasn’t been modified in 6 months.\nThe lead was converted.\nYour admin chose to score all leads together in one group, but the amount of lead conversion data in your org falls below the minimum requirements for scoring leads. When there isn’t enough data, scores don’t update until more data becomes available.\nYour admin chose to score your leads in separate segments, and the lead is in a segment that falls below the minimum data requirements for scoring leads.\nSEE ALSO\nEinstein Lead Scoring\nEnable Einstein Lead Scoring\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Understanding Einstein Lead Scoring",
+    "keywords": [
+        "lead scoring",
+        "salesforce",
+        "einstein lead scoring",
+        "machine learning",
+        "predictive analytics",
+        "sales pipeline management"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_productivity_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_daily_intelligence_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_scoring_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_how_it_works_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup_prep.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_considerations.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup_enable_lead_insights.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.sales_einstein_reporting.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.wave_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.sales_einstein_standard_reports_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_lead_insights.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.2203897386789322,
+        0.649456799030304,
+        -0.05232824385166168,
+        -0.3993309736251831,
+        -0.19056662917137146,
+        -0.3842523396015167,
+        -0.14392919838428497,
+        -0.38664710521698,
+        0.5938094258308411,
+        1.0986275672912598,
+        -0.4420279562473297,
+        -0.008623838424682617,
+        -0.6213030219078064,
+        0.31376951932907104,
+        -0.1442180722951889,
+        -0.050558820366859436,
+        -0.13073047995567322,
+        -0.23375901579856873,
+        -0.4365996718406677
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "id": "ce7dd98d1ed7da4bc21c72f267fcb03251ee6d1cf8ecb1e85db6e9656d0cc718-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.what_is_otp_trailblazer_identity.htm&language=en_US&type=5#what_is_otp_trailblazer_identity",
+    "content": "nullGet Started with Trailblazer\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Get Started with Trailblazer\n Trailblazer Accounts\n Sign Up for a Trailblazer Account\n Trailblazer Single-Use Codes\n Verify Your Identity with Trailblazer\n Trailblazer Recovery Accounts\n Trailblazer Account Merges\n Your Trailblazer Profile\n Considerations for Deleting Your Trailblazer Account\n Get Help with Trailblazer\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nTRAILBLAZER\nTrailblazer Single-Use Codes\n\nA Trailblazer account provides the ability to sign up and log in using an email address, without creating a password. Trailblazer verifies your identity by using a single-use code.\n\nREQUIRED EDITIONS\nAvailable in: All Editions\nNOTE A Trailblazer account is available to AppExchange, Commerce Cloud Developer Center, Events, IdeaExchange, Salesforce Help, Salesforce+, Trailblazer Community, Trailhead users, and Partner Community.\n\nTrailblazer always verifies your identity when you log in to your account. When you use an email address to log in, you don't use a password, like you do on many other sites. A single-use code is sent to your email address, and you use it to complete your login. You have one less password to remember, and you never have to reset your password or contact support because you forgot it.\n\nSigning up with email means:\n\nYou never set a password.\nYou never set a username.\nEach time you log in, you receive a single-use code sent to your email.\n\nSingle-use codes can be used only one time. And they expire 30 minutes from the time sent, so don’t let that email sit around, unopened.\n\nNOTE If you didn’t receive your code, check your spam folder. If you sent it to a work email address, your company could have blocked it. To check, try sending a code to a personal email address.\nVerify Your Identity with Trailblazer\n\nWhen you sign up or log in to your account using an email address, Trailblazer verifies your identity with a single-use code. When you have an unverified email address or social associated with your account, Trailblazer prompts you to verify it.\n\nNOTE A Trailblazer account is available to AppExchange, Commerce Cloud Developer Center, Events, IdeaExchange, Salesforce Help, Salesforce+, Trailblazer Community, Trailhead users, and Partner Community.\n\nLink all your Salesforce orgs to one Trailblazer account. Then, you can easily manage support for each of those Salesforce orgs in one place.\n\nNOTE For Partners accessing the Partner Community, use the Trailblazer login credentials for your Salesforce Partner company.\n\nSigning up or logging in to Trailblazer with an email address means that you never set a password. Instead, you verify your identity with a single-use code sent to your email address. Let’s walk through the steps for using a single-use code.\n\nGo to Sign Up or Log In.\nEnter your email address. Trailblazer sends a single-use code to that address.\nUsing a new tab or browser window, open your email account and retrieve the single-use code.\nNOTE It takes a few minutes to arrive. If it doesn’t arrive shortly, check your spam folder.\nReturn to the Trailblazer Enter Your Single-Use Code screen, and enter the code.\n\nThat’s all there’s to it—you’re logged in!\n\nIf you can‘t access the email account that is associated with your Trailblazer account to get the single-use code, and you have no other login method available, contact Customer Support. And after you’re back in, add another login method to your account settings so you don’t get locked out again.\n\nTo stop getting the single-use code from your email every time you log in, go to your account settings page and add a login method other than email. It can be a Salesforce, MuleSoft, Tableau, Google, or LinkedIn login. Then, use that login method instead of email.\n\nTo keep your account secure, Trailblazer prompts you to verify any unverified email addresses or socials. If you see a prompt to verify them when logging in, or from your Trailblazer account settings page, there are some possible reasons:\n\nYou logged in with a social or Salesforce account that has an unverified email address.\nNOTE Verify an email address by retrieving the single-use code from your email account when prompted and entering it on the Enter Your Single-Use Code screen\nWhen you logged in, we found other accounts that we think you own and are asking you to verify them.\nNOTE Verify a social account by clicking Log In to Verify and following the on-screen instructions.\n\nIf you decide to disconnect an identity instead of verifying it, your account activity remains unchanged. You must have at least one verified email associated with your account.\n\nSEE ALSO\nSalesforce Help—Trailblazer Recovery Accounts\nSalesforce Help—Trailblazer Account Merges\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Understanding Trailblazer Single-Use Codes",
+    "keywords": [
+        "single-use code",
+        "trailblazer account",
+        "email verification",
+        "passwordless login",
+        "account security",
+        "trailblazer community"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.get_started_with_trailblazer_id.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.what_is_otp_trailblazer_identity.htm&language=en_US&type=5#what_is_otp_trailblazer_identity",
+        "https://help.salesforce.com/s/articleView?id=sf.tbid_recovery_account.htm&language=en_US&type=5#tbid_recovery_account",
+        "https://help.salesforce.com/s/articleView?id=sf.tbid_account_merges.htm&language=en_US&type=5#tbid_account_merges",
+        "https://help.salesforce.com/s/articleView?id=sf.tbid_profile.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.tbid_certs.htm&language=en_US&type=5#tbid_certs",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.tbid_recovery_account.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.tbid_account_merges.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.19056099653244019,
+        -0.6833876371383667,
+        -0.41183486580848694,
+        0.14630700647830963,
+        0.6743563413619995,
+        0.047319576144218445,
+        -0.41153591871261597,
+        0.027541376650333405,
+        0.1847803145647049,
+        0.14037372171878815,
+        0.1484585702419281,
+        -0.41293272376060486,
+        0.1199614554643631,
+        -0.019698314368724823
+    ]
+}

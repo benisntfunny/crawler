@@ -1,0 +1,47 @@
+{
+    "id": "21b1203f12d1f07a7a6699cbf99f4f64f2d968b0df602aae21a3072a645e566a-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.concept_batch_management.htm&language=en_US&type=5",
+    "content": "nullBatch Management\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Batch Management\n What's the Difference Between Batch Management and Batch Apex?\n Batch Management Workflow\n Key Batch Management Terms\n Create a Batch Job\n Schedule a Batch Job\n Monitor Your Batch Jobs\n Cancel a Batch Job Run\n Submit Failed Records\n Delete a Batch Job Run\n Can I Share a Batch Job?\n Things to Keep in Mind While Using Batch Management\n Batch Management Developer Resources\n Delete Closed Cases Using Batch Management (Example)\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nINDUSTRIES COMMON FEATURES GUIDE\nBatch Management\n\nAutomate the processing of records in scheduled flows with Batch Management. With Batch Management, you can process a high volume of standard and custom object records.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience\nAvailable in: Enterprise, and Unlimited Editions with Loyalty Management, Manufacturing Cloud, Rebate Management, or Accounting Subledger. Access to any Industries product also gives you access to Batch Management.\nTIP Use Batch Management when you must process more than 250,000 records a day.\n\nCreate batch jobs and define filter criteria based on which records you select for processing. And you can schedule your batch jobs using scheduled flows. After a batch job is run, track the progress and status of the batch job and its parts using Monitor Workflow Services.\n\nWhat's the Difference Between Batch Management and Batch Apex?\nBatch Apex requires admins or developers in your Salesforce org to write lines of code to automate the processing of large volumes of records. Conversely, Batch Management doesn't require a single line of code. It can be set up and maintained with only a few clicks in your org's user interface. Batch Management also helps you to monitor the batch jobs. Batch Management allows you to run multiple batch jobs as part of one scheduled flow.\nBatch Management Workflow\nHere’s a quick summary of the steps an admin must complete to set up a batch job.\nKey Batch Management Terms\nLet’s look at the key terms that you come across while using Batch Management.\nCreate a Batch Job\nYou can use a batch job to automate the processing of large volumes of records in a flow.\nSchedule a Batch Job\nA scheduled flow must be used to run batch jobs. After a batch job is activated, it appears as an action in the Flow Builder. Use the batch job action to schedule your batch job.\nMonitor Your Batch Jobs\nMonitor the status and health of your batch jobs using Monitor Workflow Services. You can monitor each instance of a batch job run and drill down to view details about each batch job part.\nCancel a Batch Job Run\nCancel Batch Management jobs runs that are in progress, including ones running for a long time and using up your Salesforce org’s resources, and ones started by mistake.\nSubmit Failed Records\nYou can submit records that a Batch Management job run failed to process for processing again. You can resubmit all the records that failed or specific failed records.\nDelete a Batch Job Run\nYou can delete Batch Management job runs that are either completed or have failed. When you delete a run, its associated batch job parts and batch job part failed records are also deleted.\nCan I Share a Batch Job?\nYou can share a batch job with other Salesforce orgs. Use change sets, managed packages, and unmanaged packages to share a batch job. Partner and independent software vendors (ISV) can also create and share batch jobs.\nThings to Keep in Mind While Using Batch Management\nHere are a few things to keep in mind while using Batch Management.\nBatch Management Developer Resources\nDevelopers in your Salesforce org can use developer resources to create, activate, and run batch jobs.\nDelete Closed Cases Using Batch Management (Example)\nThousands of cases get resolved and closed each week. Many admins want to automatically delete cases weekly based on case priority. In this example, we design a flow that automatically deletes closed cases. A batch job is created to select the case records and drive the business flow. Another flow is created to schedule the batch job to run each week.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Batch Management in Salesforce",
+    "keywords": [
+        "Salesforce",
+        "Batch Apex",
+        "Batch Jobs",
+        "Scheduled Flows",
+        "Workflow Services"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_batch_management.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.task_schedule_batch_flow.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.task_submit_failed_records.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.task_batch_job_run_delete.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_batch_job_example.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.industries_common_features.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_batch_apex_diff.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_workflow.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_batch_key_terms.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.task_create_batch_job.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.task_monitor_batches.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.task_cancel_batch_job_run.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.reference_batch_packaging.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_batch_management_limits.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.reference_batch_management_developer_resources.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.20444512367248535,
+        0.2732890844345093,
+        -0.10365022718906403,
+        -0.49448198080062866,
+        -0.37698015570640564,
+        0.8193634748458862,
+        -0.865184485912323,
+        0.06873554736375809,
+        0.19380444288253784,
+        0.07614515721797943,
+        -0.34188374876976013,
+        0.5549185276031494
+    ]
+}

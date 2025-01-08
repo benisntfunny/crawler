@@ -1,0 +1,52 @@
+{
+    "id": "20b78542f580b627fc60ec1e756f25276a2313e332e91ddf684ed6eaa71170d9-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.fsc_set_up_clients_hhs_relationships.htm&language=en_US&type=5",
+    "content": "nullDeliver Financial Services for High-Touch Client Relationships\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Deliver Financial Services for High-Touch Client Relationships\n Set Up Clients, Households, and Relationships\n Create a Client or Prospect\n Add Education Details\n Add Employment Details\n Add Identification Documents\n Create a Household from the Account Tab\n Create a Household from a Client Profile\n Add Household Members and Relationships\n Add an Extended Relationship to a Client or Household\n Act on Financial Client Relationships with ARC\n Enter and View Financial Data\n Manage Client Interactions\n Track Leads and Opportunities\n Use Financial Services Cloud CRM Analytics Solutions\n Revenue Intelligence Dashboards\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nFINANCIAL SERVICES CLOUD USER GUIDE\nSet Up Clients, Households, and Relationships\n\nCreate records for clients, households, and their extended network of relationships so that you maintain a rich, holistic view of your book of business.\n\nREQUIRED EDITIONS\n\nFinancial Services Cloud is available in Lightning Experience.\n\nAvailable in: Professional, Enterprise, and Unlimited editions\n\nCreate a Client or Prospect\nFinancial Services Cloud gives you two ways to create clients or prospects.\nAdd Education Details\nYou can store details about a client’s education history.\nAdd Employment Details\nYou can store details about a client’s employment history.\nAdd Identification Documents\nYou can store details about documents used to identify a client.\nCreate a Household from the Account Tab\nUse households to track groups of clients, businesses, and trusts who have a direct relationship with one another and shared financials. A household is a type of relationship group. Your Salesforce admin can create other relationship group types to fit your business requirements.\nCreate a Household from a Client Profile\nCapture the full richness of a client’s relationships by adding multiple households. If you can’t add a client to more than one household, ask your Salesforce admin to enable the multiple relationship groups custom setting. A household is a type of relationship group. Your Salesforce admin can create other relationship group types to fit your business requirements.\nAdd Household Members and Relationships\nAdd members to a household, and relate businesses, trusts, and other people to the household members. Define how to summarize the members’ activity and financials at the household level.\nAdd an Extended Relationship to a Client or Household\nBetter visualize clients’ relationships with people outside of their household. Track the other professionals who advise clients about their financial lives. Also track clients’ affiliations with owned businesses and other organizational entities.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Setting Up Client Relationships in Salesforce",
+    "keywords": [
+        "Salesforce",
+        "Client Relationship Management",
+        "Financial Services Cloud",
+        "CRM",
+        "Relationship Groups",
+        "Households"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_set_up_clients_hhs_relationships.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_client_creation.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_add_extended_relationship.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_arc.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_arc_get_to_know.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_arc_manage.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_enter_financials.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_manage_client_interact.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_track_leads_opps.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_wave.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_use_einstein_financial_services.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_analytics_insurance_introduction.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_use_insurance.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_use_fsc_insurance_analytics_fast_start.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_use_claims_policy_analytics_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_use_retail_banking_introduction.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_use_intelligence_dashboards.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_use_product_recommendation_dashboards.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_create_education.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_create_employment.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_create_documents.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_create_hh.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_create_rel_group.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_add_hh_member.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.13615082204341888,
+        -0.0544002503156662,
+        0.7880717515945435,
+        -0.24544401466846466,
+        0.06575700640678406,
+        0.4106789827346802
+    ]
+}

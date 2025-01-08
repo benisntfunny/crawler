@@ -1,0 +1,53 @@
+{
+    "id": "aff7eef0baccb6ba92fb4de7f73fd6e70a3788743ec04d7838161a136c62c7bf-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.concept_growthuser_setup.htm&language=en_US&type=5",
+    "content": "nullEinstein Relationship Insights\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Einstein Relationship Insights\n Einstein Relationship Insights for Admins\n Einstein Relationship Insights for Basic, Growth, and Starter Users\n Einstein Relationship Insights Objects\n Explore Relationships in List View and Graph View\n Manage Relationship Recommendations\n Manage Evidence for Relationships\n Einstein Relationship Insights Browser Extension\n Connect or Disconnect a Content Source\n Get Notified of Relationship Recommendations\n Follow Records and Get Updates on Your Home Page\n Understand Relationships in Actionable Relationship Center (ARC)\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nINDUSTRIES COMMON FEATURES GUIDE\nEinstein Relationship Insights for Basic, Growth, and Starter Users\n\nExplore interconnected relationships between people and companies on the web with person record, or company record objects. Einstein Relationship Insights helps discover critical relationships by exploring disparate data sources, from unstructured web pages and structured information like Salesforce records.\n\nREQUIRED EDITIONS\nAvailable in: Unlimited Edition with Einstein Relationship Insights Basic\nAvailable for an additional cost in: Enterprise, Performance, and Unlimited Editions\nNOTE Einstein Relationship Insights is available only in English.\nEinstein Relationship Insights Objects\nWith Einstein Relationship Insights, you can explore people and company relationships to view related records and also create Salesforce records.\nExplore Relationships in List View and Graph View\nUse Einstein Relationship Insights to explore people and companies related to your prospects. By using the explored relationships, connect with decision makers faster, communicate effectively, and find warm intros to secure deals.\nManage Relationship Recommendations\nUse records to explore more relationships between the person and company objects. You can view, create, and delete records from Einstein relationship recommendations. View structured, recommended, or both relationships, based on the filter that you select. If you’re an Einstein Activity Capture user, see a connection path that shows how you’re connected to the record you’re viewing.\nManage Evidence for Relationships\nEinstein displays evidence documents for every relationship recommendation so that you can determine the nature of the relationship. Keep the relationship recommendations that you want and dismiss any that aren’t useful or accurate.\nEinstein Relationship Insights Browser Extension\nUse the Einstein Relationship Insights browser extension to track Salesforce context across your browser windows. Einstein identifies people and companies of interest and highlights them so you can create new and view existing Salesforce records right from the web page.\nConnect or Disconnect a Content Source\nEinstein searches the content in web and news to recommend relationships. If admin has enabled Slack, Gmail, or Salesforce Files content sources, Einstein Relationship Insights Growth users can add these content sources and get relationship recommendations from these sources.\nGet Notified of Relationship Recommendations\nGet notified of relationship recommendations while you’re exploring a record. Explore more records while getting notified of new relationships instead of waiting for Einstein to show relationship recommendations.\nFollow Records and Get Updates on Your Home Page\nAdmins can add the Einstein Relationship Insights Digest component to your home page so that you can see relationship, news, and job updates on your home page for the contact, lead, and account records that you follow.\nUnderstand Relationships in Actionable Relationship Center (ARC)\nARC helps users understand relationships among people and businesses by presenting them in a convenient and interactive display component. If your admin has integrated ARC with Einstein Relationship Insights, you can do more with relationships.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Einstein Relationship Insights Guide",
+    "keywords": [
+        "Salesforce",
+        "Relationship Insights",
+        "Person Record",
+        "Company Record",
+        "Record Objects"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.intro_eri.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_admin_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_eri.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_connect_sffiles.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.admin_encryptdata.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_admin_setup_arc.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_growthuser_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_growthuser_explore_reln.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_growthuser_manage_records.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_growthuser_manage_evidence.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_growthuser_eri_browser_extension.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.task_growthuser_connect_content_sources.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.industries_common_features.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_growthuser_eri.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.task_growthuser_get_notified_of_reln_discoveries.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.task_growthuser_follow_get_updates.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_growthuser_explore_reln_arc.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.5864199995994568,
+        -0.16272959113121033,
+        0.6191517114639282,
+        -0.3235290050506592,
+        0.07332184165716171,
+        0.31640249490737915,
+        0.415319561958313,
+        -0.5695769786834717,
+        -0.13598790764808655,
+        -0.9557327032089233,
+        0.5162479281425476,
+        0.016252808272838593,
+        -0.3992186188697815,
+        0.08561787754297256,
+        -0.34624743461608887,
+        0.39305374026298523
+    ]
+}

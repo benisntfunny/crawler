@@ -1,0 +1,39 @@
+{
+    "id": "ecd5efa91bd929fc5b27868a8ea819ccc2f9c65c909adb48267239660e3760d4-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.devops_center_setup_install_nonprod.htm&language=en_US&type=5",
+    "content": "nullInstall and Configure DevOps Center\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Install and Configure DevOps Center\n DevOps Center Releases\n Evaluate DevOps Center in a Non-Production Org\n Install DevOps Center in a Developer Edition Org\n Install DevOps Center in a Scratch Org\n Enable and Install DevOps Center in the Org\n Upgrade to the Latest DevOps Center Version\n Configure DevOps Center\n Manage DevOps Center Projects\n Manage Environments\n Plan Your Pipeline\n Create and Assign Project Work Items\n Build an Extension Package for DevOps Center\n Uninstall DevOps Center\n Troubleshoot DevOps Center Configuration\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nDEVOPS CENTER SETUP\nEvaluate DevOps Center in a Non-Production Org\n\nSo you want to evaluate DevOps Center, but prefer to install it in an org other than your production org. Have no fear. You have options. You can completely evaluate DevOps Center using a combination of Developer Edition (DE) orgs and scratch orgs.\n\nWe support these configurations; they’re listed in the order in which we recommend them.\n\nDeveloper Edition orgs for your installation, release, and other pipeline environments, and a source-tracked Developer or Developer Pro sandbox for your development environment.\nDeveloper Edition orgs for your installation, release, and other pipeline environments, and a scratch org for your development environment. You can enable Dev Hub in the Developer Edition installation org so you can create scratch orgs.\nDeveloper Edition org as your Dev Hub, and scratch orgs for all your environments.\n\nNot all combinations are listed here. This information provides you with a basis to determine which options work for your particular situation.\n\nIf you use a Developer Edition org as your Dev Hub to create scratch orgs, you’re limited to 3 active scratch orgs per day. If you already have Dev Hub enabled in your production org with plenty of scratch orgs to spare, we recommend using it instead of a Developer Edition org as your Dev Hub org.\n\nNOTE You can also use Trailhead Playgrounds for the installation, release, and pipeline environments. A Trailhead Playground is a Developer Edition org with Trailhead-specific data and tools.\n\nWhen determining which type of org to use, think about how long you need for the evaluation period.\n\nDeveloper Edition Orgs\nYou can sign up for as many Developer Edition orgs as you like.\nThey don’t expire as long as you log in to them regularly.\nYou can install DevOps Center in them.\nYou can create as many DE orgs as required to mimic your release pipeline.\nYou can create a DE org for the installation org, release environment, and pipeline environments.\nYou can enable Dev Hub in a DE org if you plan to use scratch orgs.\nDeveloper or Developer Pro Source-Tracked Sandboxes\nIf you have a spare source-tracked developer sandbox that you can use as your development environment, this option is the most desirable choice.\nThe sandbox already mirrors your release environment.\nSandboxes don’t expire as long as you log in to them regularly.\nNOTE Sandboxes can’t be used as the installation org. See Why Can’t I Install DevOps Center in Sandbox? for more information.\nScratch Orgs\nYou can install DevOps Center in them.\nScratch orgs have a maximum duration of 30 days.\nA Dev Hub is required to create scratch orgs. The Dev Hub edition determines the maximum number of active scratch orgs.\nScratch orgs have source-tracking enabled by default so you can use them as development or pipeline environments.\nYou create scratch orgs using Salesforce CLI. After installing and configuring it, you can create scratch orgs quickly.\nInstall DevOps Center in a Developer Edition Org\nTo evaluate DevOps Center, you can install it in a Developer Edition (DE) org. If you don’t see DevOps Center as an option under Setup, your Developer Edition org was likely created before DevOps Center was introduced and doesn’t have the correct permissions. To continue, create another Developer Edition org.\nInstall DevOps Center in a Scratch Org\nTo evaluate DevOps Center, you can install it in a scratch org. Scratch orgs have a maximum duration of 30 days.\nSEE ALSO\nSalesforce CLI Setup Guide: Install Salesforce CLI\nSalesforce DX Developer Guide: Enable Dev Hub Features in Your Org\nSalesforce DX Developer Guide: Scratch Orgs\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Evaluating and Installing DevOps Center in Non-Production Org",
+    "keywords": [
+        "DevOps Center",
+        "Non-Production Org",
+        "Developer Edition Org",
+        "Scratch Org",
+        "Salesforce CLI"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_setup_install_nonprod.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_setup_install.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_configure.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_setup_seed_repo.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_project_manage.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_manage_environments.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_pipeline_plan.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_uninstall.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_setup_install_de_org.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_setup_install_scratch_org.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.5412601828575134,
+        0.3751605749130249,
+        -0.31974369287490845,
+        0.10369649529457092,
+        0.6877828240394592,
+        -0.515799880027771,
+        -0.2589600086212158,
+        0.6730614900588989
+    ]
+}

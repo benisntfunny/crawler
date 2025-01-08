@@ -1,0 +1,44 @@
+{
+    "id": "97654727e8ec79a68ba81f4d0559ee75310061426f5473806b476ab3e88a953e-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.collaboration_admin_limits_mobile_sf1_files.htm&language=en_US&type=5",
+    "content": "nullSet Up and Maintain Collaboration Tools\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Set Up and Maintain Collaboration Tools\n Salesforce Chatter\n Salesforce Files\n Add the Files Related List to Page Layouts\n Customize the Files Detail Page\n Prevent Users from Attaching Salesforce Files\n Add File Privacy on Records to Edit File Details Layout\n Set File Sharing to Inherit Record Permissions\n Configure File Upload and Download Security Settings\n Enable Content Deliveries and Public Links\n Regenerate a File Preview\n Salesforce Files Storage Allocations\n Asset Files\n Salesforce Files: What’s Different or Not Available in the...\n Salesforce Files Connect\n Salesforce CRM Content\n Google Apps\n Collaboration Resources for Admins\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nSET UP AND MAINTAIN COLLABORATION TOOLS\nSalesforce Files: What’s Different or Not Available in the Salesforce Mobile App\n\nCheck out the differences between the desktop version and the mobile version of Salesforce Files.\n\nIMPORTANT Chatter must be enabled for your org to view, open, and upload files.\n\nWhen using Salesforce Files in the Salesforce mobile app, you can't:\n\nAdd more than one file to feed items in Chatter\nSee multiple files attached to a feed item in the main Chatter feed—only the first attachment is displayed (Salesforce for Android only)\nView file types other than these: .doc, .docx, .pdf, .ppt, .pptx, .xls, .xlsx, and all image files, including .gif, .jpg, and .png formats\nCreate, rename, or delete library folders\nShare a file you have Viewer access to\nMove files in libraries into folders\nAccess Files from the navigation menu if you’re a high-volume portal user\nUpload files using the Good Access secure mobile browser\nAssign topics to files in the main Chatter feed (downloadable apps only)\nContent Libraries and Files\n\nThe support for Salesforce CRM Content in the Salesforce for iOS is geared towards letting users view and share content. Other activities, such as managing or contributing to libraries, aren’t available in the app. Here’s how working with content libraries is different from what users can do in the desktop site.\n\nThe Private Library folder isn’t available. Instead, a user can access the files in their private library by selecting the Owned by Me filter in the Files list on Files home.\nWhen viewing libraries, the top content, popular tags, recent activity, and most active contributors sections aren’t available.\nUsers can’t:\nSee content detail pages\nUpload and publish new or revised files to libraries\nPublish web links in libraries\nEdit content details\nAdd, edit, or delete comments\nDelete files (Salesforce for iOS and Salesforce for Android)\nMove files to different libraries\nUse tags to classify or filter content\nSubscribe to libraries, files, authors, or tags\nProvide feedback on content, or review feedback on content\nDelete, archive, or restore content\nContent search options like filtering by file type, author, or library name aren’t available. But users can use global search to find files in libraries.\nCreating or managing content deliveries isn’t available. This includes generating an encrypted URL for sharing files and content packs with customers.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Setting Up and Managing Collaboration Tools",
+    "keywords": [
+        "Salesforce Chatter",
+        "Collaboration Tools",
+        "File Sharing",
+        "Content Management",
+        "Cloud Storage",
+        "Mobile App Limitations",
+        "CRM Content",
+        "Library Management"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.collaboration_admin_welcome.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_setting_up.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_pbr.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_enable.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_group_settings.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_feed_post_editing.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_feed_tracking_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_feed_item_actions.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_group_layouts.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_topics.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_chatter_dt.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collaboration_admin_files.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.admin_files_asset_files.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_files_connect.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_crm_content.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_content_libraries.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.admin_files_libraries_component.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_content_settings.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_google_apps.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US"
+    ],
+    "embedding": [
+        -0.4806636869907379,
+        1.208213210105896
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "id": "0dddc60ad307ed2ada5ace8c4065bda116215554474e56b082b43c15f416535b-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_sandbox.htm&language=en_US&type=5",
+    "content": "nullSales Cloud Einstein\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Sales Cloud Einstein\n Increase Productivity with Sales Cloud Einstein\n Bring Intelligence to Your Daily Workflow with Sales Cloud Einstein\n Build a Smarter Pipeline with Einstein Forecasting\n Understand How Sales Cloud Einstein Works\n Prepare for Sales Cloud Einstein\n Data Requirements for Sales Cloud Einstein\n Considerations for Setting Up Sales Cloud Einstein\n Sales Cloud Einstein and Sandbox\n Run the Sales Cloud Einstein Readiness Assessor\n Set Up Sales Cloud Einstein\n Analyze Sales Cloud Einstein Data with Reporting\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nSALES CLOUD EINSTEIN\nSales Cloud Einstein and Sandbox\n\nReview which Sales Cloud Einstein features are available in sandbox.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience and Salesforce Classic\nAvailable with Sales Cloud Einstein, which is available in Performance, and Unlimited editions, and for an extra cost in Enterprise Edition\nTIP\nA sandbox environment is best suited for testing how Sales Cloud Einstein features work with architecture, workflows, and Lightning components. Because the data in a sandbox environment is limited, we recommend that you don’t evaluate the performance of the Einstein model based on what you see in sandbox. Instead, evaluate the model in a production org that has the required amount of historical data. You can run the Sales Cloud Einstein Assessor in a sandbox to check which Sales Cloud Einstein features are ready to be turned on.\nDon’t manipulate the sandbox data before running the Einstein readiness assessor. Doing so can result in the assessor incorrectly passing some of the requirements. For example, Einstein Opportunity Scoring requires opportunities to be at least two days old and have updates that reflect your actual business process. If your sandbox data doesn’t include opportunity history and you then update opportunities on the same day that you added them to the sandbox, the assessor incorrectly evaluates the requirement as met. Then, if you turn on Opportunity Scoring in sandbox, you don’t see scores. If you don’t see scores in sandbox but believe that you fulfilled all the requirements, contact Salesforce Customer Support.\nFEATURE\tSANDBOX SUPPORT\tNOTES\nEinstein Lead Scoring\t\t\n\nEinstein Lead Scoring requires at least six months of data, so make sure that you refresh the full sandbox.\n\nRe-enable the feature in each new sandbox or when a sandbox is refreshed.\n\n\nEinstein Opportunity Scoring\t\t\n\nEinstein Opportunity Scoring requires at least six months of data, so make sure that you refresh the full sandbox.\n\nIf you use Opportunity Scoring without Performance or Unlimited editions or Sales Cloud Einstein licenses, sandbox isn’t supported.\n\nRe-enable the feature in each new sandbox or when a sandbox is refreshed.\n\n\nEinstein Activity Capture\t\tBecause sandbox is best for testing how Einstein Activity Capture works and how it looks, no data is copied from production to sandbox. After you set up Einstein Activity Capture in sandbox, any refresh of that sandbox turns off Einstein Activity Capture and removes all connected accounts from the sandbox.\nInbox\t\t\nRecommended Connections\t\tEinstein Activity Capture is required.\nEinstein Email Insights\t\tEinstein Activity Capture is required.\nSales Analytics\t\t\nEinstein Forecasting\t\tEinstein Forecasting requires two years of data, but sandbox environments support up to six months of data.\n\n\nEinstein Automated Contacts\n\nContact suggestions\nOpportunity contact role suggestions\n\t\t\nSEE ALSO\nCreate a Sandbox\nRefresh Your Sandbox\nRun the Sales Cloud Einstein Readiness Assessor\nSet Up Sales Cloud Einstein\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Sales Cloud Einstein and Sandbox",
+    "keywords": [
+        "salesforce",
+        "sandbox",
+        "einstein forecasting",
+        "opportunity scoring",
+        "lead scoring",
+        "activity capture"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_productivity_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_daily_intelligence_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_scoring_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_how_it_works_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup_prep.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_considerations.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup_enable_lead_insights.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.sales_einstein_reporting.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.wave_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.sales_einstein_standard_reports_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.data_sandbox_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.data_sandbox_refresh.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.sales_readiness_assessor.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.12559014558792114,
+        -0.1644083559513092,
+        0.10252617299556732
+    ]
+}

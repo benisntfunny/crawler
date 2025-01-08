@@ -1,0 +1,53 @@
+{
+    "id": "3dfc14a1937a994c670b0862e011a9d404905bcb4483d6d585cc22e4e02d30f5-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.lex_find_list_views.htm&language=en_US&type=5",
+    "content": "nullHow to Transition to Lightning Experience\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n How to Transition to Lightning Experience\n It’s Time for Lightning Experience\n Discover Phase: Start Your Lightning Experience Transition\n Roll Out Phase: Get Ready to Launch Lightning Experience\n Optimize Phase: Make Lightning Experience Stick\n Find Your Way Around Lightning Experience\n Find Profile and Personal Settings in Lightning Experience\n Find Objects and Apps in Lightning Experience\n Find Your Way Around List Views in Lightning Experience\n Find Your Way Around Records in Lightning Experience\n Find Recently Viewed Items in Lightning Experience\n Find Actions and Buttons in Lightning Experience\n Find Your Way Around Related Lists in Lightning Experience\n Find Your Way Around Chatter in Lightning Experience\n Find Your Way Around Setup in Lightning Experience\n Find Help in Lightning Experience\n Lightning Experience Considerations\n Lightning Experience Transition Info Center\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nHOW TO TRANSITION TO LIGHTNING EXPERIENCE\nFind Your Way Around List Views in Lightning Experience\n\nLightning Experience improves the Salesforce Classic list view experience with a more intuitive layout, convenient navigation, and integrated list creation and editing.\n\nREQUIRED EDITIONS\nAvailable in: Group, Professional, Enterprise, Performance, Unlimited, and Developer Editions\n\n Work with List Views in Lightning Experience (English Only)\n\nIn a list view, you see only the data that you have access to. You can see records that you own, have read or write access to, or are shared with you. List views also include records owned by or shared with users in roles below you in the hierarchy. The fields you see depend on your page layout and field-level security settings.\n\n \nIn Salesforce Classic, select a list view from the dropdown menu. In Lightning Experience, you can also pin a list with  to set it as your default (1).\nEdit, delete, or create a list view using the List View Controls menu  in Lightning Experience (2).\nCreate records directly from a list view (3).\n\nTake advantage of features only available in Lightning Experience.\n\nSelect a list view from the dropdown menu. Pin a list with  to set it as your default (1).\nEdit, delete, or create a list view using the List View Controls menu  (2).\nCreate records directly from a list view (3).\nView a list in different ways. Visualize list view data using charts with  and refine which records are displayed using filters with  (4).\nDepending on the object, you can switch between the standard table view , the Kanban view , tile view , and split view  (5).\nSearch a list view for the data you need (6).\n\nEdit records quickly with new features in Lightning Experience.\n\nEdit a field directly from a list view with in the list view header or next to a record detail.\nEdit or delete a record by selecting the dropdown ß next to it.\n\nModify and create list views from your record home page with List View Controls . To change and reorder the columns displayed in a list view, select Select Fields to Display. Fields correspond to columns in the final list view.\n\nAdd fields to your list view (1).\nReorder the columns in your list view (2). Columns appear from left to right in the order shown in Visible Fields.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Transitioning to Lightning Experience in Salesforce",
+    "keywords": [
+        "Salesforce Transition",
+        "Lightning Experience",
+        "List View Management",
+        "Record Creation",
+        "Field Editing"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_welcome_to_lex.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_do_it_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_phases_discover.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_evaluate.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_readiness_check.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_plan_rollout.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_plan_change_mgmt_strategy.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_phases_roll_out.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_enable_existing_features.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lcc_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lcc_javascript_buttons_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lcc_visualforce_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_pro_tips.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_enable_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_phases_optimize.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_measure_success.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_enable_users_encourage.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_iterate.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_find_your_way_around.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_considerations_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_switching_considerations_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_gaps_limitations.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US"
+    ],
+    "embedding": [
+        -0.19844526052474976,
+        -0.82149738073349,
+        -0.321530282497406,
+        0.41758668422698975,
+        0.19609665870666504,
+        0.349069207906723,
+        1.004028558731079,
+        -0.26143619418144226,
+        0.0873778760433197,
+        0.576794445514679
+    ]
+}

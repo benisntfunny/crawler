@@ -1,0 +1,52 @@
+{
+    "id": "74dbe6245396d1cd30fcff3732d9451909c94477f960afcc86f78cead66dec9f-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.persnl_references_personalization_schema_object_field_mapping_ref.htm&language=en_US&type=5",
+    "content": "nullEinstein Personalization\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Einstein Personalization\n Einstein Personalization\n Einstein Personalization and Data Cloud Setup\n Creating and Training Einstein Personalization Recommenders\n Personalization Points\n Personalization Analytics\n Einstein Personalization References\n Einstein Personalization Objects\n Einstein Personalization Required Object Mappings\n Website App Connector Object Field Mapping\n Ingestion API Connector Object Field Mappings\n Salesforce CRM Connector Standard Personalization Object Field...\n Personalization Point Object Field Mappings\n Personalization Decisions Object Field Mappings\n Personalization Schema Object Field Mappings\n Personalization Recommendation Object Field Mappings\n Salesforce CRM Connector Custom Personalization Attribution Object...\n Einstein Personalization Calculated Insights\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nEINSTEIN PERSONALIZATION\nPersonalization Schema Object Field Mappings\n\nMap these fields in the PersonalizationSchema-personalization DLO to the Personalization Schema DMO.\n\nPERSONALIZATIONSCHEMA-PERSONALIZATION DLO FIELD\tPERSONALIZATION SCHEMA DMO FIELD\nCreated By ID\tNot mapped\nCreated Date\tCreated Date\nData Model Object ID\tContent Object Id\nData Space ID\tNot mapped\nDeleted\tNot mapped\nDescription\tDescription\nLast Modified By ID\tNot mapped\nLast Modified Date\tLast Modified Date\nOwner ID\tNot mapped\nPersonalization Schema ID (primary key)\tPersonalization Schema Id (primary key)\nPersonalization Schema Name\tPersonalization Schema Name\nPersonalization Type\tPersonalization Type\nSFDCOrganizationId\tNot mapped\nSystem Modstamp\tNot mapped\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Einstein Personalization Object Field Mappings",
+    "keywords": [
+        "Einstein Personalization",
+        "field mapping",
+        "object mapping",
+        "Salesforce CRM Connector",
+        "Personalization Schema Object",
+        "Data Model Object",
+        "Content Object Id"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_persnl.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_basics.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_setup_set_up_permissions_and_related_prerequisites.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_setup_data_cloud_prerequisites.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_setup_install_datakit_and_components.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_setup_datakit_install_deploy_data_streams_calculated_insights.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_setup_configure_ep_attribution_objects.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_setup_segments.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_setup_insights.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_setup_maximize_revenue_recommendation_use.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_recommender.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_personalization_point.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_analytics.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_analytics_pipeline_intelligence_app.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_intelligence_sql_queries.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_analytics_pipeline_intelligence_sql_queries.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_analytics_attribution_intelligence_sql_query.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_references.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_references_object_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_references_attrib_dlo_refs.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_references_attrib_dmo_csv_refs.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_references_object_mapping.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_references_website_app_connector_object_mapping.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_references_salesforce_crm_connector_std_pers_object_field_mapping_refs.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_references_salesforce_crm_connector_custom_attrib_object_field_mapping_refs.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_references_calculated_insight_refs.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_references_personalization_intelligence_calculated_insight_refs.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.persnl_references_sample_calculated_insight_refs.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US"
+    ],
+    "embedding": [
+        0.29706090688705444
+    ]
+}

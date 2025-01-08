@@ -1,0 +1,49 @@
+{
+    "id": "50eebaccdb63f6510f77525631876e60ff14653b6b2c1e1bf3b9795713e2e60a-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.fsc_wave.htm&language=en_US&type=5",
+    "content": "nullDeliver Financial Services for High-Touch Client Relationships\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Deliver Financial Services for High-Touch Client Relationships\n Set Up Clients, Households, and Relationships\n Act on Financial Client Relationships with ARC\n Enter and View Financial Data\n Manage Client Interactions\n Track Leads and Opportunities\n Use Financial Services Cloud CRM Analytics Solutions\n Use Analytics for Wealth Management\n Use CRM Analytics for Insurance\n Use Analytics for Retail Banking\n Use Consumer Banking Starter Analytics\n Use Wealth Starter Analytics\n Use the Client Segmentation App\n Revenue Intelligence Dashboards\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nFINANCIAL SERVICES CLOUD USER GUIDE\nUse Financial Services Cloud CRM Analytics Solutions\n\nFinancial Services Cloud offers you advanced analytics solutions based on CRM Analytics to help you grow and manage your business. CRM Analytics for Financial Services, a comprehensive set of CRM Analytics dashboards, helps financial service executives and managers, advisors, and personal bankers manage their books of business with insights about client goals and satisfaction, leads, and referrals. Client Segmentation App, which replaces the dashboards formerly available through the Financial Services Cloud Advisor Analytics tab, helps financial advisors identify high-potential clients for outreach.\n\nREQUIRED EDITIONS\nAvailable in Lightning Experience for an extra cost in Professional, Enterprise, and Unlimited Editions\nUse Analytics for Wealth Management\nAnalytics for Wealth Management gives financial advisors, personal bankers, and managers a complete customer intelligence solution.\nUse CRM Analytics for Insurance\nThe insurance-specific analytics for Financial Services Cloud (FSC), a comprehensive set of CRM Analytics dashboards, offers insurance executives and managers insights into their book of business and identifies opportunities to improve sales.\nUse Analytics for Retail Banking\nAnalytics for Retail Banking dashboards visualize all the metrics and key performance indicators (KPIs) personal bankers require to grow client relationships.\nUse Consumer Banking Starter Analytics\nThe Consumer Banking Starter Analytics gets you started with a dashboard personal bankers can use to move clients up the value chain.\nUse Wealth Starter Analytics\nThe Wealth Starter Analytics app helps financial advisors get started fast analyzing the success of your financial services business.\nUse the Client Segmentation App\nClient Segmentation App dashboards help you gain insights across your book of business to deepen client relations. It’s enabled by a license that provides restricted access to Tableau CRM features.\nSEE ALSO\nExplore Data and Take Action with CRM Analytics\nTrack Client Interactions\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Financial Services Cloud Analytics Solutions",
+    "keywords": [
+        "financial services",
+        "client relationships",
+        "CRM analytics",
+        "wealth management",
+        "insurance analytics",
+        "retail banking",
+        "salesforce"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_set_up_clients_hhs_relationships.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_client_creation.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_add_extended_relationship.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_arc.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_arc_get_to_know.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_arc_manage.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_enter_financials.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_manage_client_interact.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_track_leads_opps.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_wave.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_use_einstein_financial_services.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_analytics_insurance_introduction.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_use_insurance.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_use_fsc_insurance_analytics_fast_start.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_use_claims_policy_analytics_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_use_retail_banking_introduction.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_use_intelligence_dashboards.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_use_product_recommendation_dashboards.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_use_consumer_banking.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_use_wealth_starter.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_use_client_segmentation.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.bi.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.fsc_log_activities.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.6302112340927124,
+        0.003415055572986603,
+        0.5759944319725037
+    ]
+}

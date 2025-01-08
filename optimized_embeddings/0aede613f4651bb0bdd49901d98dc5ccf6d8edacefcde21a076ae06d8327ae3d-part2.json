@@ -1,0 +1,52 @@
+{
+    "id": "0aede613f4651bb0bdd49901d98dc5ccf6d8edacefcde21a076ae06d8327ae3d-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.data_mask_install.htm&language=en_US&type=5",
+    "content": "nullSandboxes: Staging Environments for Customizing and Testing\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Sandboxes: Staging Environments for Customizing and Testing\n When to Use a Sandbox\n Sandbox Setup Considerations\n Create, Clone, or Refresh a Sandbox\n Manage Your Sandboxes\n Manage Your Sandboxes Programmatically\n Inactive Sandbox Expiration\n Inactive User Freezing\n Deploy Your Changes\n Secure Your Sandbox Data with Salesforce Data Mask\n Data Mask Considerations\n Supported Data Mask Types\n Understand How Different Masking Types Work\n Data Mask Best Practices\n Install the Managed Package in a Production Org\n Install in Existing Sandboxes\n Create or Edit a Data Mask Configuration\n Run a Data Mask Job\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nSANDBOXES: STAGING ENVIRONMENTS FOR CUSTOMIZING AND TESTING\nInstall the Managed Package in a Production Org\n\nData Mask is a managed package that you install in your production org. You can run the masking process from any new sandbox created from the production org. To install and use Data Mask, you must enable certain features in your production org and specify user permissions. After you install the package, Salesforce automatically upgrades it with new features and bug fixes. Data Mask currently supports API version 50.0.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience as a Managed Package\nAvailable in: Developer, Enterprise, Professional, and Unlimited Editions\n\nEnsure that your organization has the Data Mask User permission set licenses. To purchase more licenses, contact your Salesforce account executive.\n\nEnable MyDomain and Lightning Experience features in your production org.\nFollow the standard process for installing a managed package by using the Data Mask package link.\nAssign these permissions and profiles to your users in your production org.\nModify All Data user permission. If your user doesn’t have this permission or write access for the objects being masked, the masking process still runs, but those objects aren’t masked.\nAPI Enabled user permission\nSystem Administrator user profile\n\nIf you manually add a user to your sandbox org who runs a data mask, assign the same permissions and profiles for that user.\n\nAssign the Data Mask User permission set license to your user.\nAssign the Data Mask permission set included in the installed package to your user.\nInstall in Existing Sandboxes\nTo use Data Mask in sandboxes created before you installed the managed package in your production org, additional steps are required.\nSEE ALSO\nView and Manage Your Permission Set Licenses\nInstall a Package\n\"View All\" and \"Modify All\" Permissions Overview\nAssign a Permission Set License to a User\nAssign Permission Sets to a Single User\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Setting Up Salesforce Sandboxes for Customizing and Testing",
+    "keywords": [
+        "Salesforce Sandbox",
+        "Data Masking",
+        "Managed Package",
+        "Staging Environments",
+        "Customizing",
+        "Testing",
+        "API Enabled user permission",
+        "System Administrator user profile"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.deploy_sandboxes_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.deploy_sandboxes_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.create_test_instance.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.data_sandbox_implementation_tips.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.data_sandbox_create_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.data_sandbox_cloning_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.data_sandbox_manage.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.deploy_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.code_tools_ant.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.deploy_connection_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.changesets.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.changesets_about_inbound.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.changesets_about_outbound.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.deploy_special_behavior.htm&language=en_US&type=5#deploy_special_behavior",
+        "https://help.salesforce.com/s/articleView?id=sf.data_mask_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.data_mask_install.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.data_mask_create_masking_config.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.data_mask_manual_run.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.install_in_existing_sandboxes.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.users_permissionset_licenses_view.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.distribution_installing_packages.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.users_profiles_view_all_mod_all.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.users_permissionset_licenses_assign.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.perm_sets_assigning.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.08750678598880768,
+        0.03392689302563667,
+        -0.695610523223877,
+        -0.3270919919013977,
+        0.7310703992843628
+    ]
+}

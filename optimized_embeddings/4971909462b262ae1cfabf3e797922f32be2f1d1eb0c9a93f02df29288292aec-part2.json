@@ -1,0 +1,48 @@
+{
+    "id": "4971909462b262ae1cfabf3e797922f32be2f1d1eb0c9a93f02df29288292aec-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.essentials_round_robin_lead_assignment.htm&language=en_US&type=5",
+    "content": "nullEssentials\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Essentials\n Understand the Basics\n Getting Around\n Set Up the Most-Used Features\n Going Beyond the Basics\n Divvy Up Work On Your Team with Routing\n Offer Live Customer Support\n Automate Your Tasks with Macros\n Learn Best Practices for B2C Businesses\n Add Your Apps to Salesforce Essentials\n Re-engage Inactive Leads and Customers\n Manage Your Contacts with These Best Practices\n Automate Your Business Routines\n Create a Round Robin Lead Assignment Rule\n Reach Out to Customers After Winning an Opportunity\n Remind Your Sales Team When a Renewal Comes Due\n Allow Customers to Opt Out of Emails\n Best Practices for Marketing Teams\n Get Help\n Resources\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nESSENTIALS\nCreate a Round Robin Lead Assignment Rule\n\nKeep your team's workload even by auto-assigning new leads to each user.\n\nRound robin assignment means that each new lead is assigned to a different user until everyone has been assigned the same amount and the cycle repeats.\n\nFor example, if you have three users:\n\nLead 1 is assigned to user 1\nLead 2 is assigned to user 2\nLead 3 is assigned to user 3, then the cycle repeats\nLead 4 is assigned to user 1\nLead 5 is assigned to user 2\nLead 6 is assigned to user 3, then the cycle repeats.\n\nYou can set up round robin lead assignment with a few custom fields and a lead assignment rule.\n\nCreate a Lead Number f+Field\n\nCreating a Lead Number f+Field gives each new lead a unique ID.\n\nOpen Setup.\nSearch for Object Manager, and open it.\nClick Lead.\nClick Fields & Relationships.\nClick New.\nSelect Autonumber, and click Next.\nName your field Lead Number.\nIn Display Format, enter {0}.\nIn Starting Format, enter 1.\nCheck the box to Set this field as the unique record identifier from an external system, and click Next.\nGive user permission to the right people, and click Next.\nUncheck all Page Layout boxes, and click Save & New.\nCreate a Round Robin Field\n\nThe round robin field tells the system to assign each new lead to the next user in order.\n\nSelect Formula, and click Next.\nName your field. For example: Round Robin.\nSelect Number.\nIn the Decimal Places dropdown, choose 0, and click Next.\nSelect Advanced Formula.\nIn the Test (Number) =field, paste in this formula: MOD(VALUE({!Lead_Number__c}),3)+1. There are two things to note: 1) The phrase Lead_Number pulls the name of the field you created in the previous section. If you gave it a different name, make sure to update it in the formula. 2) Replace the number 3 with the number of users you want in your round robin rotation.\nClick Next.\nGive user permission to the right people, and click Next.\nUncheck all Page Layout boxes, and click Save.\nCreate a Lead Assignment Rule\n\nThe lead assignment rule ensures that leads are assigned evenly across users.\n\nIn Setup, search for Lead Assignment Rules, and open it.\nClick New.\nName your rule Round Robin Assignment Rule, and click Save.\nClick to open Round Robin Assignment Rule.\nIn the Rule Entries section, clickNew.\nIn Sort Order, enter 1.\nSet the rule criteria by choosing Round Robin in the Field dropdown, Equals in the Operator dropdown, and 1 in the Value field.\nSelect the user this rule applies to.\nOptionally, select an email template to tell the user that the rule has been assigned to them.\nRepeat steps 5 through 9 for each user in your round robin rotation. Give each user in your org a number. Every time you add a user to the round robin rotation, change the sort order and the round robin equals number to the user's number.\nAllow Round Robin Lead Assignment on Manually-Created Leads\nIn Setup, click Object Manager.\nClick Lead.\nClick Page Layouts.\nOpen Lead Layout.\nClick Layout Properties.\nNext to Lead Assignment Checkbox, check the box to Show on edit page, and click Okay.\nSave your changes.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Automate Lead Assignments with Round Robin in Salesforce",
+    "keywords": [
+        "salesforce",
+        "lead assignment",
+        "round robin",
+        "automated tasks",
+        "business automation"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_basics.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_data_import.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_cases.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_getting_around.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_set_up_features.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_sales_stages.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_self_service.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_help_center.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_email_social_cases.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_phone.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_tasks_activities_contacts.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_manager_tasks.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_more_features.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_reengage_lead.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_automate.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.Essentials_unsubscribe.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US"
+    ],
+    "embedding": [
+        0.17863062024116516,
+        0.6293082237243652,
+        -0.4528205990791321,
+        -0.049678169190883636,
+        -0.5631012320518494,
+        -0.08057630062103271,
+        -0.5137932300567627,
+        0.1692882627248764,
+        0.03352215141057968,
+        -0.08199349790811539,
+        0.013858959078788757
+    ]
+}

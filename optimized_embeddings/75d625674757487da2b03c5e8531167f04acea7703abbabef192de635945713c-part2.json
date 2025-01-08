@@ -1,0 +1,53 @@
+{
+    "id": "75d625674757487da2b03c5e8531167f04acea7703abbabef192de635945713c-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.essentials_basics.htm&language=en_US&type=5",
+    "content": "nullEssentials\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Essentials\n Understand the Basics\n Glossary\n Importing Data\n Keep Track of All the Details\n Know Exactly Who You're Talking To\n Close More Deals\n Track Your Open Deals\n Track and Solve Customer Issues\n Get the Details You Need\n Keep Tabs on Every Detail\n Track Your Progress with Dashboards\n Getting Around\n Set Up the Most-Used Features\n Going Beyond the Basics\n Get Help\n Resources\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nESSENTIALS\nUnderstand the Basics\n\nGet to know the foundational features in Salesforce like Accounts, Leads, and Cases. Learn how to import your data into Essentials. Take your data to the next level with custom fields, reports, and dashboards.\n\nSalesforce Essentials Glossary\nSearch for terms and brush up on your Salesforce knowledge with the Essentials glossary.\nImporting Data into Salesforce Essentials\nLearn best practices for importing your customers’ data into Salesforce. You can turn your spreadsheet into Account, Contact, Lead, and Opportunity records in Salesforce using the Data Import Wizard.\nKeep Track of All the Details with Accounts\nAccounts keep track of contact information and details for any business, customer, or provider that you work with.\nKnow Exactly Who You’re Talking to with Contacts\nContacts are individual people you communicate with to move a business deal forward. If you work with other businesses, Contacts are associated with Accounts, or companies you’re doing business with.\nClose More Deals with Leads\nSnag a business card or see some new opt-ins for your newsletter? Those are leads, or customers who are interested in your product or service.\nTrack Your Open Deals with Opportunities\nOpportunities are business deals in progress. Track progress by moving each opportunity through a series of business milestones called stages, like Prospecting, Proposal Sent, Negotiation, and Contract Signed. The goal is to “win” the opportunity, or move it to a final stage that represents a successful outcome for your business.\nTrack and Solve Customer Issues\nUse cases to track customer feedback and issues. In Salesforce, all the information you need to solve the issue is right in front of you with related contact information, past cases, articles, and more. Say goodbye to jumping from tab to tab and close cases faster.\nGet the Details You Need with Custom Fields\nCapture all the data that’s important to your business by adding custom fields.\nKeep Tabs on Every Detail with Reports\nSee how your business is doing, make better purchasing decisions, and keep tabs on your progress with reports.\nTrack Your Progress with Dashboards\nTake a look at how your business is doing in a single glance with dashboards. You select the metrics that matter and Salesforce brings the data to life with graphs, charts and more.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Mastering Salesforce Essentials",
+    "keywords": [
+        "Salesforce",
+        "CRM",
+        "Customer Relationship Management",
+        "Data Import Wizard",
+        "custom fields",
+        "reports",
+        "dashboards"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_basics.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_data_import.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_cases.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_getting_around.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_set_up_features.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_sales_stages.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_self_service.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_help_center.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_email_social_cases.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_phone.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_tasks_activities_contacts.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_manager_tasks.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_more_features.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_reengage_lead.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_automate.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.Essentials_unsubscribe.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_glossary.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_accounts.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_contacts.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_leads.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_opportunities.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_custom_fields.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_reports.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_dashboards.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.39291900396347046,
+        0.06146881729364395,
+        0.9289162158966064,
+        -0.258248507976532,
+        0.13095790147781372,
+        0.7915278077125549
+    ]
+}

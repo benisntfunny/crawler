@@ -1,0 +1,41 @@
+{
+    "id": "8190e5e3c84a5a981e43ca5b9f8998874e0a31d20702d2751f3f8e28474b00d2-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.mfa_define_implementation_plan.htm&language=en_US&type=5",
+    "content": "nullHow to Roll Out Multi-Factor Authentication\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n How to Roll Out Multi-Factor Authentication\n It’s Time for Multi-Factor Authentication\n Get Ready Phase: Evaluate and Plan Your Multi-Factor Authentication...\n Learn About Multi-Factor Authentication\n Evaluate Options and Requirements for Multi-Factor Authentication\n Plan Your Multi-Factor Authentication Rollout\n Form Your MFA Project Team\n Define an MFA Rollout Strategy\n Determine Your MFA Change Management Strategy\n Establish an MFA Support Plan\n Define Your MFA Implementation and Test Plan\n Roll Out Phase: Prepare to Launch Multi-Factor Authentication\n Manage Phase: Maintain and Enhance Multi-Factor Authentication\n Multi-Factor Authentication Glossary\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nHOW TO ROLL OUT MULTI-FACTOR AUTHENTICATION\nDefine Your MFA Implementation and Test Plan\n\nHere are some recommendations and guidelines to help with defining the implementation and test steps in your multi-factor authentication (MFA) plan.\n\nProject schedule\t\n\nPick your launch date (or dates, if you’re rolling out in phases). Then establish a schedule for your MFA project. Include milestones for distributing verification methods and onboarding documentation to users.\n\nCheck your Salesforce roadmap to avoid launching at the same time as any projects that could compete with your rollout. Work with your leadership to clear roadblocks, such as non-Salesforce projects that could steal focus or resources.\n\n\nSupported verification methods\t\n\nChoose the verification methods that you plan to support in your implementation. Document the process and timeline for distributing these methods to your users.\n\nIf you’re supporting physical security keys, allow adequate time before your launch date for users to receive their keys.\n\n\nEnablement steps and requirements\t\n\nDefine how to resolve any dependencies, prerequisites, or blockers that you identified during the evaluation stage of your project.\n\nDocument the steps to turn on MFA for users. See Enable MFA for Users for details.\n\n\nWaive MFA for exempt user types (for products built on the Salesforce Platform)\tSome user types are exempt from needing to use MFA. Most of these cases are automatically excluded when auto-enablement and enforcement occur. But there are a few exempt user types that must be manually excluded by a Salesforce admin. This should be done before MFA is enabled for your org. See Exclude Exempt Users from MFA for details.\nTest plan and acceptance criteria\t\n\nEstablish acceptance criteria and document how to test your MFA implementation.\n\nWe recommend executing the enablement steps in your plan. Then complete the registration flow for each verification method to make sure you can successfully connect to a Salesforce account and log in.\n\nUse a test environment or account to avoid the possibility of locking anyone out of your production environment. If a test environment isn’t available, we recommend enabling MFA for a test user or a non-critical role in your production environment. Then run through the testing steps. Get a test plan template from the downloadable MFA Rollout Pack.\n\nIt’s also a good idea to verify that your recovery process works as expected. Run through the process that you defined in the MFA support plan.\n\nSEE ALSO\nDetermine Business and User Requirements for MFA\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Defining Multi-Factor Authentication Implementation",
+    "keywords": [
+        "Multi-Factor Authentication",
+        "Authentication Rollout",
+        "MFA Testing",
+        "Identity Verification",
+        "Passwordless Authentication"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_welcome_to_mfa.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_time_for_mfa.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_get_ready.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_learn_about.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_evaluate_options.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_inventory_users_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_plan_rollout.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_rollout_phase.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_implement.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_launch.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_manage.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_measure_success.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_optimize.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_supported_verification_methods.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_assess_readiness.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_enable.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_supported_products.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.security_mfa_exclude_exempt_users.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_evaluate_requirements.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.27013179659843445,
+        0.28446903824806213
+    ]
+}

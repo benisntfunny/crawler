@@ -7,5 +7,5 @@
     "/s/search\\-result",
     "/s/login"
   ],
-  "refreshSeconds": 1
+  "refreshSeconds": 10000000
 }

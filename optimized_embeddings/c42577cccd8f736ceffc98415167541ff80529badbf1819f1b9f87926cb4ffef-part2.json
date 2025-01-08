@@ -1,0 +1,45 @@
+{
+    "id": "c42577cccd8f736ceffc98415167541ff80529badbf1819f1b9f87926cb4ffef-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_emails_considerations.htm&language=en_US&type=5",
+    "content": "nullSales Cloud Einstein\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Sales Cloud Einstein\n Increase Productivity with Sales Cloud Einstein\n Bring Intelligence to Your Daily Workflow with Sales Cloud Einstein\n Build a Smarter Pipeline with Einstein Forecasting\n Understand How Sales Cloud Einstein Works\n Prepare for Sales Cloud Einstein\n Data Requirements for Sales Cloud Einstein\n Considerations for Setting Up Sales Cloud Einstein\n Considerations for Setting Up Einstein Automated Contacts\n Considerations for Einstein Generative AI Sales Emails\n Considerations for Setting Up Einstein Lead Scoring\n Considerations for Setting Up Einstein Opportunity Scoring\n Considerations for Setting Up Einstein Forecasting\n Sales Cloud Einstein and Sandbox\n Run the Sales Cloud Einstein Readiness Assessor\n Set Up Sales Cloud Einstein\n Analyze Sales Cloud Einstein Data with Reporting\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nSALES CLOUD EINSTEIN\nConsiderations for Einstein Generative AI Sales Emails\n\nSales Emails lets your team use Einstein generative AI to create personalized and contextualized emails to send to your contacts and leads. But whether you’re an admin setting things or a sales rep powering through your day, keep these considerations in mind.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience\nAvailable with the Einstein for Sales add-on, which is available for an extra cost in Performance and Unlimited Editions.\nGeneral\nField-level security is enforced. If users don’t have access to a field used for email grounding, then that field data isn’t used. The sales rep sees a placeholder to customize as needed.\nSales Emails isn’t available in Government Cloud.\nSales Emails is available in Salesforce Sites for users with the appropriate permissions.\nIf Einstein Activity Capture is on, emails created with Einstein are captured and tracked like other emails, according to your settings.\nIf you have Inbox, your users need the permissions for Inbox in addition to the Sales Emails permissions.\nYou can generate up to 2,000 emails per hour per org, calculated on a rolling basis. If the limit is reached, the Draft with Einstein button isn’t available and users see an error message.\nDrafting Emails\nYou can use Einstein generative AI to draft emails when these conditions are met.\nAt least one recipient is listed in the To field. If you enter more than one recipient, Salesforce drafts an email for the first person in the recipient list that matches to a contact or lead record.\nThe recipient must have a lead or contact record in Salesforce. \nSales Emails supports drafting content for new emails. Replying to or forwarding an email isn’t supported.\nEinstein adds the output to the contents in the email composer.\nEinstein writes an email subject and replaces any text in the subject line. Each time you regenerate an email, the subject line is updated.\nDrafts must be reviewed and customized before you send them. The output can contain placeholders for missing or incomplete information.\nIf a field used for email context isn’t filled out in Salesforce, or if the user doesn’t have permission to access the field, then the draft output contains a placeholder. For example, if the Industry field is blank, the output sentence can look like this: “As someone in the [Customize: INDUSTRY] industry, I understand the unique challenges and opportunities.”\nThe draft output contains some portions for you to customize, such as to add specific meeting times or products. For example, the Send a Meeting Invite output can contain placeholders such as [Customize: DATE AND TIME].\nSome email types require certain information, such as a company name. If the data isn’t available in Salesforce, you don’t see the email type in the dropdown.\nPrompt Builder supports these languages for generative responses.\nEnglish\nFrench\nGerman\nItalian\nJapanese\nSpanish\nIMPORTANT This tool uses generative AI, which is known to include inaccurate or harmful responses. Before sharing externally, review the output for accuracy and safety. You assume responsibility for the output when sharing.\nSEE ALSO\nUnderstand How Einstein Generative AI Creates Sales Emails\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Considerations for Setting Up Einstein Generative AI Sales Emails",
+    "keywords": [
+        "Einstein Generative AI",
+        "Sales Cloud Einstein",
+        "AI Sales Emails",
+        "Generative AI Responses",
+        "Salesforce Add-on"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_productivity_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_daily_intelligence_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_scoring_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_how_it_works_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup_prep.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_considerations.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup_enable_lead_insights.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.sales_einstein_reporting.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.wave_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.sales_einstein_standard_reports_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_emails_overview.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.1555463969707489,
+        -0.4204351603984833,
+        0.5448201894760132,
+        -0.36053985357284546,
+        0.30050480365753174,
+        -0.5573683977127075,
+        0.39611896872520447,
+        -0.33683788776397705,
+        0.3811118006706238,
+        -0.47782695293426514,
+        0.06718389689922333,
+        -0.05953030288219452
+    ]
+}

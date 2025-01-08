@@ -1,0 +1,41 @@
+{
+    "id": "5bb33f5ddff1cfb51b51f9a3ec7c7aa7e1384a7f246f0f3bf70ba810b43e67c9-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.collab_admin_files_customize_files_detail_page.htm&language=en_US&type=5",
+    "content": "nullSet Up and Maintain Collaboration Tools\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Set Up and Maintain Collaboration Tools\n Salesforce Chatter\n Salesforce Files\n Add the Files Related List to Page Layouts\n Customize the Files Detail Page\n Prevent Users from Attaching Salesforce Files\n Add File Privacy on Records to Edit File Details Layout\n Set File Sharing to Inherit Record Permissions\n Configure File Upload and Download Security Settings\n Enable Content Deliveries and Public Links\n Regenerate a File Preview\n Salesforce Files Storage Allocations\n Asset Files\n Salesforce Files: What’s Different or Not Available in the...\n Salesforce Files Connect\n Salesforce CRM Content\n Google Apps\n Collaboration Resources for Admins\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nSET UP AND MAINTAIN COLLABORATION TOOLS\nCustomize the Files Detail Page\n\nIn Lightning Experience, you can customize the fields and layout of the Files detail page. Use record types to customize the layouts of different record types, and tailor the data you capture based on the file type. Choose from standard fields to show when the file was last updated, file size, file type, and more. Create custom fields and buttons to track metadata that’s specific to your business, to use in validation rules, and to provide data for searches and reports. Use record types to customize the page layouts of different file record types.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience\nAvailable in: Essentials, Group, Enterprise, Professional, Performance, Unlimited, Contact Manager, and Developer Editions\n\nTo see the Files Detail Page, set up at least one custom record type (in addition to General, the default type).\n\nFrom Setup, enter Object Manager in the Quick Find box, and click Object Manager.\nIn the Object Manager, click Content Version, then click Page Layouts.\nCreate a new page layout or open the existing page layout that you use for the Edit File Details page.\n\nThese check boxes can be added to the page layout of the edit file detail page:\n\nAdd File Privacy on Records to Edit File Details Layout Lets file owners control the visibility of files attached to records.\nPrevent Others from Sharing and Unsharing a FileLets file owners prevent others from sharing and unsharing their file. (Checking this box doesn’t affect existing shares of a file.)\n\nThe custom layout displays when users view or edit file details from the actions arrow on Files home, or edit file details from a file preview. However, from the files related list on a record, clicking Edit File Details displays the default file detail page instead of the custom layout. To see the custom file detail page layout on a file attached to a record, click the file title to open the file preview, and then click Edit File Details.\n\nFrom the Content Version object in Object Manager, you can also:\n\nCreate custom fields and buttons to track metadata to use in validation rules and provide data for searches and reports.\nCreate validation rules for files added to libraries, records, and Files home. By requiring users to follow naming conventions or fill in mandatory fields, you can improve the quality of the data and metadata in your org.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Customizing Salesforce File Details Page",
+    "keywords": [
+        "Salesforce Chatter",
+        "file sharing",
+        "collaboration tools",
+        "metadata management",
+        "validation rules",
+        "content version object"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.collaboration_admin_welcome.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_setting_up.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_pbr.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_enable.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_group_settings.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_feed_post_editing.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_feed_tracking_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_feed_item_actions.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_group_layouts.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_topics.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_chatter_dt.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collaboration_admin_files.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.admin_files_asset_files.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_files_connect.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_crm_content.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_content_libraries.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.admin_files_libraries_component.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_content_settings.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_google_apps.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US"
+    ],
+    "embedding": [
+        0.7305960655212402
+    ]
+}

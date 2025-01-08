@@ -1,0 +1,47 @@
+{
+    "id": "e34e7822474acfbd69ed001495e58e771e32e1f3e3dd9cbe37b9a4488d9bd039-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.devops_center_work_item_available_changes_list.htm&language=en_US&type=5",
+    "content": "nullManage and Release Changes Easily and Collaboratively with DevOps...\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Manage and Release Changes Easily and Collaboratively with DevOps...\n Get Started with DevOps Center\n Work Item Management\n Are You Sharing a Development Environment?\n What Happens When a Sandbox Is Refreshed\n Determine Which Changes to Include for the Work Item\n Exclude Metadata from the Changes List\n Pull Changes from the Development Environment\n Available Changes List\n Add Any Metadata Component Manually\n Commit Changes to the Source Control Repository\n View Work Item Events in Activity History\n Synchronize Your Development Environment\n Review Changes with Team Members\n Indicate That Work Items Are Ready to Promote\n External Change Requests and Merges\n Promote Work Items Through Your Pipeline\n View Pipeline Events in Activity History\n Conflict Detection and Resolution\n Troubleshoot DevOps Center Errors\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nDEVOPS CENTER\nAvailable Changes List\n\nWhen you connect a source-tracked development environment to a work item and pull changes, DevOps Center displays a list of all files that it has identified as changed. These changes aren’t associated with the work item until you select and commit them to the source control repository. After a change is committed, it no longer appears in the Available Changes list.\n\nAny changes that you don’t select and commit are again displayed in the Available Changes list. The changes are available to include in this work item (in another commit) or in another work item after you click the Pull Changes button.\n\nIn the work item Changes tab, DevOps Center lists all files that source tracking has identified as changed (1). DevOps Center also lists how many files were pulled and how many new files are available to pull (2). DevOps Center can retrieve approximately 40 changes at a time. You can keep clicking Pull Changes until all changes are listed.\n\nIf you excluded metadata from being pulled in the .forceignore file, we show you how many files were ignored during the pull operation (2). If you deleted files in your development environment, they’re marked as REMOVE (3).\n\nIf your changes list contains many items, all columns in the list are sortable. Click the column header to sort (4).\n\nIf You Change Your Mind After You Commit Changes\n\nLet’s say you commit changes for the work item but decide to remove some or all of the changes from the work item. In this case, you can change the Status of the work item to Never if you haven’t yet promoted the changes to the first pipeline stage. When you change the status to Never, the source tracking for all the included changes is reset. The changes are returned to the available changes list, where they can be committed in another work item. See Change Work Item Status to Never for more details.\n\nIf You Connect to a Non-Source-Tracked Sandbox\n\nIf you accidentally defined a non-source-tracked sandbox as your development environment, DevOps Center can't identify what has changed. Consequently, you can’t log in to the environment from the work item or pull changes. You have two options:\n\nTo select another sandbox that has source tracking enabled, click Change….\nEnable source tracking, refresh the sandbox, and then swap it. When you refresh a sandbox, you must reconnect it in DevOps Center. See Swap a Development Environment.\nIf Your Changes Include Deleted Metadata\n\nWhen you delete a component in the development environment and pull the change, it appears as a REMOVE change type. When you commit and subsequently promote this change, the component is removed from the target stage, leveraging the Metadata API destructive changes functionality.\n\nIf the files currently exist in the source control repo, you can commit deleted files by themselves. If the files don’t exist in the source control repo, you must commit another change with the removed files before you can create a change request for the work item.\n\nAt the top of the work item, you see a warning message.\n\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Managing Changes in DevOps Center",
+    "keywords": [
+        "DevOps",
+        "Change Management",
+        "Source Control",
+        "Pipeline Events",
+        "Conflict Detection",
+        "Metadata API"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_get_started.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_work_item_management.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_work_item_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_sandbox_refresh.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_work_item_changes_tab.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_work_item_commit_changes.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_work_item_review.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_work_items_promote.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_promotion_stalled.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_promotion_conflict_detection.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_troubleshooting.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_work_item_never.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_dev_environment_swap.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.6845176815986633,
+        0.3163866400718689,
+        0.22938860952854156,
+        -0.20753264427185059,
+        0.0012731067836284637,
+        0.100540891289711,
+        -0.7348464727401733,
+        -0.2101304531097412,
+        0.4795255661010742,
+        -0.4455125629901886,
+        0.21465611457824707,
+        0.6361875534057617
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "id": "4d826dee30120f1bc7589097a0f7abff6803959ca8062ff8988fbe311746db00-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.um_channel_sms_short_code.htm&language=en_US&type=5",
+    "content": "nullUnified Messaging\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Unified Messaging\n What’s Unified Messaging?\n Unified Messaging Setup\n Connect to Data Cloud\n Set Up Unified WhatsApp\n Set Up Unified Email\n Set Up Unified SMS\n Request a Brand for a United States 10-Digit Code\n Request a Campaign for a United States 10-Digit Long Code\n Request a United States 10-Digit Long Code\n Short Codes for SMS Unified Messaging\n Activate Your SMS Code\n Sample SMS Message and Related Information for Unified Messaging\n SMS Engagement Data in Unified Messaging\n Create a Branded Domain for Unified Messaging\n Unified Messaging Consent\n Inactive Unified Messaging Channels and Deprovisioning\n Unified Messaging Credit Usage\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nUNIFIED MESSAGING\nShort Codes for SMS Unified Messaging\n\nReview these guidelines and restrictions for using sender codes for SMS sending in the United States and Canada.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience\nUnified Messaging for WhatsApp is available in Enterprise and Unlimited Editions for Marketing Cloud Engagement and Service Cloud Digital Engagement\nUnified Messaging for Email and SMS is available in Enterprise and Unlimited Editions for Marketing Cloud Growth\nNot supported in Government Cloud Plus\n\nThe information provided doesn’t, and isn’t intended to, constitute legal advice. Instead, all information is for general informational purposes only. Consult your own independent legal counsel for guidance on its use cases and applicable legal and industry requirements. SMS Messaging in the United States and Canada is highly regulated by US and CA carriers and applicable laws. Salesforce supports the use of sanctioned, carrier-approved short codes only, for US and CA SMS messaging. The registration process can take several weeks, so make sure to plan ahead. Unified Messaging doesn’t support MMS messaging.\n\nGeneral Guidelines and Deliverability\nOVERVIEW\nCountry\tUnited States\nISO 3166 Country Code\tUS\nInternational Dialing Code\t1\nMajor Carriers\t\nAT&T\nSprint\nT-Mobile\nVerizon\n\nFrom Name Support\tNo\nUnicode Support\tNo\nInternational Code Support\tNo\nLocal Partner Required for Delivery\tNo\nMessage Length Maximum\t160 characters\nConcatenation Support\t\n\nYes (for private codes only)\n\nDependent on aggregator route\nSMS Code Provisioning Guidelines\n\nShort codes are registered and applied for and approved by carriers for each campaign. Short code registration is completed with a Salesforce Services agreement or Mobile Approved Partner. Check out the list of approved partners for U.S. and Canada private short code acquisition services. If a client doesn't use Salesforce services, they’re advised to use these approved carriers.\n\nAccenture\nCapgemini\nCloud for Good\nCoastal Cloud\nCognizant\nDeloitte\nDentsu (Merkle/DEG)\nIBM\nListEngage\nMagna Technology Group\nMedia.monks\nVibable\nOffprem Technology\nOSF\nWunderman Thompson (formerly Pierry Inc.)\nPublicis Sapient (publicisgroupe.net)\nPwC\nSilverline\nSlalom\nMessaging Requirements\n\nUse a call to action to engage your users. For example, send a prompt to a user to opt in to receive offers or enter a contest.\n\nA call to action must include:\n\nProgram name\nMessage frequency\nLink to customer terms and conditions with privacy policy and help information\n\nTerms and conditions must include:\n\n“Text STOP to stop”, including bold STOP.\n“Text HELP for help”, including bold HELP.\nA description of how the user opts in.\nHow the call to action is delivered. For example: web, in-store signage.\nNOTE If you send a web form, text boxes can’t be pre-checked.\nAn opt-in keyword that, if not a web form, must be in bold.\nScreenshots of the call to action and message flow.\nRestricted Content\n\nCarriers can restrict messaging with the listed content:\n\nS.H.A.F.T. Content related to Sex, Hate, Alcohol, Firearms, and Tobacco is strictly prohibited.\nContent relating to illegal substances, including cannabis and cannabis-related products, such as cannabidiol (CBD), vaping products or devices, marijuana or cannabis, or dispensaries is prohibited.\nSPAM, fraud, phishing\nLead-generation programs\nDeceptive programs\nHigh-risk financial services, such as payday loans, short-term loans, third-party home and auto loans, student loans, and debt collection\nDebt forgiveness, debt consolidation, debt reduction, and credit repair programs\nIllegal prescriptions or drug endorsements\nWork and investment opportunities, such as work-from-home programs, job alerts from third-party recruiting firms, and risk investment opportunities\nCarrier competitive promotions\nFraudulent or misleading messages\nGambling\nProfanity\nDepictions or endorsement of violence\nLead generation indicating the sharing of collected information with third parties\nShort code programs that solicit charitable or political donations that don’t comply with CTIA best practices.\nAbandoned shopping cart notifications without applicable consent\nCampaign Types not in compliance with the Messaging Principles and Best Practices, CTIA Short Code Monitoring Handbook, and any other legal regulatory body governing telecommunication systems in this country\nBest Practice and Compliance References\nWMC Global Resources for the United States, including the CTIA Short Code Monitoring Handbook\nMobile Marketing Association U.S. Consumer Best Practices for Messaging\nMobile Marketing Association Code of Conduct\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Short Codes and Unified Messaging Guidelines",
+    "keywords": [
+        "short codes",
+        "unified messaging",
+        "sms marketing",
+        "telecom regulations",
+        "marketing best practices"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.um_unified_messaging.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.um_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.um_channel_whatsapp.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.um_prepare.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.um_channel_email.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.um_channel_sms.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.um_consent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US"
+    ],
+    "embedding": [
+        0.1219378411769867,
+        -0.5150693655014038,
+        -0.23824641108512878,
+        0.2774885594844818,
+        1.0369629859924316,
+        0.3407946527004242,
+        -0.15403307974338531,
+        -0.7380505204200745,
+        -0.5310170650482178,
+        0.10524459183216095,
+        -0.7300200462341309,
+        0.015635035932064056,
+        0.4503135085105896,
+        0.9225590229034424,
+        -0.4789149761199951,
+        0.13208220899105072,
+        -0.598421573638916,
+        0.6297191381454468,
+        -0.7675458788871765,
+        -0.09451021254062653,
+        0.9959603548049927,
+        -0.16714617609977722,
+        0.04489950090646744
+    ]
+}

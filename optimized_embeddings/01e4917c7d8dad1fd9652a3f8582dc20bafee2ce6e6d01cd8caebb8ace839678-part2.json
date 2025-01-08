@@ -1,0 +1,44 @@
+{
+    "id": "01e4917c7d8dad1fd9652a3f8582dc20bafee2ce6e6d01cd8caebb8ace839678-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sfdo.ASL_Accounting_Field_Mappings.htm&language=en_US&type=5#ASL_Accounting_Field_Mappings",
+    "content": "nullAccounting Subledger\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Accounting Subledger\n Accounting Subledger Basics\n Accounting Subledger Setup\n Transaction Journal Records in Accounting Subledger\n Transaction Journal Fields in Accounting Subledger\n Source Records Eligibility\n Accounting States and Data Generation\n Debits and Credits\n GL Codes\n Revenues and Expenses\n Set Up Page Layouts for Transaction Journal Records\n Payment Methods\n Cash Flow Grouping\n Accounting Field Mappings\n Mapping Behavior\n Compatible Data Types\n Troubleshoot Issues with Transaction Journal Record Creation\n Accounting Sets\n Accounting Subledger Jobs\n Accounting Subledger Data Adjustments\n Accounting Subledger Data Export\n Accounting Subledger Limitations\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nACCOUNTING SUBLEDGER\nAccounting Field Mappings\n\nCreate accounting field mappings to bring your data to custom fields on transaction journal records.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience\nAvailable in: Enterprise, Performance, Unlimited, and Developer Editions with Accounting Subledger\n\nTransaction journal records include default fields populated from eligible source objects. If your accounting system requires data beyond the default fields, create custom fields and accounting field mappings in accounting sets to copy your data to those custom fields. For example, your GAU Allocation object has custom fields that represent different donor categories in your organization. To reflect this breakdown on the generated cash flows, create matching custom fields on the Transaction Journal object.\n\nMapping Behavior\nThe mapping behavior controls whether Salesforce creates transaction journal records when the source data changes.\nCompatible Data Types\nMapped fields must be of compatible data types.\nMapping Behavior\n\nThe mapping behavior controls whether Salesforce creates transaction journal records when the source data changes.\n\nPoint-in-time: Copies the source field value to the transaction journal record target field when Accounting Subledger creates the record. Salesforce ignores any subsequent updates to the source field, and doesn't create more transaction journal records.\nCurrent value: Copies the source field value to the transaction journal record target field when Accounting Subledger creates the record. Salesforce evaluates subsequent source value updates, and creates reversals and other records accordingly. Don't add automation that updates transaction journal record values. If you do, Accounting Subledger sometimes creates unnecessary reversals and transaction journal records. Instead, create a second field outside of any accounting field mapping to store the transaction journal record value, and add automation to that second field. Use the source value on the transaction journal record only for mapping and comparison. Some objects such as the Fund object don't support the current value behavior.\nCompatible Data Types\n\nMapped fields must be of compatible data types.\n\nSOURCE FIELD DATA TYPE\tCUSTOM FIELD DATA TYPE\nCheckbox\tCheckbox\nCurrency\tCurrency, number\nDate\tDate\nDate/Time\tDate/Time\nEmail\tEmail, text, text area\nNumber\tCurrency, number\nPercent\tNumber, percent\nPhone\tPhone, text, text area\nPicklist\tPicklist, picklist (multi-select), text, text area\nPicklist (combo box)\tPicklist, string, text area\nPicklist (multi-select)\tPicklist (multi-select), text, text area\nReference\tEmail, phone, reference, text, text area\nText area\tText, text area\n\nSee Create Custom Fields and Create Accounting Field Mappings.\n\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Understanding Accounting Subledger Mapping Behavior",
+    "keywords": [
+        "accounting subledger",
+        "mapping behavior",
+        "compatible data types",
+        "transaction journal records",
+        "custom fields",
+        "field mappings",
+        "salesforce accounting"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sfdo.Accounting_Subledger.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ASL_Basics.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ASL_Setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ASL_TJ_Records.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ASL_TJ_Fields.htm&language=en_US&type=5#ASL_TJ_Fields",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ASL_Accounting_Field_Mappings.htm&language=en_US&type=5#ASL_Accounting_Field_Mappings",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ASL_Accounting_Sets.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ASL_Configure_Accounting_Set_Settings.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ASL_Acct_Set_Example_Config.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ASL_Jobs.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ASL_Adjustments.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ASL_Export.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ASL_Accounting_Field_Mappings.htm&language=en_US&type=5#ASL_Mapping_Behavior",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ASL_Accounting_Field_Mappings.htm&language=en_US&type=5#ASL_Compatible_Data_Types",
+        "https://help.salesforce.com/s/articleView?id=sf.adding_fields.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ASL_Create_Accounting_Field_Mappings.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.28916501998901367,
+        0.3635779321193695,
+        1.2194218635559082,
+        -0.49164018034935,
+        -0.45838046073913574,
+        -0.04562310129404068
+    ]
+}

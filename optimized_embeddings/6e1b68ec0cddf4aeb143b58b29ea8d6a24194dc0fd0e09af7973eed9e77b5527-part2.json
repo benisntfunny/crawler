@@ -1,0 +1,46 @@
+{
+    "id": "6e1b68ec0cddf4aeb143b58b29ea8d6a24194dc0fd0e09af7973eed9e77b5527-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.video_call.htm&language=en_US&type=5",
+    "content": "nullVirtual Calls\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Virtual Calls\n Get Your Org Ready for Virtual Calls\n Amazon Account Requirements\n Enable Virtual Calls\n Connect Amazon to Salesforce\n Configure External Video Service\n Configure Virtual Calls\n Create a Named Credential for Virtual Calls\n Add Video Appointment Types\n Enable Transcription of Virtual Calls\n Add the Video Call Component to the App Utility Bar\n Virtual Calls Self Service\n Setup an Email Appointment Link for Authenticated Users\n Set Up an Email Appointment Link for Guest Users\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nVIRTUAL CALLS\nVirtual Calls\n\nCustomer service is no longer confined to the four walls of a physical facility. With Virtual Calls, you can enable communication from anywhere.\n\nTransportation barriers, geographic barriers, mobility barriers, and limited appointment availability are significant obstacles to communicating with customers in person. Increase access by enabling Virtual Calls between consumers. Make it even more convenient for customers by providing self-service scheduling, automated appointment notifications, and easy access links to the video platform.\n\nGet Your Org Ready for Virtual Calls\nEnable and configure the required supporting features for Virtual Calls.\nAmazon Account Requirements\nVirtual Calls uses Amazon EventBridge API Destinations to connect events from Amazon Chime SDK to Salesforce Platform Events. Use your own Amazon Account to set up Virtual Calls.\nEnable Virtual Calls\nEnable Virtual Calls as your first step in setting up Virtual Calls.\nConnect Amazon to Salesforce\nCreate a connected app—a framework that enables an external application to integrate with Salesforce using APIs and standard protocols such as OAuth—to connect Amazon to Salesforce.\nConfigure External Video Service\nVirtual Calls integrates with Amazon Web Services (AWS) Chime SDK to offer your users an easy-to-use, feature-rich video platform.\nConfigure Virtual Calls\nNow that you have the AWS account setup and connection to Salesforce done, you can configure the Virtual Calls utility. Input the appointment types that use the video feature, choose a transcription type, and provide the storage place for transcripts.\nCreate a Named Credential for Virtual Calls\nCreate a named credential to specify the URL of an AWS Chime callout endpoint and its required authentication parameters. Then specify the named credential as a callout endpoint to let Salesforce handle all authentication to AWS Chime.\nAdd Video Appointment Types\nTo differentiate video calls from other types of appointments, add Video picklist values to the Default Appointment Type Picklist.\nEnable Transcription of Virtual Calls\nVirtual Calls use Amazon Transcribe or Amazon Transcribe Medical to provide real-time audio transcriptions. These text captions can be displayed in the video interface to improve accessibility.\nAdd the Video Call Component to the App Utility Bar\nMake it easy for your user to join a video call by adding the video call component to the Salesforce utility bar.\nVirtual Calls Self Service\nMake Virtual Calls even more convenient for customers by creating an Experience site with self-scheduling. Provide an intuitive video platform, automated appointment notifications, and easy access links for authenticated and guest users.\nSetup an Email Appointment Link for Authenticated Users\nLet your patients know with an automated email that their appointment is confirmed. Provide a convenient button in the email to access your Experience Cloud site.\nSet Up an Email Appointment Link for Guest Users\nConfirm a guest user’s appointment with an automated email that includes a button to access your Experience Cloud site where they can access their video visit.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Setting Up Virtual Calls in Salesforce",
+    "keywords": [
+        "Virtual Calls",
+        "Customer Service",
+        "Amazon Account Requirements",
+        "Salesforce Integration",
+        "Video Platform",
+        "Self-Scheduling",
+        "Automated Appointment Notifications",
+        "Easy Access Links"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.video_call.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.video_call_self_service.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.video_call_self_service_give_users_access_to_your_experience_cloud_site.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.video_call_get_your_org_ready.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.video_call_bring_your_own_amazon_account.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.video_call_enable.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.video_call_connect_amazon_to_salesforce.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.video_call_configure_external_video_service.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.video_call_configure.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.video_call_create_a_named_credential.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.video_call_add_video_appointment_types.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.video_call_transcription.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.video_call_add_component_to_app_utility_bar.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.video_call_email_link_authenticated.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.video_call_email_link_guest.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.21498741209506989,
+        -1.085728406906128,
+        0.22172945737838745,
+        -0.21509042382240295,
+        -0.18245543539524078,
+        0.11302779614925385,
+        -0.07788190990686417,
+        0.2851928770542145
+    ]
+}

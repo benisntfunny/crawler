@@ -1,0 +1,51 @@
+{
+    "id": "6ad765e45f7a8e99debbb26a1b81f0f457acaf6d399b1063df7ce1e7c00f1f55-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.collab_group_records_enabling.htm&language=en_US&type=5",
+    "content": "nullSet Up and Maintain Collaboration Tools\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Set Up and Maintain Collaboration Tools\n Salesforce Chatter\n Profile-Based Chatter Rollout Overview\n Encryption for Chatter\n Chatter Settings\n Chatter Group Settings\n Chatter Group Archiving\n Enable Records in Chatter Groups\n Enable Unlisted Chatter Groups\n Unlisted Group Limitations\n Set the Format of Timestamps on Case Feed Posts\n Convert Character Combinations into Emoticons in the Feed\n Let Users Set Out-of-Office Messages in Chatter\n Customer Invitations\n Coworker Invitations\n Enable Add Actions in the Chatter Publisher\n Feed Post and Comments Editing Overview\n Publisher Actions and Layouts\n Enable Code Snippets and Assign Permissions to Use Them\n Assign Pin Post Permission\n Feed Tracking\n Chatter Email Settings and Branding\n Add Your Custom Brand to Email Notifications\n Chatter Post Actions and Layouts\n Group Layouts\n Topics for Objects\n Customize Chatter Influence\n Allow Users to Thank Their Coworkers\n Guidelines for Deleting Your Users’ Chatter Messages\n Report on Chatter with the Dashboards Package\n Chatter Desktop\n Salesforce Files\n Salesforce Files Connect\n Salesforce CRM Content\n Google Apps\n Collaboration Resources for Admins\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nSET UP AND MAINTAIN COLLABORATION TOOLS\nEnable Records in Chatter Groups\n\nBy default, records are allowed in groups. But you can also customize the group publisher to include the Add Record action, so users can add records to groups.\n\nREQUIRED EDITIONS\nAvailable in: both Salesforce Classic (not available in all orgs) and Lightning Experience\nAvailable in: Essentials, Group, Professional, Enterprise, Performance, Unlimited, Contact Manager, and Developer Editions\n\nThe Add Record action on the group publisher lets users add records to groups. Users can add account, contact, lead, opportunity, contract, campaign, case, and custom object records. The Add Record action isn’t available by default. But you can configure the group publisher to include it.\n\nConsider also customizing object layouts to include the Groups related list on record detail pages. The Groups related list shows users the list of groups that are associated with the record. Customize the layout of all the standard and custom objects in your organization that support group-record relationships.\n\nIf you don’t want users to add records to groups, enter Chatter in the Quick Find box in Setup, then select Chatter Settings, and deselect Allow records in groups in the Groups section. Disabling the feature hides the Group Records list on the group detail page and the Add Record action in the group publisher.\n\nFor custom objects, you can choose which record types users can add to groups. For each custom object that you want to manage, go to the custom object detail page and, under Optional Features, select Allow in Chatter Groups.\n\nNOTE Custom object records added to a group before Summer ’15, when selecting record types was added, continue to appear in the Group Records list. Be sure to enable this feature for each existing custom object that you want to allow in groups.\nSEE ALSO\nCustomize the Chatter Group Layout and Publisher\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Configure and Manage Collaboration Tools",
+    "keywords": [
+        "collaboration tools",
+        "salesforce chatter",
+        "group records",
+        "record management",
+        "object layouts",
+        "custom object records",
+        "chatter settings"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.collaboration_admin_welcome.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_setting_up.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_pbr.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_enable.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_group_settings.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_feed_post_editing.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_feed_tracking_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_feed_item_actions.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_group_layouts.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_topics.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_chatter_dt.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collaboration_admin_files.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.admin_files_asset_files.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_files_connect.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_crm_content.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_content_libraries.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.admin_files_libraries_component.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_content_settings.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_google_apps.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.overview_edition_lex_only.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_group_layout_customize.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.4238981604576111,
+        -0.1166674792766571,
+        0.09159323573112488,
+        -0.40733110904693604,
+        0.13691791892051697,
+        -0.32655563950538635,
+        -0.3907759487628937,
+        0.3414243459701538
+    ]
+}

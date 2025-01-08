@@ -1,0 +1,35 @@
+{
+    "id": "727af9c27d5e14426f3a4a195665823220c031ecc6a275b6fb99281994b49d6a-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup_enable_els_errors.htm&language=en_US&type=5",
+    "content": "nullSales Cloud Einstein\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Sales Cloud Einstein\n Increase Productivity with Sales Cloud Einstein\n Bring Intelligence to Your Daily Workflow with Sales Cloud Einstein\n Build a Smarter Pipeline with Einstein Forecasting\n Understand How Sales Cloud Einstein Works\n Prepare for Sales Cloud Einstein\n Set Up Sales Cloud Einstein\n Access the Sales Cloud Einstein Setup Assistant\n Select Who Can Use Sales Cloud Einstein\n Set Up Einstein Activity Capture for Sales Cloud Einstein\n Enable Einstein Lead Scoring\n Enable Einstein Automated Contacts\n Set Up Sales Emails\n Enable Einstein Opportunity Scoring\n Enable Einstein Forecasting\n Troubleshoot Sales Cloud Einstein Setup Errors\n Analyze Sales Cloud Einstein Data with Reporting\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nSALES CLOUD EINSTEIN\nTroubleshoot Sales Cloud Einstein Setup Errors\n\nWhen setting up Sales Cloud Einstein features, several important steps occur behind the scenes. If one of the steps isn’t successful, one or more features can’t be enabled. There are several ways to troubleshoot setup issues.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience and Salesforce Classic.\nAvailable with Sales Cloud Einstein, which is available for an extra cost in: Enterprise, Performance, and Unlimited Editions\n\nIf you still have issues after following the troubleshooting steps, contact Salesforce Customer Support.\n\nVerify the Integration User Profile Details\n\nSales Cloud Einstein creates an integration user and assigns it an integration user profile. We updated the names of the integration user, profile, and connected app. If you purchased Sales Cloud Einstein before April 15, 2019, the old and updated names are listed in your org. When troubleshooting setup issues, refer only to the updated names and IP addresses.\n\nINTEGRATION USER NAME\tINTEGRATION USER PROFILE NAME\tCONNECTED APP\nSales Insights Integration\tSales Insights Integration User\tOIQ_Integration\nSUPPORTED IP ADDRESSES\t\n\n\n35.155.249.183\n\n35.160.107.125\n\n35.163.185.97\n\n35.163.211.82\n\n35.163.248.132\n\n35.164.15.153\n\n35.164.61.92\n\n35.165.218.130\n\n44.224.239.117\n\n44.224.5.68\n\n44.225.115.174\n\n44.225.191.69\n\n100.21.158.232\n\n\t\n\n44.225.239.10\n\n44.225.27.211\n\n44.226.10.160\n\n44.226.28.151\n\n44.226.81.25\n\n52.26.247.68\n\n52.40.129.165\n\n52.40.253.214\n\n54.148.110.202\n\n54.200.204.60\n\n54.214.184.254\n\n54.69.64.221\n\n100.21.112.198\n\nConfirm that the integration user profile:\n\nIs assigned to the integration user.\nHas read access to the relevant objects and fields. For example, for Einstein Lead Scoring to determine which fields are important to your lead conversion patterns, the integration profile needs access to all lead fields.\nHas a supported login IP addresses assigned. See table.\nHas access to the connected app. Here’s how to check access.\nFrom Setup, enter Profiles in the Quick Find box, and then select Profiles.\nClick the Sales Insights Integration User profile.\nFrom the Connected App Access section, confirm that the profile has access to the OIQ_Integration connected app.\nVerify the Connected App Details\n\nSales Cloud Einstein features use a connected app to create a secure connection between Salesforce data and our sales intelligence infrastructure.\n\nConfirm that the app is installed.\nFrom Setup, enter Installed Packages in the Quick Find box.\nConfirm that the Sales Insights package is listed under Installed Packages.\nIf you don’t see the package in the list, download it from the Salesforce App Installation page.\nConfirm that the connected app has the correct OAuth policy and user profile assigned.\nFrom Setup, enter Connected Apps in the Quick Find box, and then click Manage Connected Apps.\nClick the OIQ_Integration app.\nFrom the OAuth Policies section, confirm that the Permitted Users field is set to Admin approved users are pre-authorized.\nFrom the Profiles related list, confirm that the Sales Insights Integration User profile is assigned.\nSEE ALSO\nSet Up Sales Cloud Einstein\nConsiderations for Setting Up Sales Cloud Einstein\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Troubleshooting Sales Cloud Einstein Setup Errors",
+    "keywords": [
+        "Salesforce Help",
+        "Sales Cloud Einstein",
+        "setup errors",
+        "integration user profile",
+        "connected app access"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_productivity_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_daily_intelligence_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_scoring_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_how_it_works_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup_prep.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_considerations.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_setup_enable_lead_insights.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.sales_einstein_reporting.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.wave_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.sales_einstein_standard_reports_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US"
+    ],
+    "embedding": [
+        -0.03608638048171997,
+        -0.2064095139503479,
+        0.521248996257782
+    ]
+}

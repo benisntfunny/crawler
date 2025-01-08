@@ -1,0 +1,53 @@
+{
+    "id": "7b80d55d48eef7fe4892486d43c3b0570a74f0cc2ae537c80cea8ad73245f455-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.copilot_actions_custom.htm&language=en_US&type=5",
+    "content": "nullEinstein Generative AI\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Einstein Generative AI\n About Einstein Generative AI\n Einstein Generative AI Features\n Set Up Einstein Generative AI\n Einstein Generative AI for Developers\n Einstein Trust Layer\n Einstein Audit and Feedback Data\n Prompt Builder\n Einstein Copilot\n What's Einstein Copilot?\n Set Up Einstein Copilot\n Einstein Copilot Actions\n Standard Action Reference\n Extend Your Copilot with Custom Actions\n Create a Custom Action\n Best Practices for Instructions\n Actions and LLM Use\n Einstein Data Library\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nEINSTEIN GENERATIVE AI\nExtend Your Copilot with Custom Actions\n\nCustom actions help you extend your copilot so it can assist users with tasks specific to your business.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience\nAvailable in: Enterprise, Performance, and Unlimited Editions with the Einstein for Sales, Einstein for Service, or Einstein Platform add-ons\n\nWhen you create a custom action, you build it on top of platform functionality you want to make available in Einstein Copilot, such as invocable Apex classes, autolaunched flows, or prompt templates. Adding custom actions lets you customize your copilot and get more mileage out of your current Salesforce platform capabilities.\n\nAccess to a custom copilot action depends on the type of Salesforce action it references. For example, if a custom action was built using a flow, the custom action adheres to the permissions, field-level security, and sharing settings configured in the flow.\n\nCreate a Custom Copilot Action\nWith custom actions, you can extend your copilot with Salesforce functionality so it’s ready to assist users with tasks specific to your business. Build custom actions using invocable Apex classes, autolaunched flows, and prompt templates.\nBest Practices for Einstein Copilot Action Instructions\nAction instructions tell a copilot what your action does and when to use it in a conversation. When you create a custom action, carefully plan and test your instructions to ensure that your action performs as expected.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Extending Einstein Copilot with Custom Actions",
+    "keywords": [
+        "custom actions",
+        "Einstein Copilot",
+        "Salesforce Extensions",
+        "AI Assistant",
+        "Business Tasks"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.generative_ai.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.generative_ai_about.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.generative_ai_trust_layer.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.generative_ai_trust_arch.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.generative_ai_feedback.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.generative_ai_feedback_data_model.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.prompt_builder_about.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.prompt_builder_get_to_know.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.prompt_builder_manage_prompt_templates.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.prompt_builder_build_template.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.prompt_builder_ground_template.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.prompt_builder_fix_pilot_templates.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.prompt_builder_create_sales_email_template.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.prompt_builder_create_field_gen_prompt_template.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.prompt_builder_create_flex_prompt_template.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.prompt_builder_review_revise.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.prompt_builder_example_library.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.prompt_builder_how_users_work_with_templates.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.prompt_builder_give_users_access.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.copilot_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.copilot_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.copilot_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.copilot_setup_settings.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.copilot_actions.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.copilot_actions_ref.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.copilot_actions_custom.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.data_library_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.data_library_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.copilot_actions_custom_create_scratch.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.copilot_actions_instructions.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.18006427586078644,
+        0.08663488924503326,
+        0.1232469230890274
+    ]
+}

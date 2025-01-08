@@ -1,0 +1,52 @@
+{
+    "id": "0cdc26f83c46263f0390ab5bb762165a88e28a48f3ad89520830c2703c795893-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sfdo.AC_Staff_Verify_Review.htm&language=en_US&type=5",
+    "content": "nullAdmissions Connect Documentation\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Admissions Connect Documentation\n Learn About Admissions Connect\n Install Admissions Connect\n Admissions Connect Security\n Set Up School Data\n Admissions Connect Territories\n Admissions Connect Requirements\n Set Up Admission Reviews\n Set Up the Admissions Connect App\n Build Application Forms with OmniStudio\n Set Up a Portal\n Verify Your Admissions Connect Staff Review Setup\n Work with a List View for Rapid Reviews, Queue Pickup, and More\n Add a Reviewer\n Verify Applications\n Review Applications\n Assign Requirements\n Add Ad Hoc Documents or Tasks to an Application\n Make a Final Admissions Decision\n Report on Recruiting and Admissions\n Manage Application Data and Documents\n Admissions Connect Reference\n GDPR for Admissions Connect\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nADMISSIONS CONNECT\nVerify Your Admissions Connect Staff Review Setup\n\nConfigure list views to stay on top of applications and learn how to add reviewers to manage applications. Reviewers can then verify or upload documents and make the final admission decision.\n\nWork with a List View for Rapid Reviews, Queue Pickup, and More\nList views are your starting point for application verifications and reviews. List views help you keep track of what needs to be verified or reviewed.\nAdd a Reviewer\nYou can quickly add a reviewer directly from the Application or Application Review record pages. Or you can use the Application list view to select multiple Applications and assign multiple reviewers.\nVerify Applications\nWhen you verify an application, you check for overall completeness, looking at the data and documents provided by the applicant. You’ll probably look at transcripts, letters of recommendation, and more. Use an Applications list view as your starting point, then open individual application records. You can use the default All list view, one created by your admissions team, or one that you created. as your starting point, then open individual application records. You can use the default All list view, one created by your admissions team, or one that you created.\nReview Applications\nWhen you review an application, you make an admissions recommendation and leave supporting comments. Use a list view as your starting point, either for Applications or Application Reviews. You can use the default My Application Reviews list view, one created by your admissions team, or one that you created.\nAssign Requirements\nYou can assign requirements directly from an application. Say an applicant makes a mistake or changes their mind about what degree program to apply for. That might mean additional requirements are needed. Or maybe your institution handles a small amount of applications and you assign requirements individually.\nAdd Ad Hoc Documents or Tasks to an Application\nAdd one-off documents and tasks to an assigned Action Plan to show the items in the Application Checklist and on the Application Review page.\nMake a Final Admissions Decision\nWhen you make a final admissions decision, update the Application Status and Application Decision Date fields on the application record. You can make these updates directly on an application record, or you can mass edit these fields from an application list view.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Configuring Admissions Connect Staff Review Setup",
+    "keywords": [
+        "Admissions Connect",
+        "application review",
+        "staff reviewer",
+        "admission decision",
+        "list views"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sfdo.Admissions_Connect.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.AC_Learn.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.AC_Install.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.AC_Setup_Security.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.AC_Setup_School_Data.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.AC_Setup_Territories.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.AC_Setup_Requirements.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.AC_Setup_Reviews.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.AC_Setup_App.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.AC_Setup_Portal.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.AC_Staff_Verify_Review.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.AC_Report_HT.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.AC_Admin_Data_Mgmt.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.AC_Reference.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.AC_GDPR.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ac_staff_list_view.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ac_staff_add_reviewer.htm&language=en_US&type=5#ac_staff_add_reviewer",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ac_staff_application_verify.htm&language=en_US&type=5#ac_staff_application_verify",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ac_staff_application_review.htm&language=en_US&type=5#ac_staff_application_review",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ac_staff_requirements_assign.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ac_staff_requirements_add.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.ac_staff_admissions_decision.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.33527952432632446,
+        -1.2520588636398315,
+        -0.2898772358894348,
+        -0.6657010316848755,
+        -0.2937310039997101,
+        0.6506514549255371,
+        0.023209884762763977,
+        -0.1385035365819931,
+        0.48587554693222046,
+        -0.12805385887622833
+    ]
+}

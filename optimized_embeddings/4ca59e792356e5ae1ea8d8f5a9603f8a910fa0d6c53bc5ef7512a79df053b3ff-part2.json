@@ -1,0 +1,48 @@
+{
+    "id": "4ca59e792356e5ae1ea8d8f5a9603f8a910fa0d6c53bc5ef7512a79df053b3ff-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.customhelp_lex_prompt_example.htm&language=en_US&type=5",
+    "content": "nullIn-App Guidance\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n In-App Guidance\n Getting Started with In-App Guidance\n Types of In-App Guidance\n Considerations for Creating In-App Guidance\n Tips for Writing Effective In-App Guidance\n Permissions for Creating and Accessing In-App Guidance\n Create Prompts\n Create Walkthroughs\n Preview and Test In-App Guidance\n Resolve Errors and Warnings in In-App Guidance\n Limitations for In-App Guidance in Experience Cloud Sites\n Maintaining and Expanding In-App Guidance\n Managing Settings That Apply to All In-App Guidance\n Limits for In-App Guidance\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nIN-APP GUIDANCE\nTips for Writing Effective In-App Guidance\n\nCreate effective prompts and walkthroughs with engaging titles and appropriate resources.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience\nAvailable in: Essentials, Group, Professional, Enterprise, Performance, Unlimited, and Developer Editions\nAvailable with Enablement, which is available with Sales Cloud, Service Cloud, or Salesforce Platform for an additional cost in: Enterprise, Performance, Unlimited, and Developer Editions\nIn-app guidance in Experience Cloud sites with Partner Enablement requires an Enablement add-on license and supported PRM add-on license.\n\nFor use cases, benefits, and caveats of each type of prompt and walkthrough, see Types of In-App Guidance. Also, check out the User Engagement module on Trailhead.\n\nIn-App Guidance Examples from AppExchange\n\nFor examples of different types of in-app guidance in Lightning Experience, you can install packages from AppExchange.\n\nUSE CASE\tPACKAGES YOU CAN INSTALL\nExample prompts\t\nIn-App Guidance: Boost Sales User Productivity in Lightning Experience\nIn-App Guidance: Boost Service User Productivity in Lightning Experience\n\nExample walkthroughs\tIn-App Guidance Walkthroughs: Getting Started for Sales Users\nVoice and Tone\n\nIn general, use a conversational but concise tone when writing in-app guidance. For more voice and tone suggestions, check out these resources.\n\nSalesforce Voice and Tone Guidelines\nTrailhead: User Engagement\nTrailhead: Writing Style\nTitles\n\nUse keywords that emphasize the purpose and value of the feature or process to users. Avoid excessive exclamation marks.\n\nFor prompts, format your title with imperative phrases.\n\n EXAMPLE\nPROMPT TITLE WITH IMPERATIVE\t EXAMPLE\nPROMPT TITLE WITH NOUN PHRASES\nCreate shortcuts to favorite pages\tFavorites are a way to create shortcuts\nNew feature: Favorites\n\nFor walkthroughs, your title varies with each step.\n\nThe first step of the walkthrough welcomes the user and summarizes the content of the walkthrough.\nThe middle steps can be either instructional to describe how to complete an action or conceptual to provide information that helps users understand the use case, benefit, or purpose.\nThe last step gives users encouragement for taking the walkthrough.\nHeaders (Docked Prompts)\n\nThe header follows the title, so use it to indicate to the user what type of information is in the prompt. For example, Important Changes, New Feature, or List View Tips.\n\nBody Text\n\nElaborate on the title without restating it. Provide more information about the feature or process, mention the problem that the solution solves, or include common use cases.\n\nWrite in a minimal, straightforward style. Include content that’s directly relevant to the current task. Don’t include anything that users must refer to later. Focus on writing content that’s easy to understand and to execute.\n\nFloating and targeted prompts support rich text formatting such as bold, italics, and underline. Docked prompts also support rich text but provide more options, including colors, links, and lists.\n\nFor walkthroughs, the body varies with each step.\n\nThe first step of the walkthrough clearly states the goal and the benefits to the user before they start.\nThe middle steps provide more details about the process or concept.\nThe last step can include next steps or resources to keep the user engaged with the feature\nMedia\n\nKeep users engaged, hold attention, or illustrate a complicated subject with optional images. In a docked prompt, optionally embed a video. For image and video requirements, check out Considerations for In-App Guidance.\n\nButtons\n\nKeep button names consistent. For the optional Action button, the label indicates where users are going before they click.\n\nBUTTON\tRECOMMENDED LABEL\nDismiss\tDismiss\nAction\tTell Me More\n\nThe Action button can also link to a helpful resource that’s accessible from their current environment. When choosing a resource to link to, think about content that helps users complete their current task or is part of the call to action. Avoid linking to resources that require more clicking outside, which can take users further from their current environment.\n\nSEE ALSO\nTypes of In-App Guidance\nCreate Prompts\nCreate Walkthroughs\nConsiderations for Creating In-App Guidance\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Tips for Writing Effective In-App Guidance",
+    "keywords": [
+        "in-app guidance",
+        "writing tips",
+        "engagement modules",
+        "trailhead",
+        "salesforce voice and tone guidelines"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.customhelp_lexguid.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.iag_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.iag_adopt.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.iag_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.prm_support_license_template.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.customhelp_iag_types.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.customhelp_lex_prompt_consider.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.customhelp_lex_prompt_add.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.customhelp_lex_wt_add.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.5630547404289246,
+        0.16558896005153656,
+        1.0144481658935547,
+        -0.7774109840393066,
+        0.006167277693748474,
+        0.13915717601776123,
+        -0.6696558594703674,
+        -0.09736297279596329,
+        0.9351834058761597,
+        0.44692423939704895,
+        -0.7333800196647644,
+        -0.39784273505210876,
+        -0.41633960604667664,
+        -0.10666333138942719,
+        0.06620870530605316,
+        0.30335935950279236,
+        -0.2198440283536911,
+        0.04989367723464966,
+        0.22314995527267456
+    ]
+}

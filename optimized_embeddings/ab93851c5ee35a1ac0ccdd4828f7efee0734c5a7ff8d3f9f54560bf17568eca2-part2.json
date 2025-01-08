@@ -1,0 +1,44 @@
+{
+    "id": "ab93851c5ee35a1ac0ccdd4828f7efee0734c5a7ff8d3f9f54560bf17568eca2-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.devops_center_manage_environments.htm&language=en_US&type=5",
+    "content": "nullInstall and Configure DevOps Center\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Install and Configure DevOps Center\n DevOps Center Releases\n Evaluate DevOps Center in a Non-Production Org\n Enable and Install DevOps Center in the Org\n Upgrade to the Latest DevOps Center Version\n Configure DevOps Center\n Manage DevOps Center Projects\n Manage Environments\n Add the Release Environment for the Project\n Add Development Environments to the Project\n Update IP Allow List for DevOps Center App\n Environment Management Options\n Plan Your Pipeline\n Create and Assign Project Work Items\n Build an Extension Package for DevOps Center\n Uninstall DevOps Center\n Troubleshoot DevOps Center Configuration\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nDEVOPS CENTER SETUP\nManage Environments\n\nWhen first configuring DevOps Center, identify the environments that you’re going to use for each project. After environments are defined in the Pipeline Environments tab, you can manage each environment from its drop-down menu.\n\nIdentify Your Environments\n\nHave the login credentials handy for the environments you plan to use for your DevOps Center project. Before you proceed, make sure all the dev and pipeline environments for this project are created. Enable Source Tracking for Sandboxes in any orgs from which you plan to create your developer sandboxes. Scratch orgs have source tracking enabled by default.\n\nIMPORTANT If you have any existing Developer sandboxes that were created before source tracking was enabled, enable Source Tracking for Sandboxes in the production org, then refresh those sandboxes before proceeding. Moving forward, use the synchronize development environments feature to keep dev environments in sync with the source control repository.\n\nBefore you continue, be sure to:\n\nCreate all the necessary source-tracked Developer or Developer Pro sandboxes you need for the project.\nCreate sandboxes (as needed) for pipeline stages, for example, integration, user acceptance testing, and staging.\nGather the usernames and passwords for all environments, including the final release environment, such as production.\nAdd team members as users to every environment that they require access to.\nUpdate the IP allow list for the DevOps Center app (if your security settings require it)\nWhat’s Special About Development Environments?\n\nDevelopment environments require source tracking so they can automatically track changes as they are made. Use Developer or Developer Pro sandboxes created from your production org.\n\nIdeally, everyone contributing to a DevOps Center project is assigned their own Developer sandbox.\n\nAdd the Release Environment for the Project\nAt a minimum, projects require a release environment (often your production org) and one developer environment. Be sure all team members are users in this environment if they require access to it to perform deployments to it from within DevOps Center.\nAdd Development Environments to the Project\nAdd the source-tracked development environment that you created for each developer working on the project.\nUpdate IP Allow List for DevOps Center App\nIf your security settings require it, add these IP addresses for all environments that have allow listing enabled.\nEnvironment Management Options\nYou have several options to manage your environments from the environment’s menu in the Pipeline Environments tab. Which menu options are available is determined by the environment type and whether the pipeline is activated.\nSEE ALSO\nSalesforce DX Developer Guide: Enable Source Tracking in Sandboxes\nSalesforce DX Developer Guide: Track Changes Between Your Project and Org\nSalesforce Help: Are You Sharing a Development Environment?\nSalesforce Help: Synchronize Your Development Environment\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Configuring DevOps Center Environments",
+    "keywords": [
+        "DevOps Center",
+        "Environment Management",
+        "Pipeline Environments",
+        "Source Tracking",
+        "Sandboxes",
+        "Release Environment",
+        "Development Environments"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_setup_install_nonprod.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_setup_install.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_configure.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_setup_seed_repo.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_project_manage.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_manage_environments.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_pipeline_plan.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_uninstall.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_project_add_release_env.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_project_add_dev_environments.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_ip_allow_list_app.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_env_management_options.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_dev_environment_sharing.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.devops_center_dev_environment_sync.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.39122506976127625,
+        -0.5292658805847168,
+        -0.19038081169128418,
+        0.8099416494369507,
+        -0.564208984375,
+        -0.25988802313804626,
+        0.4375673532485962
+    ]
+}

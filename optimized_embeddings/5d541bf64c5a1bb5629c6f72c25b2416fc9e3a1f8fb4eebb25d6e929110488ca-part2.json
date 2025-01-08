@@ -1,0 +1,52 @@
+{
+    "id": "5d541bf64c5a1bb5629c6f72c25b2416fc9e3a1f8fb4eebb25d6e929110488ca-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.se_download_metadata.htm&language=en_US&type=5",
+    "content": "nullSync Management\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Sync Management\n Sync Concepts\n Sync Process\n Sync Management App\n Device Health Summary\n Device Health Details\n Device Status Overview\n Sync History\n Device Events Log\n Sync Configuration\n Sync Messages\n Deployment Packages\n Create a Deployment Package\n Upload a Deployment Package\n Revoke a Deployment Package\n View Deployment Package Installation Details\n Downloading Latest Metadata\n Download Latest Metadata\n Mobile App Themes\n Remote Request\n Sync Error and Troubleshooting\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nSYNC MANAGEMENT\nDownloading Latest Metadata\n\nIf you haven’t made metadata changes from the Sync Configurator tab, for example field sets or permission sets, force the update.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience in Enterprise and Unlimited Editions that have Consumer Goods Cloud enabled\n\nBased on the metadata, apply the changes in different ways.\n\nMetadata Change\tHow to Apply the Change\nA deployment file is added and the status is changed to Published or Revoked, or Published At or Installation Deadline timestamps are updated.\tLaunch or log in to the mobile app. The app downloads the deployment file, tracked objects, and named fetch tree, and named query configuration settings from the Sync Configurator. The app also downloads all relevant metadata changes that the Sync Configurator doesn’t directly control, such as sharing rules.\nTracked object configuration is changed.\tLaunch or log in to the mobile offline app. The app downloads the tracked object settings from Sync Configurator.\nAssignment of sync configuration is changed.\tLaunch or log in to the mobile offline app. The app downloads only the tracked object configurations and their metadata.\nNamed queries are changed.\tNo action is required. The changes apply during the next synchronization of the mobile app, which also downloads the named query configuration.\nNamed fetch trees are changed.\tNo action is required. The changes apply during the next synchronization of the mobile app, which also downloads the named fetch tree configuration.\nA new sync configuration is created.\tNo action is required. The changes apply during the next synchronization of the mobile app, which also downloads only the sync configuration.\nDownload Latest Metadata\nTo reset metadata timestamps and download the latest metadata from the server, force a client metadata update.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Managing Sync Configuration and Deployment Packages",
+    "keywords": [
+        "sync configuration",
+        "deployment packages",
+        "metadata changes",
+        "force sync",
+        "mobile app synchronization"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_sync_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_sync_concepts.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_high_level_sync_process.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_user_interface_sync_process.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_sync_management_app.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_devicehealth_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_devicehealthdetails_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_devicestatusoverview_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_synchistory_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_deviceeventslogs_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_sync_config.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_sync_assignments_page.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_tracked_object_page.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_sync_config_page.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_nft_page.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_named_query_page.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_mobile_settings_page.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_syncconfig_sync_settings_page.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_msgconfig_sync_messages_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_dep_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_download_metadata.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_mobile_app_themes.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_task_create_mobile_app_theme.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_task_import_mob_app_theme.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_concept_sync_remote_request.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.se_sync_logging_troubleshooting.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.se_task_force_client_metadata_update.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.23792226612567902,
+        0.8382314443588257,
+        -0.8021481037139893,
+        0.5353826284408569,
+        0.7552440166473389
+    ]
+}

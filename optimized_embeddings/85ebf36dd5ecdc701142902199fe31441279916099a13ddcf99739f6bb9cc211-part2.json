@@ -1,0 +1,52 @@
+{
+    "id": "85ebf36dd5ecdc701142902199fe31441279916099a13ddcf99739f6bb9cc211-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.mfa_welcome_to_mfa.htm&language=en_US&type=5",
+    "content": "nullHow to Roll Out Multi-Factor Authentication\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n How to Roll Out Multi-Factor Authentication\n It’s Time for Multi-Factor Authentication\n Get Ready Phase: Evaluate and Plan Your Multi-Factor Authentication...\n Roll Out Phase: Prepare to Launch Multi-Factor Authentication\n Manage Phase: Maintain and Enhance Multi-Factor Authentication\n Multi-Factor Authentication Glossary\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nHOW TO ROLL OUT MULTI-FACTOR AUTHENTICATION\nHow to Roll Out Multi-Factor Authentication\n\nMulti-factor authentication (MFA) is one of the simplest, most effective ways you can safeguard user account access. Because MFA is a critical component of securing account access, Salesforce requires it for all users who log in to the user interface — either directly with a username and password or via single sign-on (SSO). The contractual requirement to use MFA went into effect on February 1, 2022.\n\nWe make it easy with simple, innovative MFA solutions that provide a balance between strong security and user convenience.\n\nIMPORTANT For full details about the MFA requirement, see the Salesforce Multi-Factor Authentication FAQ.\n\nAs an admin, you are your company’s trusted advisor for all things Salesforce and you help decide how to prepare for and roll out MFA to your users. This guide walks you through the recommended process, including key steps and best practices.\n\nNOTE The focus of this guide is enabling MFA for users who log in directly to your Salesforce products with a username and password. This content doesn’t apply to setting up MFA for single sign-on (SSO) identity providers, API logins, or for your partners or customers who engage with you through Salesforce Experience Cloud sites or ecommerce sites.\nIt’s Time for Multi-Factor Authentication\nAs security threats grow more common, it's increasingly important to implement strong measures to protect your Salesforce data, your business, and ultimately, your customers. Usernames and passwords alone are no longer sufficient for guarding against unauthorized account access. To add another layer of protection against common attacks like phishing, credential stuffing, and account takeovers, Salesforce requires that all users who log in to your org must do so with multi-factor authentication (MFA). To help, we have the resources and tools needed to plan and execute a smooth rollout to your Salesforce users.\nGet Ready Phase: Evaluate and Plan Your Multi-Factor Authentication Rollout\nKick off your multi-factor authentication (MFA) project with a discovery and planning period. Learn why we require MFA for enhanced login security, what your options are for verification methods, and how your company benefits from using MFA. Evaluate your business and user requirements and your implementation options, and make the case to your key stakeholders. Plan your MFA project, including rollout, change management, and support strategies, so you have a clear path to a successful launch.\nRoll Out Phase: Prepare to Launch Multi-Factor Authentication\nWith your project plan in place and your stakeholders aligned, the next step is doing the work to deliver multi-factor authentication (MFA) to your Salesforce users. Now is the time to prepare users to log in using MFA, and to work through your implementation and test plans. Then you’ll be ready to launch MFA. If you’re rolling out gradually to groups of users, repeat some of the activities in this phase until everyone is using MFA.\nManage Phase: Maintain and Enhance Multi-Factor Authentication\nCongratulations, you’ve enabled multi-factor authentication (MFA) for your Salesforce users! But don’t just “set it and forget it.” Make sure that your project is a success by keeping an eye on how everyone is experiencing MFA. In this phase, measure the effectiveness of your MFA rollout, and support users with ongoing, day-to-day operations. This is also a good time to look for ways to optimize your MFA implementation, as well as your overall security posture.\nSEE ALSO\nProducts That Support Multi-Factor Authentication\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Implementing Multi-Factor Authentication",
+    "keywords": [
+        "multi-factor authentication",
+        "user account access",
+        "security measures",
+        "passwords",
+        "verification methods",
+        "implementation options",
+        "project management",
+        "stakeholder alignment",
+        "support strategies"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_welcome_to_mfa.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_time_for_mfa.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_get_ready.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_learn_about.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_evaluate_options.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_inventory_users_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_plan_rollout.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_rollout_phase.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_implement.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_launch.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_manage.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_measure_success.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_optimize.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=Salesforce-Multi-Factor-Authentication-FAQ&language=en_US&type=1",
+        "https://help.salesforce.com/s/articleView?id=sf.mfa_supported_products.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.01659991964697838,
+        -1.1221086978912354,
+        0.2483345866203308,
+        0.9206161499023438,
+        -0.3299916088581085,
+        -0.5839417576789856,
+        -0.37312543392181396,
+        0.07655798643827438,
+        0.9725464582443237,
+        -0.050035640597343445,
+        -0.8043341040611267,
+        0.22554153203964233,
+        0.6695475578308105
+    ]
+}

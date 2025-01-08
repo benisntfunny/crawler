@@ -1,0 +1,47 @@
+{
+    "id": "5d96acd3fcd5a2afd6b5f9a1d57d25268c9faaa9862a430eeff45dce7c68b5b2-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_parent.htm&language=en_US&type=5",
+    "content": "nullPartner Relationship Management\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Partner Relationship Management\n User License and Experience Cloud Template Support for Partner...\n Partner Relationship Management Roles and Responsibilities\n Getting Started with Partner Relationship Management\n Staying Productive as a Partner\n Managing Channels\n Enabling and Guiding Your Partners\n Collaborating With Partners Using PRM for Slack\n Considerations for Partner Relationship Management\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nPARTNER RELATIONSHIP MANAGEMENT\nPartner Relationship Management\n\nMaximize channel sales, partner productivity, and collaboration, by delivering a modern, personalized partner experience with Partner Relationship Management (PRM). Get features that help channel managers and partners work together efficiently.\n\nREQUIRED EDITIONS\nAvailable for channel managers in Salesforce Classic and Lightning Experience in Enterprise, Performance, Unlimited, Developer Editions with Sales Cloud or Service Cloud. You must have at least one PRM add-on license.\nAvailable for partners in supported Experience Cloud sites, accessed through Lightning Experience in Enterprise, Performance, Unlimited, Developer Editions with Sales Cloud or Service Cloud. A PRM add-on license is required for each partner user.\nUser License and Experience Cloud Template Support for Partner Relationship Management\nPartner Relationship Management (PRM) provides channel managers and partners with productivity features that help everyone work together. To gain access to PRM features, you must purchase the required licenses for each feature and your partner site must be built using Experience Cloud templates that support those features. Learn more about license requirements and feature availability in templates.\nPartner Relationship Management Roles and Responsibilities\nTo build a successful partner strategy, you must collaborate with various players both inside and outside of your company. Learn about the relevant players and their responsibilities so you know who can support as you design your ideal partner experience using Partner Relationship Management (PRM).\nGetting Started with Partner Relationship Management\nGetting started with Partner Relationship Management is about designing your ideal partner experience. Plan your site strategy, establish your partner users, partner accounts, and external account hierarchy, create an Experience Cloud site, and set up some basic features.\nStaying Productive as a Partner\nBoost partner productivity with intelligent sales recommendations, enhanced list views for contacts, events, and opportunities, and the power of AI.\nManaging Channels\nPartner Relationship Management (PRM) gives channel managers the tools to lead inbound sales for your company. Stay on top of partner performance and activity using PRM analytics. Get a complete view of partner sales activity from the Channel Management Console.\nEnabling and Guiding Your Partners\nEquip partners with the resources and content that drives growth for your business, all from within your branded partner experience. Partner Enablement and In-App Guidance are available in supported Experience Cloud sites. Deliver Enablement programs, prompts, and walkthroughs to partners in the flow of their daily work, and then track progress towards goals with enablement-focused analytics.\nCollaborating With Partners Using PRM for Slack\nEnhance productivity with real-time collaboration, automate business processes with key AI-infused insights, and grow your channel with actionable analytics in operational dashboards, all without leaving Slack.\nConsiderations for Partner Relationship Management\nGet to know the potential caveats for partner relationship management (PRM) before you set up and start using PRM.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Maximizing Channel Sales with Partner Relationship Management",
+    "keywords": [
+        "partner relationship management",
+        "channel sales",
+        "salesforce",
+        "prm",
+        "experience cloud",
+        "collaboration"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_partner_productivity_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_setup_partners_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_setup_einstein_scoring.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_setup_enhanced_views_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_channel_management_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_analytics_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_setup_analytics_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_cmc_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_setup_cmc_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.prm_support_license_template.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_roles_responsibilities.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.prm_basics_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_enablement.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.prm_for_slack_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.prm_consideration.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.27595534920692444,
+        -0.5088165998458862,
+        -0.3306465446949005,
+        -0.44527021050453186,
+        0.3835156559944153,
+        -0.5933390259742737,
+        -0.7459739446640015,
+        -0.31931445002555847,
+        0.20249709486961365,
+        0.9956588745117188
+    ]
+}

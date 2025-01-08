@@ -1,0 +1,53 @@
+{
+    "id": "41d21bed3c56c21a281fb1310db9caad8cbd1411d6dfef286dfb9e870020699a-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.essentials_pb_reengage_leads.htm&language=en_US&type=5",
+    "content": "nullEssentials\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Essentials\n Understand the Basics\n Getting Around\n Set Up the Most-Used Features\n Going Beyond the Basics\n Divvy Up Work On Your Team with Routing\n Offer Live Customer Support\n Automate Your Tasks with Macros\n Learn Best Practices for B2C Businesses\n Add Your Apps to Salesforce Essentials\n Re-engage Inactive Leads and Customers\n Create a Process to Re-engage Inactive Leads\n Manage Your Contacts with These Best Practices\n Automate Your Business Routines\n Best Practices for Marketing Teams\n Get Help\n Resources\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nESSENTIALS\nCreate a Process to Re-engage Inactive Leads\n\nYou can use Process Builder to email inactive leads when it’s been 30 days since their last communication.\n\nCreate a Field to Capture Last Activity Date\nClick the gear icon, and open Setup.\nSearch for Einstein Activity Capture Settings in the Quick Find box and turn on Activity Metrics under the Capture settings.\nCreate a custom field on the Leads object by navigating to the Object Manager and selecting the Leads object.\nSelect the Formula Data Type.\nSelect Formula as the Data Type and Date/Time for the Formula Return Type.\nLabel the field Last Activity Date and use this formula: ActivityMetric.LastActivityDateTime\nSave your changes.\nCreate Process Criteria\nSearch for Process Builderin the Quick Find box.\nClick New.\nName your process. For example, 30-Day Follow-up Email to Leads.\nClick inside the API Name box to copy your process name over.\nClick The Process starts when, and choose A record changes.\nSave your process.\nClick + Add Object.\nChoose Lead from the Object dropdown menu.\nBelow Start the Process, select when a record is created or edited.\nSave your changes.\nClick + Add Criteria.\nName your criteria. For example, Is still an active lead.\nAdd two conditions: Status > does not equal > picklist > Unqualified (not interested at this time). Note: if you’ve rename your Unqualified status, select the status where the lead is marked as lost or not interested.\nClick + Add Row, and choose Converted > equals > boolean > False.\nClick Advanced, and check the box to make changes only when specified changes are made to a record.\nSave your changes.\nCreate an Email Alert Process Action\nUnder Scheduled Actions, click Set Schedule.\nAdd x days after Last Activity Date. For example, if you enter 30 for the days, the automation will trigger 30 days after the Last Activity Date.\nSave your changes.\nClick + Add Action.\nChoose Email Alert from the Action Type dropdown menu.\nName the action. For example, 30-Day email reminder since last contact.\nYou have two ways to add an email alert: If you've already created one, search for and select it. If you don’t have an existing email alert, click to create one. Note: We’ve linked to an article that explains how to create an email alert and template at the end of this help topic.\nMake sure that you use the Lead object and select Email Field as the Recipient Type. Tip: Select Current User’s email address in the From Email Address field. This ensures the email comes from the Lead owner’s email address and not from a generic email.\nSave your changes.\nCreate a Task to Log the Email in the Activity Feed\nClick + Add Actions again.\nChoose Create a Record as the Action Type.\nName the action 30-Day Follow-Up Email Sent.\nSelect Task for the Record Type.\nA Set Field Values box appears. Choose the following values: Assigned To ID > Field Reference > Owner ID Priority > Picklist > Normal Status > Picklist > Completed.\nClick + Add Row, and choose Subject > String > 30-Day Follow-Up Email Sent.\nClick + Add Row, and choose Name ID > Field Reference > Lead ID.\nSave your changes.\nClick Activate.\nSEE ALSO\nEinstein Activity Capture\nProcess Builder\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Re-engage Inactive Leads in Salesforce",
+    "keywords": [
+        "Salesforce",
+        "Lead Re-engagement",
+        "Process Builder",
+        "Einstein Activity Capture",
+        "Automated Emails"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_basics.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_data_import.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_cases.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_getting_around.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_set_up_features.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_sales_stages.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_self_service.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_help_center.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_email_social_cases.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_phone.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_tasks_activities_contacts.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_manager_tasks.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_more_features.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_reengage_lead.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.essentials_automate.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.Essentials_unsubscribe.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.einstein_sales_aac.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.process_overview.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.2568760812282562,
+        -0.3840460777282715,
+        -0.5422687530517578,
+        0.14538779854774475,
+        0.6939459443092346,
+        -0.5225052833557129,
+        -0.1858765035867691,
+        -0.7717036008834839,
+        0.10092952847480774,
+        0.04483320936560631,
+        -0.18063057959079742,
+        -0.7232384085655212,
+        0.5072935819625854,
+        -0.09685080498456955
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "id": "abf1b8f4a7725f3e6181d006cb811eb0aef41e4261957bf483da9a0e8dbefe98-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_data_identity_resolution.htm&language=en_US&type=5",
+    "content": "nullMarketing Cloud Growth\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Marketing Cloud Growth\n Manage Your Marketing App\n Who's Involved in Setup\n Getting Started with Marketing Cloud Growth Setup\n User Permissions\n Allocations and Limits\n Required Setup for Marketing Cloud Growth\n Configure Your Marketing Data\n Create an Identity Resolution Ruleset\n Manage User Access\n Set Up Reports and Dashboards\n Ensure Compliance with Consent Settings\n Activity Tracking in Marketing Cloud Growth\n Configure Required Email Settings\n Set Up SMS Messaging\n Recommended Setup for Marketing Cloud Growth\n Marketing Cloud Growth Glossary\n Increase Productivity with AI\n Comply with Privacy Regulations\n Target Audiences with Marketing Cloud Growth\n Manage Marketing Efforts with Campaigns\n Manage Marketing Content\n Measure Success in Marketing Cloud Growth\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nMARKETING CLOUD GROWTH\nCreate an Identity Resolution Ruleset for Marketing Cloud Growth\n\nIdentity resolution is a critical step to organizing and unifying your data. Usually, when your data originates from many systems, it’s modeled and labeled differently in each place. Identity resolution rulesets define the relationships among data model objects (DMOs) and their fields. After you configure these rules, Data Cloud can organize related and duplicate data into unified individual records that marketers can use to target audiences.\n\nREQUIRED EDITIONS\nSalesforce Enterprise and Unlimited Editions with Marketing Cloud Growth Edition\n\nWe recommend creating only one identity resolution ruleset for your Marketing Cloud Growth data. You can create multiple reconciliation rules inside your ruleset.\n\nIn Marketing Cloud Growth, on the Identity Resolutions tab, click New.\nSelect the default data space, and select Individual for the Primary Data Model Object.\nName the ruleset and save it.\nOn the identity resolution record, in the Match Rules section, click Configure.\nFollow the prompts to create rules that determine when to unify related records.\nDefine which Unified Individual object to use for personalization.\nFrom Setup, in the Quick Find box, enter Basic, and select Basic Settings.\nOn the Marketing Data tab, in the Create an Identity Resolution Ruleset section, select the Unified Individual object associated with your ruleset.\n\nYou can do more with identity resolution, such as create defaults or troubleshoot warnings. For details about fuzzy matching and other ruleset information, see Salesforce Help for Data Cloud.\n\nSEE ALSO\nUnify Source Profiles\nIdentity Resolution Reconciliation Rules\nFuzzy and Exact Match Methods\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Setting Up Identity Resolution in Marketing Cloud Growth",
+    "keywords": [
+        "identity resolution",
+        "marketing cloud growth",
+        "data unification",
+        "target audiences",
+        "salesforce help"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_main.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_main.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_setup_required.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_data_kits_ref.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_user_access.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_reports.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_consent_tracking_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_tracking_landing_pages_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_setup_optional.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_data_scoring_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_einstein_main.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_admin_compliance.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_audiences.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_campaigns_main.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_campaigns_working.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_flow_elements_add_move.htm&language=en_US&type=5#mktg_flow_elements_add_move",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_content.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_content_email_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_content_sms_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_content_form_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_content_lp_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mktg_reporting.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.c360_a_identity_resolution.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.c360_a_reconciliation_rules.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.c360_a_match_rules_criteria_fuzzy_normalized.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.4500555992126465,
+        0.5243529677391052
+    ]
+}

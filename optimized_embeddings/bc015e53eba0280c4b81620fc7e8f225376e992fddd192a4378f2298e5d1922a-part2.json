@@ -1,0 +1,48 @@
+{
+    "id": "bc015e53eba0280c4b81620fc7e8f225376e992fddd192a4378f2298e5d1922a-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_add_buttons_to_sync_commerce_marketplace_and_salesforce_object.htm&language=en_US&type=5",
+    "content": "nullCommerce Marketplace\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Commerce Marketplace\n Get Started\n Installation and Setup Tasks\n Accounts and Users\n Cases\n Catalogs and Categories\n Data Protection and Privacy\n Import Settings\n Inventory\n Orders\n Price Books\n Promotions\n Products\n Reports\n The Seller Portal\n Shipping Methods\n Commerce Marketplace for Salesforce Commerce\n Enable the Commerce Marketplace Integration\n Configure Record Types\n Add Buttons to Sync Commerce Marketplace and Salesforce Object\n Set Up Permission Sets\n Create a Marketplace Configuration for B2B Commerce and D2C Commerce\n Transfer Salesforce Commerce Store Data to a Commerce Marketplace App\n Marketplace and Sellers' Shipping Costs\n Connect the Marketplace App to Your Storefront\n Patch Notes for Commerce Marketplace Winter’ 23\n Patch Notes for Commerce Marketplace Spring’ 23\n Patch Notes for Commerce Marketplace Summer’ 23\n Patch Notes for Commerce Marketplace Spring’ 24\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nCOMMERCE MARKETPLACE\nAdd Buttons to Sync Commerce Marketplace and Salesforce Object\n\nAdd custom buttons to sync your Salesforce Commerce store with the Commerce Marketplace app.\n\nBefore adding custom buttons for Marketplace Specification, enable the List View Button Layout page.\nFrom Setup, in the Quick Find box, enter Objects and Fields, and then select Object Manager.\nClick Marketplace Specification.\nClick Details.\nIn the Details page, click Edit.\nUnder Search Status, enable Allow Search.\nSave your changes.\nAdd custom buttons.\nFrom Setup, in the Quick Find box, enter Objects and Fields, and then select Object Manager.\nClick Marketplace Specification.\nOn the left, click List View Button Layout.\nFrom the List View action dropdown, click Edit.\nUnder Custom Buttons, select Schedule Synch and Sync All Specs.\nTo add the buttons, click the right arrow.\nSave your changes.\nRepeat these steps and add the \"Sync All\" button to the following objects:\nMarketplace Category\nMarketplace Price Book\nMarketplace Product\nAdd a custom button to the Marketplace Product Object Record page.\nThe Marketplace Product object has an extra custom button in the Lightning record page that need to be added manually.\nFrom the Object Manager, click Marketplace Product.\nClick Lightning Record Pages, and then click Product Record Page.\nNear Lightning Page Detail, click Clone.\nIn the Lightning App Builder, in the Highlights Panel, click Add Action.\nSearch for Create Storefront Product.\nClick Add Filter.\nFor Filter Type, select Advanced.\nUnder Field, click Select, and select Record, Record Type, and Record Type Name, and click Done.\nFor Operator, select Equal, and for Value, enter Marketplace\nClick Done, click Done again, and save your changes.\nIn the Lightning App Builder page, click Save.\nIn the Page Saved window, click Activate.\nIn the Activation window, click App Default and click Assign as App Default.\nSelect Commerce Marketplace.\nClick Next, click Next again, and save your changes.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Configuring Custom Buttons for Salesforce Commerce Marketplace",
+    "keywords": [
+        "custom buttons",
+        "salesforce commerce marketplace",
+        "integration",
+        "syncing data",
+        "lightning record pages",
+        "object manager",
+        "marketplace specification",
+        "product record page"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_get_started.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_installation_and_setup_tasks.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_accounts_and_users.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.configure_self_registration_for_marketplace_sellers_0.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_catalogs_and_categories.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_import_settings.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_inventory.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_orders.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_price_books.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_promotions.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_products.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_reports.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_the_seller_portal.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_shipping_methods.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_for_salesforce_commerce.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_enable_the_commerce_marketplace_integration.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_transfer_salesforce_commerce_store_data_to_a_commerce_marketplace_app.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_marketplace_and_sellers_shipping_costs.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US"
+    ],
+    "embedding": [
+        0.02806820720434189,
+        0.388470321893692,
+        1.0531004667282104,
+        -0.4573747217655182,
+        0.03947623074054718,
+        0.8772071599960327
+    ]
+}

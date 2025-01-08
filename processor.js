@@ -80,7 +80,6 @@ async function initializePuppeteer() {
 
   return { browser, page };
 }
-
 async function processPage(
   page,
   url,
@@ -204,15 +203,24 @@ async function processPage(
 
     logger.info(`Processed ${url} successfully`);
   } catch (err) {
-    if (err.message.includes("detached")) {
-      logger.error(`Frame detached error for ${url}. Retrying...`);
-      // Retry logic can be added here if needed
-    } else {
-      logger.error(`Error processing page ${url}: ${err}`);
-    }
+    logger.error(`Error processing page ${url}: ${err}`);
+
+    // Mark the page as processed by updating the lastScan time
+    const failedScanTime = Math.floor(Date.now() / 1000);
+    await new Promise((resolve, reject) => {
+      updateLastScan(url, failedScanTime, (err) => {
+        if (err) {
+          logger.error(
+            `Error updating last scan time for failed URL ${url}: ${err}`
+          );
+          return reject(err);
+        }
+        logger.info(`${url} marked as processed after error`);
+        resolve();
+      });
+    });
   }
 }
-
 async function crawlNext(
   page,
   browser,

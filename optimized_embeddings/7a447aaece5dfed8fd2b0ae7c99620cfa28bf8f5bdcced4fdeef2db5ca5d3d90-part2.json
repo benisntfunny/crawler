@@ -1,0 +1,45 @@
+{
+    "id": "7a447aaece5dfed8fd2b0ae7c99620cfa28bf8f5bdcced4fdeef2db5ca5d3d90-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.actionable_segmentation.htm&language=en_US&type=5",
+    "content": "nullSales Innovations for Prospect Engagement\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Sales Innovations for Prospect Engagement\n Create Actionable Lists (Actionable Segmentation)\n Actionable Segmentation Basics\n Set Up Actionable List Definitions\n Create and Manage Actionable Lists\n Work with Actionable Lists\n Actionable Segmentation Limits and Considerations\n Create Actionable Lists (List Builder for Data Cloud)\n Configure and Assign Actionable Lists\n Engage with Prospects\n Guided Agent Engagements\n Monitor Actionable List KPIs\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nSALES INNOVATIONS FOR INDUSTRIES CLOUDS\nCreating Actionable Lists by Using Actionable Segmentation\n\nActionable Segmentation enables you to segment similar client profiles, curate them, and design timely and personalized client outreach programs. Actionable list definitions and actionable lists are the key elements of the Actionable Segmentation feature.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience\nAvailable in: Clouds that have Industry Sales Excellence and Query for Data Pipelines User licenses\n\nYou can create actionable lists for various outreach initiatives. For example, as a wealth manager, create an actionable list of high net worth individuals for a wealth plan outreach initiative, or as an auto dealer, create a list of leads for a test drive and follow up on store visit outreach initiatives, or as an admissions director, create a list of prospects for an admissions initiative.\n\nBefore you get started, understand the end-to-end workflow and the key steps involved.\n\nSTEP\tACTION\tWHO\tWHERE\tRESULT\n1\tCreate and activate an actionable list definition\tAdmin\tActionable Segmentation Settings page\tCurated dataset saved in CRM Analytics\n2\tCreate an actionable list using the list definition\tSales executives or managers\tActionable Lists or Actionable List Builder page\tActionable List\n3\tSet priority and manage assignments\tSales executives or managers\tActionable List Members component on an Actionable List record page\tActionable list is configured and assigned to sales or service agents\n4\tEngage with prospects (list members)\tSales or service agents\tActionable List Engagement component on an Outreach List Member page\tClient engagement activities\nExplore and Learn\n\nWatch this video to learn about Actionable Segmentation and its end-to-end workflow.\n\nIf you aren’t able to watch the video in full screen, open the video on a new tab:  Overview of Actionable Segmentation.\n\nActionable Segmentation Basics\nGet to know actionable list definitions and actionable lists, which are the key elements of the Actionable Segmentation feature.\nSet Up Actionable List Definitions\nAssign users the necessary permission sets, and enable Actionable Segmentation in your Salesforce org. Create actionable list definitions and configure them, and activate actionable list definitions.\nCreate and Manage Actionable Lists\nCreate actionable lists using actionable list definitions. Customize column preferences when creating lists according to business needs. Edit actionable lists to update name, description, priority, and list status. Refresh lists by adding latest dataset records to existing actionable lists. Add more members to existing actionable lists.\nWork with Actionable Lists\nSet priority, assign OmniScripts for guided interactions, and assign actionable lists to sales or service agents to engage with prospects including existing customers.\nActionable Segmentation Limits and Considerations\nWhile creating actionable list definitions and actionable lists, keep the limits and limitations in mind.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Creating Actionable Lists for Prospect Engagement",
+    "keywords": [
+        "Salesforce",
+        "prospect engagement",
+        "actionable segmentation",
+        "client outreach",
+        "guided agent engagements"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.industries_sales_innovations_prospects.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_segmentation.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_segmentation_setup.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_segmentation_create_list_definition.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_segmentation_setup_lists.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_segmentation_create_lists.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_segmentation_refresh_lists.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.list_builder_for_data_cloud_segment.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_list_members.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_list_members_create_bulk_actions.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.view_actionable_list_members.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.filter_actionable_list_members.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.the_outreach_list_component.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_list_engagement.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_segmentation_basics.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_segmentation_work_with_lists.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.actionable_segmentation_limits.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.5097309350967407,
+        -0.4049108922481537,
+        0.05278858542442322,
+        -0.3801667094230652,
+        0.3959757387638092,
+        0.0132925845682621,
+        -0.36023348569869995,
+        0.7834345698356628
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "id": "5d506ed06ccd5cbf2c347b44b1f860719e2c31b855825cddf45ac040cb5c1773-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.admin_files_libraries_content_deliveries_public_links.htm&language=en_US&type=5",
+    "content": "nullSet Up and Maintain Collaboration Tools\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Set Up and Maintain Collaboration Tools\n Salesforce Chatter\n Salesforce Files\n Add the Files Related List to Page Layouts\n Customize the Files Detail Page\n Prevent Users from Attaching Salesforce Files\n Add File Privacy on Records to Edit File Details Layout\n Set File Sharing to Inherit Record Permissions\n Configure File Upload and Download Security Settings\n Enable Content Deliveries and Public Links\n Regenerate a File Preview\n Salesforce Files Storage Allocations\n Asset Files\n Salesforce Files: What’s Different or Not Available in the...\n Salesforce Files Connect\n Salesforce CRM Content\n Google Apps\n Collaboration Resources for Admins\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nSET UP AND MAINTAIN COLLABORATION TOOLS\nEnable Content Deliveries and Public Links\n\nUse Content deliveries and public links to send links to files to people inside or outside your organization.\n\nREQUIRED EDITIONS AND USER PERMISSIONS\nAvailable in: Lightning Experience\n\n\nUSER PERMISSIONS NEEDED\nTo enable content deliveries and public links:\tCustomize Application\n\nWith content deliveries, you can set a password or an expiration date for the link, and track how frequently the content is viewed. When you create a public link to a file, you can set a password and expiration date. Public links to folders don’t have password protection or link expiration. You can’t track content views on public links to files or folders.\n\nAny time confidential documents are shared, we recommend requiring password protection.\n\nFrom Setup, enter Content Deliveries and Public Links in the Quick Find box, and select Content Deliveries and Public Links. Select Content Deliveries feature can be enabled for users and Public Links can be enabled for users (Requires Content Deliveries).\nFrom Setup, enter Permission Sets in the Quick Find box, and select Permission Sets. Select a permission set, click System Permissions, and select Create Public Links.\nFrom Setup, enter Profiles in the Quick Find box, and select Profiles. Select a profile, and click Edit. In General User Permissions, select Create Public Links. You don't need this permission for files in a shared Salesforce CRM Content library. Instead, complete steps 1 and 2 and then ensure that the user is a library member and that Deliver Content is checked in the library permission definition.\nFrom Setup, enter Content Permissions in the Quick Find box, and select Content Permissions. Next to Library Administrator in the list of library permissions, click Edit, enable Deliver Content, and save your changes.\n\nAfter enabling content delivery and choosing a default for password protection, add the Content Deliveries related list to your page layouts to create new content deliveries and find details about existing deliveries on a record.\n\nIn addition to the global settings that enable content deliveries and public links for your org, you need to enable the user permissions \"Create Content Deliveries\" or \"Create Public Links\" on profiles or in permission sets.\n\nFiles in libraries are governed by settings in the library, not user permissions. To share files managed by a library, Deliver Content must be enabled for the user in the library.\n\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Setting Up and Managing Collaboration Tools",
+    "keywords": [
+        "collaboration tools",
+        "salesforce chatter",
+        "file sharing",
+        "content deliveries",
+        "public links",
+        "user permissions",
+        "permission sets",
+        "profiles"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.collaboration_admin_welcome.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_setting_up.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_pbr.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_enable.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_group_settings.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_feed_post_editing.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_feed_tracking_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_feed_item_actions.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_group_layouts.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_topics.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_chatter_dt.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collaboration_admin_files.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.admin_files_asset_files.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_files_connect.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_crm_content.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_content_libraries.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.admin_files_libraries_component.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_content_settings.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.collab_admin_google_apps.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US"
+    ],
+    "embedding": [
+        -0.4487985670566559,
+        -0.15502586960792542,
+        0.7466047406196594
+    ]
+}

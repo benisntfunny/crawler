@@ -1,0 +1,40 @@
+{
+    "id": "322dd1e6c0edd05ac5067acbd392ecf6cb1c4e066a22327a4f35bcdb1df1f9eb-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.mc_ads_create_an_audience.htm&language=en_US&type=5",
+    "content": "nullMarketing Cloud Advertising\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Marketing Cloud Advertising\n Advertising Audiences\n Get Started with Advertising Audiences\n Roles and Permissions for Advertising Audiences\n Audience Insights Solution\n Advertising Audiences Administration\n Advertising Audiences Overview Tab\n Create an Audience\n Add Audience Activity to Journeys\n Configure an Audience from a Data Extension\n Configure an Audience from Contacts\n Configure Notifications in Marketing Cloud Advertising\n Create a Facebook Audience\n Create a LinkedIn Audience\n Refresh an Audience\n Review an Audience\n View Audience Activity\n Delete an Audience\n Marketing Cloud Advertising FAQs\n Advertising in Journey Builder\n Lead Capture\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nADVERTISING\nCreate an Audience in Marketing Cloud Advertising\n\nYou can create an audience in Marketing Cloud Advertising for Facebook, Instagram, Google Ads, LinkedIn, Twitter, Pinterest, and Snapchat ad accounts.\n\nTIP Check the Population Stats panel in the Overview tab to verify that you haven’t reached your maximum number of available audiences. If all audiences are in use, delete an audience you no longer need or contact your account executive to purchase more.\nClick Create Audience.\nEnter a name and optionally a description.\nNOTE Name is a required value. It uniquely identifies this audience in the application and social ad accounts.\nNOTE Name is the unique identifier for this audience in the application and social ad accounts.\nIf applicable, select an onboarding partner.\nChoose the destination ad network.\nSelect an ad account.\nNOTE To create a Facebook audience, accept the Facebook Terms of Service.\nReturn to the Overview screen.\nTo select a configuration option for the new audience, click Configure or click Save & Close.\nTo get a stable audience count, allow 24–48 hours.\nAdd Audience Activity to Journeys\nAdd Audience Activity to Journey Builder journeys.\nConfigure an Audience from a Data Extension\nUse attributes in a data extension to configure an audience in Marketing Cloud Advertising.\nConfigure an Audience from Contacts\nConfigure an audience in Marketing Cloud Advertising from your existing Marketing Cloud Engagement contacts.\nConfigure Notifications in Marketing Cloud Advertising\nTo send a notification email from Marketing Cloud Advertising when an audience upload or refresh is complete or when errors or other events occur, enable and configure notification settings.\nCreate a Facebook Audience\nCreate a Facebook audience in Marketing Cloud Advertising.\nCreate a LinkedIn Audience\nCreate an Advertising Audience for LinkedIn in Marketing Cloud Advertising.\nRefresh an Audience\nConfigure refresh for an Marketing Cloud Advertising audience.\nReview an Audience\nAfter an audience has been created, you can review the details, change configurations, or refresh the audience. Here is a description of the information available when you review an audience in Marketing Cloud Advertising.\nView Audience Activity\nView audience activity in Marketing Cloud Advertising.\nSEE ALSO\nConfigure an Audience from a Data Extension\nConfigure an Audience from Contacts\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Creating Audiences in Salesforce Marketing Cloud",
+    "keywords": [
+        "audience creation",
+        "marketing cloud advertising",
+        "facebook audience",
+        "linkedin audience",
+        "google ads",
+        "ad account management"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_ads_advertising_studio.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_ads_advertising_audiences.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_ads_advertising_audiences_administration_tab.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_ads_create_an_audience.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_ads_create_facebook_audience.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_ads_create_linkedin_audience.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_ads_journey_builder_ads.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_ads_create_journey_builder_ad_campaign.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_ads_lead_capture.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_ads_import_new_leads.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_ads_import_new_leads_sales_cloud.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_ads_add_audience_activity_to_journeys.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_ads_configure_an_audience_from_a_data_extension_or_list.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_ads_configure_an_audience_from_contacts.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_ads_configure_notifications.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_ads_refresh_an_audience.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_ads_review_an_audience.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_ads_view_audience_activity.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.7349268794059753
+    ]
+}

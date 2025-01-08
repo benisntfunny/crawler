@@ -1,0 +1,43 @@
+{
+    "id": "321e0d961b7903d55bae13e2ea87e4c4350cd328cfcc6b6babb06cc917ec7687-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_for_salesforce_commerce.htm&language=en_US&type=5",
+    "content": "nullCommerce Marketplace\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Commerce Marketplace\n Get Started\n Installation and Setup Tasks\n Accounts and Users\n Cases\n Catalogs and Categories\n Data Protection and Privacy\n Import Settings\n Inventory\n Orders\n Price Books\n Promotions\n Products\n Reports\n The Seller Portal\n Shipping Methods\n Commerce Marketplace for Salesforce Commerce\n Enable the Commerce Marketplace Integration\n Create a Marketplace Configuration for B2B Commerce and D2C Commerce\n Transfer Salesforce Commerce Store Data to a Commerce Marketplace App\n Marketplace and Sellers' Shipping Costs\n Connect the Marketplace App to Your Storefront\n Patch Notes for Commerce Marketplace Winter’ 23\n Patch Notes for Commerce Marketplace Spring’ 23\n Patch Notes for Commerce Marketplace Summer’ 23\n Patch Notes for Commerce Marketplace Spring’ 24\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nCOMMERCE MARKETPLACE\nCommerce Marketplace for Salesforce Commerce\n\nConnect the Commerce Marketplace app to your existing Salesforce Commerce to let third-party sellers offer their products in your Salesforce Commerce storefront for a fee. Buyers can view the products of the third-party seller and compare prices. The Commerce Marketplace app is available as a managed package that’s installed on top of Salesforce Commerce. It includes additional Marketplace entities, storefront components, and integration components. The app also offers a multi-marketplace solution for creating and managing different Marketplaces to diversify your revenue stream and increase your market share, data insights, and opportunities for cross-promotion.\n\nEnable the Commerce Marketplace Integration\nStart connecting your Salesforce Commerce storefront with the Commerce Marketplace app by setting up the page layout, record type, and user permission set.\nCreate a Marketplace Configuration for B2B Commerce and D2C Commerce\nConnect the Marketplace app with your Salesforce Commerce store by creating a Marketplace Configuration for B2B/D2C Commerce.\nTransfer Salesforce Commerce Store Data to a Commerce Marketplace App\nEnable the integration and quickly transfer your Salesforce Commerce data to a Commerce Marketplace app.\nMarketplace and Sellers' Shipping Costs\nThe Marketplace shipping costs are calculated separately and automatically added to the minimum shipping costs of all sellers.\nConnect the Marketplace App to Your Storefront\nTo connect the Marketplace app to your store front, you have to follow a few prerequisites before enabling the apex class access to guest and authenticated users, and configuring the Lightning Web Runtime (LWR) for Marketplace.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Setting up Salesforce Commerce Marketplace",
+    "keywords": [
+        "e-commerce platform",
+        "multivendor marketplace",
+        "marketplace integration",
+        "salesforce commerce",
+        "commerce marketplace app"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_get_started.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_installation_and_setup_tasks.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_accounts_and_users.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.configure_self_registration_for_marketplace_sellers_0.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_catalogs_and_categories.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_import_settings.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_inventory.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_orders.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_price_books.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_promotions.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_products.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_reports.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_the_seller_portal.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_shipping_methods.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_for_salesforce_commerce.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_enable_the_commerce_marketplace_integration.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_transfer_salesforce_commerce_store_data_to_a_commerce_marketplace_app.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_marketplace_and_sellers_shipping_costs.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_create_a_marketplace_configuration_for_b2b_commerce_and_d2c_commerce.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_connect_the_marketplace_app_to_your_storefront.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.36870989203453064,
+        0.9965108633041382
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "id": "674913a5595676228249ea413aff70620bd647b90b1ff6f961b88fb99635014b-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sfdo.EL_Integration.htm&language=en_US&type=5",
+    "content": "nullElevate Documentation\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Elevate Documentation\n Elevate General Information\n Set Up Elevate\n Use Elevate with NPSP\n Manage Payments and Recurring Donations\n Settings\n Elevate User Management\n Manage Integrations\n Payment Providers\n Receipts and Alert Settings\n Elevate Giving Pages\n Elevate Payments API\n Elevate API Introduction\n Integration\n Use Salesforce.org Payments API in Custom Donation Pages\n SAMPLE: One-time Donation Using Custom Donation Pages\n SAMPLE: One-time Donation With PayPal Using Custom Donation Pages\n SAMPLE: Recurring Donations Using Custom Donation Pages\n SAMPLE: One-time and Recurring Donations Using Custom Donation Pages\n SAMPLE: Create a JSON Web Token (JWT)\n SAMPLE: Use a JSON Web Token (JWT)\n Use Salesforce.org Payments API in Backend Code\n Use Salesforce.org Payments API with NPSP Advanced Mapping\n Elevate Payments API Endpoints\n Elevate Versioned API FieldsElevate product metadata based upon...\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nELEVATE DOCUMENTATION\nIntegration\n\nSamples for JSON Web Tokens, and one-time and recurring donations with custom Elevate donation pages.\n\nNOTE Salesforce is retiring the Elevate family of products. This affects Elevate Advanced Edition, Elevate Power of Us Editions, and all add-ons. As part of this product retirement, the ability to renew subscriptions to this product will end on October 1, 2023, and we anticipate that the product will be deactivated on or after October 1, 2024.\nUse Salesforce.org Payments API in Custom Donation Pages\nLearn more about how to integrate Payments API with custom donation pages.\nSAMPLE: One-time Donation Using Custom Donation Pages\nUse a sample script to set up a one-time donation.\nSAMPLE: One-time Donation With PayPal Using Custom Donation Pages\nUse the sample script to set up a one-time donation using PayPal.\nSAMPLE: Recurring Donations Using Custom Donation Pages\nUse a sample script to set up recurring donations.\nSAMPLE: One-time and Recurring Donations Using Custom Donation Pages\nUse a sample script to create one-time and recurring donations.\nSAMPLE: Create a JSON Web Token (JWT)\nUse this sample script to generate a JWT to use in your Elevate API calls.\nSAMPLE: Use a JSON Web Token (JWT)\nLearn about using a JWT in an Elevate API endpoint.\nUse Salesforce.org Payments API in Backend Code\nLearn more about how to use Payments API in backend code.\nUse Salesforce.org Payments API with NPSP Advanced Mapping\nLearn more about how to use Payments API with NPSP Advanced Mapping.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Using the Elevate API for Custom Donations",
+    "keywords": [
+        "custom donations",
+        "Elevate API",
+        "Payments API",
+        "JSON Web Token",
+        "backend code",
+        "NPSP Advanced Mapping"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sfdo.Elevate.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_General_Information.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Set_Up.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Use_with_NPSP.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Payments_Management.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Manage_Payments_RDs.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Import_Recurring_Donations.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Configure_Settings.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Manage_Users_Parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Manage_Integrations.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Payment_Providers.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Receipts.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Giving_Pages.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Payments_API.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_API_Introduction.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Integration.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Payment_APIs.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Versioned_Fields.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Payment_Services_Integration.htm&language=en_US&type=5#topic-3609",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Purchase_POST_Example.htm&language=en_US&type=5#topic-6060",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Purchase_POST_PayPal_Example.htm&language=en_US&type=5#topic-6060",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Commitments_POST_Example.htm&language=en_US&type=5#topic-7175",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Combined_Purchase_Commitments_Example.htm&language=en_US&type=5#topic-3280",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Create_a_JWT.htm&language=en_US&type=5#topic-5936",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_Use_a_JWT.htm&language=en_US&type=5#topic-9334",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_API_Workflow.htm&language=en_US&type=5#topic-7235",
+        "https://help.salesforce.com/s/articleView?id=sfdo.EL_NPSP_Advanced_Mapping.htm&language=en_US&type=5#topic-2827"
+    ],
+    "embedding": [
+        0.2778974175453186,
+        0.8760773539543152,
+        -0.7877631783485413,
+        0.24501609802246094,
+        0.2748127281665802
+    ]
+}

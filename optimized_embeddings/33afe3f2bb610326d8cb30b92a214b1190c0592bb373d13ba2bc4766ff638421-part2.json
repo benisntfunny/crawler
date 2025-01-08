@@ -1,0 +1,51 @@
+{
+    "id": "33afe3f2bb610326d8cb30b92a214b1190c0592bb373d13ba2bc4766ff638421-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.migrating_calc_matrix_calc_procd.htm&language=en_US&type=5",
+    "content": "nullBusiness Rules Engine\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Business Rules Engine\n Get Started with Business Rules Engine\n Learn and Explore\n Set Up Business Rules Engine\n Decision Matrices\n Decision Tables for Business Rules Engine\n Expression Sets\n Decision Explainer for Expression Sets\n Business Rules Engine Integrations\n Calculation Matrix and Procedure Migration to Business Rules Engine\n Considerations for Migrating Calculation Matrices and Procedures\n Migration Scenarios and Workflow\n Migration Limitations\n Business Rules Engine Default Limits\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nINDUSTRIES COMMON FEATURES GUIDE\nCalculation Matrix and Procedure Migration to Business Rules Engine\n\nTo use calculation procedures and calculation matrices from OmniStudio as Business Rules Engine components, migrate these OmniStudio components as expression sets and decision matrices. To migrate a calculation procedure as an expression set, and a calculation matrix as a decision matrix, use the CalculationMatrixMigrationService and CalculationProcedureMigrationService Apex classes.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience\nAvailable in: Enterprise, Unlimited, and Developer Editions for Industries clouds that have Business Rules Engine enabled\nConsiderations for Migrating Calculation Matrices and Procedures\nBefore you migrate your calculation matrices and calculation procedures as decision matrices and expression sets respectively, review these migration recommendations and the post-migration behavior of these components.\nMigration Scenarios and Workflow\nLet’s look at a few scenarios for migrating calculation matrices as decision matrices and calculation procedures as expression sets. Let’s also review the migration workflow for various states of the calculation matrices and calculation procedures.\nMigration Limitations\nBefore you migrate calculation matrices and procedures as decision matrices and expression sets, consider these migration limitations.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Calculation Matrix and Procedure Migration",
+    "keywords": [
+        "business rules engine",
+        "omnistudio",
+        "calculation matrices",
+        "expression sets",
+        "decision matrices"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.business_rules_engine.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.bre_learn_explore.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.set_up_business_rules_engine.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.decision_matrices.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.create_standard_decision_matrices_0.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.use_csv_files_to_create_modify_decision_matrices.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.create_grouped_decision_matrices.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.bre_manage_maintain_decision_matrices.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.download_matrix_versions_exported_to_dmn_files.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.decision_tables.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.supported_data_types_and_operators_in_decision_tables.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.expression_sets.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.object_variables_in_expression_sets.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.step_elements_in_expression_sets.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.bre_condition_and_conditional_group_elements.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.bre_lookup_table_element.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.bre_subexpression_element.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.build_your_expression_set.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.considerations_for_migrating_expression_sets.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.decision_explainer.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.business_rules_engine_integrations.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.rules_engine_omnistudio_integration.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.business_rules_engine_integration_flow.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.example_invoking_des_enabled_expression_set_from_flow.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.migrating_calc_matrix_calc_procd.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.industries_common_features.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.considerations_migrating_calc_matrix_calc_procd.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.migration_scenarios_and_workflow.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.calc_matrix_procd_migration_limits.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.5748039484024048,
+        0.342752069234848
+    ]
+}

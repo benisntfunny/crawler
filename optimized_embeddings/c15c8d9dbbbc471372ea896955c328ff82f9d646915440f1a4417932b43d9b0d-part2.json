@@ -1,0 +1,42 @@
+{
+    "id": "c15c8d9dbbbc471372ea896955c328ff82f9d646915440f1a4417932b43d9b0d-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_setup_ci_li.htm&language=en_US&type=5",
+    "content": "nullPartner Relationship Management\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Partner Relationship Management\n User License and Experience Cloud Template Support for Partner...\n Partner Relationship Management Roles and Responsibilities\n Getting Started with Partner Relationship Management\n Staying Productive as a Partner\n Assessing Contact, Lead, and Pipeline Activity Using Enhanced List...\n Setting Up Partner Relationship Management Sales Features for Partners\n Setting Up Einstein Scoring for Partners\n Set Up Einstein Sales Emails for Partners\n Setting Up Enhanced List Views for Partners\n Set Up Contact Intelligence View and Lead Intelligence View for...\n Set Up Pipeline Inspection for Partners\n Setting Up More Enhanced List View Features for Partners\n Managing Channels\n Enabling and Guiding Your Partners\n Collaborating With Partners Using PRM for Slack\n Considerations for Partner Relationship Management\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nPARTNER RELATIONSHIP MANAGEMENT\nSet Up Contact Intelligence View and Lead Intelligence View for Partners\n\nSalesforce admins and Experience Cloud site developers must work together to set up Contact Intelligence View and Lead Intelligence View in supported Experience Cloud sites. First, Salesforce admins must turn on the two sales features in Salesforce and assign permissions to partners. Then Experience Cloud site developers must verify that the Enhanced List View component is added to the Experience Cloud site and published for partners. For vendors who purchase add-on licenses or are comfortable granting partners with more object permissions, more features can also be configured.\n\nREQUIRED USER PERMISSIONS\nUSER PERMISSIONS NEEDED\nTo turn on Contact Intelligence View and Lead Intelligence View in Salesforce:\t\n\nCustomize Application\n\nOR\n\nModify All Data\n\nAvailable for partners in Experience Cloud Aura sites, accessed through Lightning Experience in Enterprise, Performance, and Unlimited Editions with Sales Cloud or Service Cloud. A PRM add-on license is required for each partner user.\nAvailable with Sales Cloud Einstein, which is available in Performance and Unlimited Editions, and for an extra cost in Enterprise Edition.\nVerify that the Enhanced List View component is available in the Experience Cloud template you’re using for your site\nFrom Setup, in the Quick Find box, enter PRM, and then select Partner Productivity.\nTurn on the enhanced list view features that you want partners to have access to.\nFrom the Set Up Contact Intelligence View section, click Go to Contact Intelligence View.\nFrom the Contact Intelligence View Setup page, turn on Contact Intelligence View.\nReturn to the Partner Productivity page described in step 2.\nFrom the Set Up Lead Intelligence View section, click Go to Lead Intelligence View.\nFrom the Lead Intelligence View Setup page, turn on Lead Intelligence View.\nAssign permission sets to partners.\nFrom Setup, in the Quick Find box, enter Permission Sets, and then select Permission Sets.\nAssign permission sets to partners for the features you enabled: Contact Intelligence View for Partners and Lead Intelligence View for Partners.\nEngage your site developer to add the Enhanced List View component to your Experience Cloud site for each feature.\nSome templates require less setup than others.\nSteps 1–4 give partners basic Contact Intelligence View and Lead Intelligence View features.\nMetrics that reflect activity health across all contacts or leads, such as Overdue, Upcoming, and No Activity\nQuick filters for narrowing the opportunities list by owner or the time frame the record was created.\nEnable more features that require add-on licenses or giving partners more object access.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Partner Relationship Management Setup Guide",
+    "keywords": [
+        "PRM",
+        "Partnership Management",
+        "Salesforce Partners",
+        "Contact Intelligence View",
+        "Lead Intelligence View",
+        "Enhanced List Views",
+        "Experience Cloud Templates",
+        "Permission Sets"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_partner_productivity_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_setup_partners_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_setup_einstein_scoring.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_setup_enhanced_views_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_channel_management_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_analytics_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_setup_analytics_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_cmc_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_setup_cmc_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.exp_cloud_basics_glossary.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.prm_support_license_template.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_setup_ec_templates.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.salesforce_prm_setup_enhanced_views.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.7844482660293579,
+        -0.7947462797164917,
+        -0.2423509806394577,
+        0.06733672320842743,
+        0.8880695700645447
+    ]
+}

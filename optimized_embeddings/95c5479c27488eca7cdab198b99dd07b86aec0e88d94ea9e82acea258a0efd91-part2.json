@@ -1,0 +1,44 @@
+{
+    "id": "95c5479c27488eca7cdab198b99dd07b86aec0e88d94ea9e82acea258a0efd91-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_orders.htm&language=en_US&type=5",
+    "content": "nullCommerce Marketplace\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Commerce Marketplace\n Get Started\n Installation and Setup Tasks\n Accounts and Users\n Cases\n Catalogs and Categories\n Data Protection and Privacy\n Import Settings\n Inventory\n Orders\n Marketplace Order\n Seller Order\n Create and Customize Flow Status Rules for Orders\n Price Books\n Promotions\n Products\n Reports\n The Seller Portal\n Shipping Methods\n Commerce Marketplace for Salesforce Commerce\n Patch Notes for Commerce Marketplace Winter’ 23\n Patch Notes for Commerce Marketplace Spring’ 23\n Patch Notes for Commerce Marketplace Summer’ 23\n Patch Notes for Commerce Marketplace Spring’ 24\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nCOMMERCE MARKETPLACE\nOrders\n\nWhen a shopper makes a purchase, a record is created. This record contains items purchased, number of units, delivery address values, commission values, and other important information so that the order can be managed by marketplace operators and sellers. The consolidation of this information is carried out in objects known as Marketplace Order and Seller Order.\n\nMarketplace Order\nA shopper can purchase items sold by the Marketplace and by different sellers. All orders placed by shoppers can be seen within the Marketplace Order object. If an order contains items sold by multiple sellers, the marketplace operator can access each purchase through the Seller Order object located within the Marketplace Order object. That means that the marketplace operator must be able to view all orders, including that of sellers. But sellers are only able to view items related to their own sale on the Seller Portal.\nSeller Order\nThe Seller Order is the object used for the marketplace operator and the seller to manage the seller’s order. Each purchase made on the storefront by a shopper generates a Seller Order containing product items and shipment type. In addition to the fields that appear in the Marketplace Order canvas, the Seller Order canvas also displays a timeline for tracking the status of the order. This timeline gives the seller a quick view of the order status and allows them to change the status by using the Mark Status Timeline as Complete action.\nCreate and Customize Flow Status Rules for Orders\nWhen a shopper places an order, the order is tracked. Status fields indicate where the order is in the process flow, such as payment status and shipping status. You can create rules for how the arrangement of the different order status fields relate to the OMS Status.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Understanding Orders in Salesforce Commerce Marketplace",
+    "keywords": [
+        "Marketplace Order",
+        "Seller Order",
+        "Order Management System",
+        "E-commerce platform",
+        "Salesforce Commerce Cloud",
+        "Order status fields"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_get_started.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_installation_and_setup_tasks.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_accounts_and_users.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.configure_self_registration_for_marketplace_sellers_0.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_catalogs_and_categories.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_import_settings.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_inventory.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_orders.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_price_books.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_promotions.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_products.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_reports.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_the_seller_portal.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_shipping_methods.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_for_salesforce_commerce.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_enable_the_commerce_marketplace_integration.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_transfer_salesforce_commerce_store_data_to_a_commerce_marketplace_app.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_marketplace_and_sellers_shipping_costs.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_marketplace_order.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_seller_order.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.commerce_marketplace_customize_flow_status_rule_for_orders.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.47245025634765625
+    ]
+}

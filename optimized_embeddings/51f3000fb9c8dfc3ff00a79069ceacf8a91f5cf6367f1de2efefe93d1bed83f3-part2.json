@@ -1,0 +1,50 @@
+{
+    "id": "51f3000fb9c8dfc3ff00a79069ceacf8a91f5cf6367f1de2efefe93d1bed83f3-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.concept_decision_table.htm&language=en_US&type=5",
+    "content": "nullDecision Table\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Decision Table\n Decision Table Key Terms and Workflow\n User Permissions for Decision Tables\n Business Rules\n Create a Decision Table\n Add Dataset Links to a Decision Table\n Activate a Decision Table\n Refresh a Decision Table\n Invoke a Decision Table\n Distribute Decision Tables\n Decision Tables for Developers\n Determine the Discount for Orders (Example)\n Decision Table Capabilities and Limitations\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nINDUSTRIES COMMON FEATURES GUIDE\nDecision Table\n\nDefine business rules and let decision tables decide the outcome. Decision tables read business rules and decide the outcome for records in your Salesforce org or for the values that you specify. A decision table can read up to 100,000 business rules and provide outputs based on your requirements.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience\nAvailable in: Enterprise, Performance, and Unlimited Editions with Loyalty Management or Rebate Management\nNOTE Decision tables are also available as part of Business Rules Engine. If your org has Business Rules Engine enabled, see Decision Tables for Business Rules Engine.\n\nDecision tables can read business rules with multiple inputs and provide multiple outputs.\n\nEXAMPLE A company provides discounts on products based on product category and price. For the product category shoes, there are two discount rules. The first rule provides a discount of 5% if the price of the shoe is $500 or lower. For shoes above $500, the discount is 10%. The third rule provides the discount for any product that's priced above $1,000. The decision table uses the product and price as inputs and the discount percentage as the outcome.\nDecision Table Key Terms and Workflow\nLet’s take a quick look at the key terms and the workflow, and at how decision tables provide outcomes.\nUser Permissions for Decision Tables\nUsers in your Salesforce org require specific permissions to create or invoke a decision table.\nBusiness Rules\nDecision tables provide outcomes based on business rules. Rules are defined as records in a standard object, custom object, or a custom metadata type. A decision table can read up to 100,000 rules.\nCreate a Decision Table\nCreate a decision table and select the object or the custom metadata type that contains the business rules. Select the input fields from the business rules object or the custom metadata type for the decision table to read. Select one or more output fields that contain the values that are used to calculate outcomes.\nAdd Dataset Links to a Decision Table\nA decision table determines outcomes based on field values from different source objects. In a dataset link, you can map the decision table’s input fields with fields of different standard or custom objects.\nActivate a Decision Table\nOnly active decision tables can be run in a flow.\nRefresh a Decision Table\nTo meet evolving business requirements, you add, update, or remove business rules that the decision table reads. If you update the object or the custom metadata type that contain the rules, refresh the decision table to ensure that the outcomes are based on the latest rules.\nInvoke a Decision Table\nAfter a decision table is activated, invoke the decision table in a flow to provide outcomes. You can invoke a decision table based either on a schedule or on your company's requirements.\nDistribute Decision Tables\nYou can share a decision table with other Salesforce orgs using change sets, managed packages, and unmanaged packages. Independent software vendors (ISV) and partners can distribute a decision table to their customers.\nDecision Tables for Developers\nDevelopers in your Salesforce org can employ Decision Tables developer resources to use and extend decision tables.\nDetermine the Discount for Orders (Example)\nThis example shows how an admin can set up a decision table to automate order discount decision process.\nDecision Table Capabilities and Limitations\nBefore you plan and create decision tables in Salesforce, make sure that you’re aware of the capabilities and limitations of decision tables.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Understanding Decision Tables",
+    "keywords": [
+        "Decision Table",
+        "Business Rules",
+        "Salesforce",
+        "Automation",
+        "Rule Engine",
+        "Rule-Based System"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_decision_table.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_decision_table_rules.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.task_decision_table_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_decision_table_refresh.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_decision_table_run.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_decision_table_example.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.industries_common_features.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.decision_tables.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.reference_decision_table_workflow.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_user_permissions.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.task_decision_table_dataset_link.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.concept_decision_table_activate.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.reference_share_decision_tables.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.reference_decision_table_developer_resources.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.reference_decision_table_data_limits.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.278857946395874,
+        0.591305673122406,
+        -0.8418324589729309,
+        0.4808816611766815,
+        0.012020647525787354,
+        -0.608582615852356,
+        0.2775394320487976,
+        0.1868857741355896,
+        -0.09276612102985382,
+        0.2511216402053833,
+        0.8919149041175842,
+        -0.11342897266149521,
+        -0.5604153871536255,
+        -0.09981337934732437
+    ]
+}

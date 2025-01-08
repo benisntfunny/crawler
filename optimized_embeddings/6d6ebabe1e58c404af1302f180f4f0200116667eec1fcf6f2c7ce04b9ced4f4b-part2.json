@@ -1,0 +1,48 @@
+{
+    "id": "6d6ebabe1e58c404af1302f180f4f0200116667eec1fcf6f2c7ce04b9ced4f4b-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.console2_multi_monitor_using.htm&language=en_US&type=5",
+    "content": "nullSalesforce Console\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Salesforce Console\n How Are Console Apps Different?\n Plan Your Implementation\n Console in Salesforce Classic\n Set Up and Brand a Console\n Configure Console Features\n Customize with Components\n Work with a Console\n Learn How to Navigate\n Navigation Overview\n Bookmarks and Recently Used Tabs\n Resize Pinned Lists\n Keyboard Shortcuts\n Work with Multi-Monitor Components\n Work with Records\n Use a Softphone\n Find Knowledge Articles\n Use Chat\n Console in Lightning Experience\n Console Limitations\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nSALESFORCE CONSOLE\nGuidelines for Working with Salesforce Console Multi-Monitor Components in Salesforce Classic\n\nMove portions of a console to different areas of your computer screens so that you can view data in ways that help you work best.\n\nREQUIRED EDITIONS\nAvailable in: Salesforce Classic (not available in all orgs)\nAvailable in: Professional, Enterprise, Performance, Unlimited, and Developer Editions\n\nAfter a Salesforce admin turns on multi-monitor components, you can pop out and drag primary tabs and Salesforce Open CTI softphones to other locations on your screens. You can also move the History component, Chats (but not the footer component), and any custom console components or Canvas components in a console’s footer. To use multi-monitor components, you might need to update your browser’s settings to: (1) allow popup windows; (2) open links in windows, not tabs.\n\nTo pop out and drag primary tabs, click  and select Pop out primary tabs. To return primary tabs to their original browser, click  and select Pop tabs back into console.\n\nTo pop out and drag components in a console’s footer, click the items and select . To return items to their original browser, click . To refresh a popped out footer component, right-click on it and choose Reload or Refresh. When you refresh a popped out footer component, it’s returned to the console’s footer.\n\nIf pinned lists are set up, a playground appears as a blank area next to lists and it says Drag Footer Components Here. Use this area to keep track of Salesforce windows among several applications on your screens.\n\nIMPORTANT Popped out items close and lose their positions on your screens when you: (1) log out of Salesforce; (2) click Setup; (3) click a link to leave a console; (4) refresh or close your browsers.\nTIP Any items popped out of the console have blue headings to help you locate them among other windows on your screens.\n\nTo use keyboard shortcuts from popped out components, focus on the correct window. For example, if you’re focused on a window with the navigation tab, the default shortcut to go to primary tabs, key command P, won’t work.\n\nSEE ALSO\nWork with a Salesforce Console in Salesforce Classic\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Guidelines for Working with Salesforce Console Multi-Monitor Components",
+    "keywords": [
+        "Salesforce Console",
+        "Multi-Monitor Components",
+        "Keyboard Shortcuts",
+        "Work with Records",
+        "Console Navigation",
+        "Software Development"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.console2_about.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.console2_setting_up.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.console2_classic_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.console2_setting_up_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.console2_setting_up_serviceconsole.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.console2_setting_up_salesconsole.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.console2_configuration.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.customize_layoutcustomize_highlights_panel.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.console2_setup_log.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.console2_configuration_preferences.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.console2_components_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.console2_using.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.console2_using_intro_navigate.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.console2_tabs.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.console2_keyboard_shortcuts.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.console2_using_intro_records.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.console_lex_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.console_lex_custom_utilities.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.console_lex_service_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.console_lex_guided_action_list_component.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.console_lex_guided_action_using_list.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.console2_limitations_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.overview_edition_lex_only.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        1.04744553565979,
+        -0.3553588092327118,
+        -0.24708236753940582,
+        0.21883738040924072
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "id": "221317238618934ad220499a12e4421eecbd97613c9c0558dcae5eb1039c3944-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.community_managed_content_creating_content-native.htm&language=en_US&type=5",
+    "content": "nullSalesforce CMS\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Salesforce CMS\n CMS Workspaces\n Contributors and Roles\n CMS Content\n CMS Content Types\n View CMS Content Details in Enhanced CMS Workspaces\n View Content History in Salesforce CMS\n Create Content\n Edit Content\n Publish Content\n Unpublish Content\n Delete Content\n Work with Image Content\n Salesforce CMS Content Key\n Export and Import Content in Salesforce CMS\n Translate Salesforce CMS Content\n Create Content Publication Schedules\n CMS Workflows and Approvals\n Add Sidebar Extensions to the CMS Content Editor\n Add Videos to Content from the Rich Text Editor\n CMS Channels\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nSALESFORCE CMS\nCreate and Clone Content in a CMS Workspace\n\nCreate original or clone existing content. Content is specific to the workspace, and you create it in the default language for the workspace.\n\nREQUIRED EDITIONS AND USER PERMISSIONS\nAvailable in: Lightning Experience\nAvailable in: Enterprise, Performance, Unlimited, and Developer Editions\n\n\nUSER PERMISSIONS\nNEEDED\nTo create workspaces and channels in the Digital Experiences app:\t\nModify All Data\nOR Create CMS Workspaces and Channels\n\nTo manage workspace details, content, contributors, languages, and channels in a Salesforce CMS workspace:\t\nAssigned a content admin role in that CMS workspace\nAND, if adding Experience Cloud site channels, Create and Set Up Experiences\n\nTo only manage content within a Salesforce CMS workspace:\tAssigned a content manager role in that CMS workspace\n\nThe procedure to add content to a CMS workspace is different from the procedure to add content to an enhanced CMS workspace. In an enhanced CMS workspace, you can make copies of a new or existing content record of any type, including the content's variants.\n\nIn Lightning Experience, from the App Launcher, open the Digital Experiences app (previously named Salesforce CMS).\nTo add content to a CMS workspace, follow these steps.\nOpen the CMS workspace, and then click Add Content.\nSelect the content type, and then click Create.\nFill in the fields.\nTo add a source file for document and image content types, upload a file or insert a link from a URL.\nNOTE When you link to an image or document source with an external URL, make sure that your org supports the domain used for the URL. Review the Content Security Policy (CSP) settings in Setup, and add the domain of the hosted content to your org’s trusted URL list. If you don’t add the domain to this list, it can raise security alerts for your Experience Cloud site, and users can’t access or preview the content.\nClick Save Draft.\nYour content is added to the CMS workspace. To make it available to your CMS channels, publish the content.\nTo add content to an enhanced CMS workspace, follow these steps.\nOpen the enhanced CMS workspace.\nClick Add +, then select Content.\nSelect the content type, then click Create.\nThe CMS content editor opens.\nFill in the fields.\nIf you leave the API name field blank, Salesforce creates an API name for you. You can’t change the API name after you save the content.\nTo add a source file for document and image content types, drag a file into the source field, upload a file, or insert a link from a URL.\nNOTE When you link to an image or document source with an external URL, make sure that your org supports the domain used for the URL. Review the Content Security Policy (CSP) settings in Setup, and add the domain of the hosted content to your org’s trusted URL list. If you don’t add the domain to this list, it can raise security alerts for your Experience Cloud site, and users can’t access or preview the content.\nSave your content.\nYour content is added to the enhanced CMS workspace. To make it available to your CMS channels, publish the content.\nTo clone content and content variants in an enhanced CMS workspace, follow these steps.\nFrom the content detail page in your enhanced CMS workspace, click Clone.\nOr, from the row-level actions in the workspace’s content list, select Clone.\nSEE ALSO\nCSP and Lightning Locker in Experience Builder Sites\nManage Trusted URLs\nCreate Content Publication Schedules in Salesforce CMS\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Managing Content in Salesforce CMS",
+    "keywords": [
+        "salesforce cms",
+        "content management",
+        "digital experiences",
+        "lightning experience",
+        "content security policy"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.community_managed_content_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.cms_cmsworkspace_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.cms_folders_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.cms_access_control_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.community_managed_content_content_creation.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.cms_import_export_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.cms_translations_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.cms_schedule_create.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.cms_workflows.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.cms_channel_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.cms_content_collections.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.networks_security_csp_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.security_trusted_urls_manage.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.6601351499557495,
+        -0.6237284541130066,
+        -0.25033512711524963,
+        0.11706353724002838,
+        0.29272741079330444,
+        0.25513631105422974,
+        0.6731635928153992,
+        -0.6778769493103027,
+        0.445831835269928,
+        0.9858092069625854
+    ]
+}

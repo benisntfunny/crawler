@@ -1,0 +1,47 @@
+{
+    "id": "67e9dfb3608097b2e8cd882f33f1f75c6dc83ed60b5acbe3536dd7c14714968f-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.netzero_setup_prepare_net_zero_cloud_for_your_data.htm&language=en_US&type=5",
+    "content": "nullLearn and Explore Net Zero Cloud\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Learn and Explore Net Zero Cloud\n Configure Net Zero Cloud\n Prepare Net Zero Cloud for Your Data\n Configure Custom Values for Net Zero Cloud\n Map Record Types for Net Zero Cloud\n Track Field History in Net Zero Cloud\n Manage Reference Data In Net Zero Cloud\n Bring External Data into Net Zero Cloud\n Disclosure and Compliance Hub\n Set Up Programs and Initiatives in Net Zero Cloud\n Emissions Forecasts\n Deploy CRM Analytics Apps for Net Zero Cloud\n Predictions for Carbon Emission and Fuel Consumption of Stationary...\n Predictions for Carbon Emission from Air Travel\n Predictions for Carbon Emission from Supply Chain Activities\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nSET UP AND MAINTAIN NET ZERO CLOUD\nPrepare Net Zero Cloud for Your Data\n\nTo handle diverse data requirements and to promote better decision-making and overall operational effectiveness, Salesforce provides multiple features to prepare your data. Organize information to tailor your data to specific requirements that align with your business objectives.\n\nREQUIRED EDITIONS\nAvailable in: Lightning Experience\nAvailable in: Enterprise, Performance, Unlimited, and Developer Editions\nConfigure Custom Values for Net Zero Cloud\nNet Zero Cloud provides fuel type values and units of measure that you can use for emissions calculations. You can also create custom values for stationary or vehicle assets to meet your business needs.\nMap Record Types for Net Zero Cloud\nPerform carbon accounting from different environmental and emissions sources by setting up record types. After you create record types, map them to the picklist values on the corresponding configuration object.\nTrack Field History in Net Zero Cloud\nFor auditing purposes, track value changes for key Net Zero Cloud fields in carbon footprints, energy use records, and annual emissions inventory. These fields are used in carbon calculations and lookups. Track the value changes by setting up field history tracking.\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Setting Up Net Zero Cloud for Data Management",
+    "keywords": [
+        "data management",
+        "net zero cloud",
+        "carbon accounting",
+        "emissions calculations",
+        "custom values",
+        "record types"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_setup_learn_explore_net_zero_cloud.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_admin.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.set_up_net_zero_cloud_users.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_setup_prepare_net_zero_cloud_for_your_data.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_admin_configure_additional_values.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_setup_map_record_type_config.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_setup_track_field_history_in_net_zero_cloud.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_admin_reference_data.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_setup_bring_external_data_net_zero_cloud.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_setup_disclosure_and_compliance_hub.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_setup_configure_interest_tags_to_tag_your_disclosure_questions_and_responses.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_setup_how_independent_software_vendors_configure_disclosures.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_setup_emissions_forecasting.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_admin_analytics_deploy.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_admin_analytics_manage_dashboards.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_admin_analytics_emission_forecasts_whatif_import_csv.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_admin_analytics_stationary_asset_energy_consumption_predictions.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_admin_analytics_stationary_asset_internal_and_external_data.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_admin_analytics_predicted_air_travel_carbon_emissions.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_admin_analytics_predicted_air_travel_carbon_emissions_sync_internal_and_external_data.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_admin_analytics_predicted_air_travel_carbon_emissions_create_apps.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_admin_analytics_predicted_air_travel_carbon_emissions_recipes_datasets_dashboards.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_admin_predicted_supply_chain_carbon_emissions.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.netzero_admin_predicted_supply_chain_carbon_emissions_internal_external_data.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US"
+    ],
+    "embedding": [
+        0.005344569683074951,
+        0.6030436158180237
+    ]
+}

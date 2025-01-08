@@ -1,0 +1,50 @@
+{
+    "id": "c4477e45f143b28ed6b65f581e28116add432fb8734ced262e3067634bf0a16b-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.lex_preview.htm&language=en_US&type=5",
+    "content": "nullHow to Transition to Lightning Experience\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n How to Transition to Lightning Experience\n It’s Time for Lightning Experience\n Discover Phase: Start Your Lightning Experience Transition\n Learn What Makes Lightning Experience So Special\n Evaluate Lightning Experience Benefits and Readiness\n Make the Case for Lightning Experience\n Compare Lightning Experience and Salesforce Classic\n What’s the Fate of Existing Salesforce Customizations?\n Check Your Org’s Readiness for Lightning Experience\n Preview Your Org in Lightning Experience\n Plan Your Lightning Experience Rollout\n Align with Stakeholders on Your Lightning Experience Transition\n Roll Out Phase: Get Ready to Launch Lightning Experience\n Optimize Phase: Make Lightning Experience Stick\n Find Your Way Around Lightning Experience\n Lightning Experience Considerations\n Lightning Experience Transition Info Center\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nHOW TO TRANSITION TO LIGHTNING EXPERIENCE\nPreview Your Org in Lightning Experience\n\nThis is probably the point where you’re thinking: “Yeah, yeah, yeah, but I want to see this thing.” If you’re assigned to the standard System Administrator profile, you can switch to Lightning Experience at any time. But if you don’t have access yet, the Preview feature in the Lightning Experience Transition Assistant lets you explore how your production org behaves in the new interface while you’re working in Salesforce Classic. You can see exactly how your real data, business processes, and customizations work, and you can take Lightning Experience-only features for a test drive to see how they benefit your teams. You can also use Preview to test features and customizations that the Lightning Experience Readiness Check doesn’t evaluate.\n\nREQUIRED EDITIONS AND USER PERMISSIONS\nAvailable in: Group, Professional, Enterprise, Performance, Unlimited, and Developer Editions\n\n\nUSER PERMISSIONS NEEDED\nTo use the Lightning Experience Transition Assistant:\t\n\nView Setup and Configuration\n\nAND\n\nCustomize Application\n\nThe Preview feature isn’t a locked-down, read-only tour. You can change data, settings, permissions—you name it. But remember that you’re working with your live org. If you do make changes, they’re for real and visible to your users back in Salesforce Classic.\n\nTo preview your org in Lightning Experience:\n\nFrom Setup in Salesforce Classic, click Get Started in the Lightning Experience Transition Assistant tile at the top of the menu (1).\nSelect the Discover phase (2).\nClick Evaluate Lightning Experience Benefits and Readiness to expand the stage (3).\nClick Preview next to Preview Lightning Experience (4).\nSEE ALSO\nSalesforce Classic Doesn’t Go Away When You Move Users to Lightning Experience\nSet Up User Access to Lightning Experience\nCheck Your Org’s Readiness for Lightning Experience\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Transitioning to Salesforce Lightning Experience",
+    "keywords": [
+        "Salesforce",
+        "Lightning Experience",
+        "transition guide",
+        "salesforce transition",
+        "cloud computing"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_welcome_to_lex.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_do_it_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_phases_discover.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_evaluate.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_readiness_check.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_plan_rollout.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_plan_change_mgmt_strategy.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_phases_roll_out.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_enable_existing_features.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lcc_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lcc_javascript_buttons_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lcc_visualforce_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_pro_tips.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_enable_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_phases_optimize.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_measure_success.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_enable_users_encourage.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_iterate.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_find_your_way_around.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_considerations_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_switching_considerations_parent.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_gaps_limitations.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_switching_uis.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.lex_enable_users.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        0.22518758475780487,
+        0.7977195978164673,
+        0.03945354372262955,
+        -0.12592121958732605,
+        0.6231629252433777
+    ]
+}

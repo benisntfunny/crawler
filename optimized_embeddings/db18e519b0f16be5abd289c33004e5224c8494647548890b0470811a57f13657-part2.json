@@ -1,0 +1,42 @@
+{
+    "id": "db18e519b0f16be5abd289c33004e5224c8494647548890b0470811a57f13657-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.send_back_in_stock_notifications.htm&language=en_US&type=5",
+    "content": "nullTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Explore Salesforce Solution Kits\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nEXPLORE SALESFORCE SOLUTION KITS\nSend Back-in-Stock Notifications\n\nLet shoppers register their interest in out-of-stock items. Send personalized messages when the item is available. Gain insights into the popularity of products.\n\nGet Started\n\t\n\nTake Trailhead modules related to this solution.\n\nSalesforce Solution Kits: Quick Look\nCustomer 360 Guides: Quick Look\n\nThis solution kit helps you:\n\nLet shoppers request back-in-stock notifications from the product details page.\nSend notifications when a requested item is back in stock or inform shoppers that an item hasn’t come back into stock within a defined period.\nTrack notification requests and email engagement metrics, like open rate, CTR, and conversion rate.\nMinimize creation of duplicate contacts in Service Cloud and Marketing Cloud.\nLearn about customer interest in your products.\nEnsure sales and delight customers.\nImplementation Overview\n\nSend back-in-stock notifications by using Marketing Cloud Connect and B2C CRM Sync to connect B2C Commerce (Commerce Cloud), Service Cloud, and Marketing Cloud. This Solution Kit includes Service Cloud for full visibility of the customer’s interest in out-of-stock products and to prevent duplicate contacts in Marketing Cloud. If you don’t have these requirements, you can send notification requests directly from Commerce Cloud to Marketing Cloud.\n\nRequired Products\nB2C Commerce Enterprise SFRA or SiteGenesis as part of the SalesforceCommerceCloud GitHub organization (see Access the GitHub Repositories)\nMarketing Cloud Enterprise 2.0\nMarketing Cloud Journey Builder\nMarketing Cloud Connect\nService Cloud Enterprise or Unlimited Edition, including the REST APIs\nOther Recommended Technology\nMarketing Cloud reference implementation for B2C Commerce as part of the SalesforceCommerceCloud GitHub organization (see Access the GitHub Repositories).\nSalesforce B2C CRM Sync, an enablement solution that focuses on multicloud use cases. This approach uses REST APIs and the declarative capabilities of the Salesforce platform. This solution works across B2C Commerce, Service, and Marketing Clouds by resolving and synchronizing customer profiles across these Salesforce products. Learn more about the application overview and feature summary.\nRecommended Roles and Skills\nMarketing Cloud Certified Developer\nService Cloud Certified Administrator\nB2C Commerce Certified Architect\nB2C Commerce Certified Developer (front end and back end)\nBusiness owners and UX from Commerce, Service, and Marketing teams to define requirements\nImplementation Considerations\n\nShoppers can change their mind about purchasing your product if stock doesn’t come in or the back-in-stock notification takes too long to arrive. To mitigate this situation, create a strategy to offer alternative products on your out-of-stock product detail page using B2C Commerce Einstein product recommendations. Make sure your catalog feed includes out-of-stock products to generate recommendations on an out of stock Product Detail page.\n\nMaintain good quality data about future inventory so that you aren’t offering a notification for something that is discontinued. You not only defer the sale, you also set an expectation with your potential customer that you can't deliver on. You can also include notifications only for continuity and not seasonal lines.\n\nEnsure that you have the decision criteria available to B2C Commerce only for the products that you expect to be replenished. It doesn't have to be perfect. Plans change, but if you know that forecasting online inventory is a challenge for your business, don’t use back-in-stock notifications.\n\nYou can start with a proof of concept before investing in the full Customer 360 approach discussed in this Solution Kit. Many B2C Commerce customers have built an end-to-end back-in-stock notification solution in B2C Commerce using custom objects and B2C Commerce emails. This approach doesn’t give you the level of tracking, creativity, and Customer 360 visibility of a multicloud solution. However, it gives you an idea of how effective back-in-stock notifications are.\n\nImplement This Solution\nBack-in-Stock Notification Workflow\nLearn how data flows through the configurations when you send back-in-stock notifications.\nBack-in-Stock Design Considerations\nKeep these design considerations in mind when you send back-in-stock notifications.\nIntegration Reference Implementations for Back-in-Stock Notifications\nIntegration reference implementations are developer enablement frameworks that accelerate cross-cloud integration by providing code, configuration, and implementation patterns.\nConfiguring Back-in-Stock Notifications\nUse these configurations to send back-in-stock notifications.\nSEE ALSO\nTrailhead: Salesforce Solution Kits: Quick Look\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Send Back-in-Stock Notifications with Marketing Cloud",
+    "keywords": [
+        "back in stock notification",
+        "Marketing Cloud",
+        "Salesforce Commerce Cloud",
+        "Product Recommendations",
+        "Customer 360 Guides"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.solution_kits_home_pg.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_es_enterprise_20_overview.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.mc_co_marketing_cloud_connect.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.send_back_in_stock_notifications_workflow.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.send_back_in_stock_notifications_design_considerations.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.send_back_in_stock_notifications_integration_reference_implementation.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.send_back_in_stock_notifications_configurations.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.30691784620285034,
+        0.23845134675502777,
+        0.052248552441596985,
+        -0.5192761421203613,
+        0.6207022070884705,
+        -0.0026265159249305725,
+        -0.5891495943069458,
+        -0.17503400146961212,
+        -0.04337990656495094,
+        -0.2790699303150177,
+        0.04063618555665016,
+        0.6224291920661926,
+        0.17722053825855255,
+        0.07686102390289307,
+        0.5403969287872314
+    ]
+}

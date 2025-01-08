@@ -1,0 +1,47 @@
+{
+    "id": "b54a866704a7857f5572b7b4079acaf1430c4dbb5e98385c448ae051026f6eff-part2",
+    "url": "https://help.salesforce.com/s/articleView?id=sf.preference_center_about.htm&language=en_US&type=5",
+    "content": "nullData Protection and Privacy\nTABLE OF CONTENTS\nClose\nClose\nSearch\nSearch\n Data Protection and Privacy\n Data Deletion: Delete Personal Data\n Consent Management: Track Customer Consent and Honor Opt-Out Requests\n Restriction of Processing: Restrict How to Process Personal Data\n Data Access and Portability: Give Customers Their Data when They...\n Privacy Center: Satisfy Customer Requests and Data Privacy Laws\n Legacy Privacy Center: Satisfy Customer Requests and Data Privacy Laws\n Use Preference Manager to Gather Communication Preferences\n Enable Preference Manager Permissions\n Preference Forms\n Preference Form Access\n Use Data Cloud with Preference Manager (Beta)\n Use the Consent Event Stream\n Manage Data Policies for Einstein Features\n\nYou are here:\n\nSALESFORCE HELP\nDOCS\nDATA PROTECTION AND PRIVACY\nUse Preference Manager to Gather Communication Preferences\n\nAs privacy law continues to define individual data rights and data use regulations, it’s important to establish consent with your customers. Use the Preference Manager app within Privacy Center to meet regulatory requirements and build trust with your customers. Securely capture their preferences for how, why, and when you can contact them.\n\nChoose between different methods of varying complexity to create self-service forms for your customers to define their communication preferences. Host your forms on any website, and control how users are authenticated to access your forms.\n\nEnable Preference Manager Permissions\nTo give new users access to Preference Manager in the App Launcher, enable Preference Manager permissions. You can assign Preference Manager permissions from Profiles or Permission Sets in Setup.\nPreference Forms\nPreference Manager offers two methods for creating preference forms. You can create forms that work with Apex or forms that are populated from customizable templates.\nPreference Form Access\nAfter you create and publish a preference form, you’re ready for customers to complete and submit it. You can host your form on an Experience Cloud site, an external website, or a static web page. After you publish the form, create tokens to give your users access to it.\nUse Data Cloud with Preference Manager (Beta)\nCreate personalized preference forms when you stream consent data from your Data Cloud setup directly into Preference Manager.\nSEE ALSO\nData Deletion: Delete Personal Data\nConsent Management: Track Customer Consent and Honor Opt-Out Requests\nRestriction of Processing: Restrict How to Process Personal Data\nData Access and Portability: Give Customers Their Data when They Want It\nPrivacy Center: Satisfy Customer Requests and Data Privacy Laws\nLegacy Privacy Center: Satisfy Customer Requests and Data Privacy Laws\nDID THIS ARTICLE SOLVE YOUR ISSUE?\nLet us know so we can improve!\nYes\nNo\n ",
+    "title": "Data Protection and Preference Management",
+    "keywords": [
+        "data protection",
+        "consent management",
+        "preference manager",
+        "data privacy laws",
+        "customer consent"
+    ],
+    "links": [
+        "https://help.salesforce.com/sfsites/c/resource/HTCommunityCustomJS/HC_TbidAuth.js",
+        "https://help.salesforce.com/s/support\",\"target\":\"_self\",\"label\":\"Contact",
+        "https://help.salesforce.com/s/articleView?id=sf.data_protection_and_privacy.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.data_deletion.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.consent_management.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.restriction_of_processing.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.data_portability.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.about_privacy_center.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.data_management_policies.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.configure_data_management_policies.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.data_management_add_objects.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.about_rtbf_policies.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.privacy_center.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.set_up_privacy_center_and_connect_to_heroku.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.manage_how_customer_data_is_retained.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.run_your_retention_policy.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.heroku_storage__data_retention_store.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.heroku_external_objects_and_salesforce_connect.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.right_to_be_forgotten.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.data_subject_rights.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.preference_center_about.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.preference_center_about_forms.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.preference_center_access_forms.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.preference_manager_data_cloud_intro.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=sf.aac_manage_data_policies.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s?language=en_US",
+        "https://help.salesforce.com/s/articleView?id=sf.enable_preference_center.htm&language=en_US&type=5"
+    ],
+    "embedding": [
+        -0.38011911511421204,
+        -1.032297134399414,
+        0.6056976914405823
+    ]
+}
