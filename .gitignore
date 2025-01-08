@@ -5,5 +5,7 @@ test.js
 app.log
 data-analyzed/
 data-embedded/
-optimized-embeddings/
 optimized_embeddings/
+venv/
+output/
+
